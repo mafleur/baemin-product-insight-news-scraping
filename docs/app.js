@@ -90,6 +90,31 @@ function esc(str) {
     .replace(/"/g, '&quot;');
 }
 
+/* ── Utility: Slack share tooltip ─────────────────────── */
+function showSlackTooltip(anchorEl) {
+  // Remove any existing tooltip
+  document.querySelectorAll('.slack-tooltip').forEach(t => t.remove());
+
+  const tip = document.createElement('div');
+  tip.className = 'slack-tooltip';
+  tip.textContent = '채널 선택 후 Ctrl+V (Mac: ⌘+V)';
+  document.body.appendChild(tip);
+
+  // Position relative to button
+  const rect = anchorEl.getBoundingClientRect();
+  tip.style.left = `${rect.left + window.scrollX}px`;
+  tip.style.top  = `${rect.bottom + window.scrollY + 6}px`;
+
+  // Fade in
+  requestAnimationFrame(() => tip.classList.add('visible'));
+
+  // Auto-remove
+  setTimeout(() => {
+    tip.classList.remove('visible');
+    setTimeout(() => tip.remove(), 300);
+  }, 2500);
+}
+
 /* ── Utility: copy markdown to clipboard ──────────────── */
 function buildMarkdown(article) {
   const bullets = (article.summary_ko || '')
@@ -150,6 +175,10 @@ function renderCard(article) {
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
           <span class="copy-label">Copy</span>
         </button>
+        <button class="slack-btn" aria-label="Slack에 공유" title="Slack에 공유">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zm1.271 0a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zm0 1.271a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zm10.122 2.521a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zm-1.268 0a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zm-2.523 10.122a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zm0-1.268a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/></svg>
+          <span class="slack-label">Slack</span>
+        </button>
       </div>
     </div>
     <h2 class="card-title">
@@ -192,6 +221,41 @@ function renderCard(article) {
       label.textContent = 'Copy';
       btn.classList.remove('copied');
     }, 2000);
+  });
+
+  // Slack share button — copy to clipboard + open Slack web
+  li.querySelector('.slack-btn').addEventListener('click', async (e) => {
+    const btn = e.currentTarget;
+    const label = btn.querySelector('.slack-label');
+
+    // Build Slack-friendly text
+    const bullets = (article.summary_ko || '')
+      .split('|').map(s => s.trim()).filter(Boolean);
+    const bulletText = bullets.map(b => `• ${b}`).join('\n');
+    const slackText = `${article.title}\n${article.source_url}\n출처: ${article.source} | ${article.published_date}\n\n${bulletText}`;
+
+    // Copy to clipboard
+    try {
+      await navigator.clipboard.writeText(slackText);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = slackText;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
+    }
+
+    // Open Slack web app
+    window.open('https://app.slack.com', '_blank', 'noopener');
+
+    // Show inline tooltip
+    label.textContent = '✓ 복사됨!';
+    btn.classList.add('slack-copied');
+    showSlackTooltip(btn);
+    setTimeout(() => {
+      label.textContent = 'Slack';
+      btn.classList.remove('slack-copied');
+    }, 3000);
   });
 
   return li;
