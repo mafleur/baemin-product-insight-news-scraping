@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Baemin Insight — 푸드테크 뉴스</title>
-  <meta name="description" content="배민 인사이트팀이 수집한 글로벌 푸드테크·배달 산업 최신 뉴스를 한눈에 확인하세요." />
+  <title>배민 프로덕트인사이트팀 뉴스 스크랩</title>
+  <meta name="description" content="배민 프로덕트인사이트팀이 수집한 글로벌 푸드테크·배달 산업 최신 뉴스를 한눈에 확인하세요." />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
@@ -16,10 +16,13 @@
   <header id="gnb">
     <div class="gnb-inner">
       <div class="gnb-top">
-        <a href="/" class="logo">
-          <span class="logo-icon">🍔</span>
-          <span class="logo-text">Baemin Insight</span>
-        </a>
+        <div class="logo-group">
+          <a href="/" class="logo">
+            <span class="logo-icon">🍔</span>
+            <span class="logo-text">배민 프로덕트인사이트팀 뉴스 스크랩</span>
+          </a>
+          <span class="logo-updated" id="last-updated"></span>
+        </div>
         <div class="gnb-right">
           <div class="sort-wrap">
             <label for="sort-select" class="sr-only">정렬</label>
@@ -71,7 +74,6 @@
 
   <footer id="site-footer">
     <p>데이터 출처: <a href="https://github.com/mafleur/baemin-product-insight-news-scraping" target="_blank" rel="noreferrer">baemin-product-insight-news-scraping</a></p>
-    <p id="last-updated"></p>
   </footer>
 
   <script src="app.js"></script>

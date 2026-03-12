@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   Baemin Insight News Dashboard — app.js
+   배민 프로덕트인사이트팀 뉴스 스크랩 — app.js
    Reads food_news_db.csv from GitHub, renders news cards
    with category + multi-tag filtering and lazy loading.
 ═══════════════════════════════════════════════════════════ */
@@ -36,36 +36,23 @@ const $lastUpdated   = document.getElementById('last-updated');
 const $gnb           = document.getElementById('gnb');
 
 /* ── Utility: date ─────────────────────────────────────── */
-/**
- * Returns "2026-03-10 (5일 전)" style string.
- * @param {string} dateStr  YYYY-MM-DD
- */
 function formatDate(dateStr) {
-  if (!dateStr) return '';
+  if (!dateStr) return { abs: '', rel: '' };
   const d = new Date(dateStr + 'T00:00:00');
-  if (isNaN(d)) return dateStr;
+  if (isNaN(d)) return { abs: dateStr, rel: '' };
 
-  const abs = dateStr; // e.g. "2026-03-10"
+  const abs = dateStr;
   const now = new Date();
-  const diffMs  = now - d;
-  const diffDay = Math.floor(diffMs / 86400000);
+  const diffDay = Math.floor((now - d) / 86400000);
 
   let rel;
-  if (diffDay < 0) {
-    rel = `${Math.abs(diffDay)}일 후`;
-  } else if (diffDay === 0) {
-    rel = '오늘';
-  } else if (diffDay === 1) {
-    rel = '어제';
-  } else if (diffDay < 8) {
-    rel = `${diffDay}일 전`;
-  } else if (diffDay < 31) {
-    rel = `${Math.floor(diffDay / 7)}주 전`;
-  } else if (diffDay < 365) {
-    rel = `${Math.floor(diffDay / 30)}개월 전`;
-  } else {
-    rel = `${Math.floor(diffDay / 365)}년 전`;
-  }
+  if (diffDay < 0)       rel = `${Math.abs(diffDay)}일 후`;
+  else if (diffDay === 0) rel = '오늘';
+  else if (diffDay === 1) rel = '어제';
+  else if (diffDay < 8)  rel = `${diffDay}일 전`;
+  else if (diffDay < 31) rel = `${Math.floor(diffDay / 7)}주 전`;
+  else if (diffDay < 365)rel = `${Math.floor(diffDay / 30)}개월 전`;
+  else                    rel = `${Math.floor(diffDay / 365)}년 전`;
 
   return { abs, rel };
 }
@@ -102,17 +89,31 @@ function esc(str) {
     .replace(/"/g, '&quot;');
 }
 
-/* ── Render a single card ─────────────────────────────── */
-function renderCard(article) {
-  const { abs, rel } = formatDate(article.published_date) || { abs: '', rel: '' };
-
-  // summary bullets
+/* ── Utility: copy markdown to clipboard ──────────────── */
+function buildMarkdown(article) {
   const bullets = (article.summary_ko || '')
     .split('|')
     .map(s => s.trim())
     .filter(Boolean);
 
-  // tags
+  const summaryMd = bullets.map(b => `- ${b}`).join('\n');
+  return [
+    `## [${article.title}](${article.source_url})`,
+    `> 출처: ${article.source} | ${article.published_date}`,
+    '',
+    summaryMd,
+  ].join('\n');
+}
+
+/* ── Render a single card ─────────────────────────────── */
+function renderCard(article) {
+  const { abs, rel } = formatDate(article.published_date);
+
+  const bullets = (article.summary_ko || '')
+    .split('|')
+    .map(s => s.trim())
+    .filter(Boolean);
+
   const tags = (article.tags || '')
     .split(';')
     .map(t => t.trim())
@@ -139,10 +140,16 @@ function renderCard(article) {
         <span class="badge ${catClass}">${esc(catLabel)}</span>
         ${article.region ? `<span class="badge ${regClass}">${esc(article.region)}</span>` : ''}
       </div>
-      <time class="card-date" datetime="${esc(article.published_date)}">
-        <span class="abs">${esc(abs)}</span>
-        ${rel ? `<span class="rel"> (${esc(rel)})</span>` : ''}
-      </time>
+      <div class="card-header-right">
+        <time class="card-date" datetime="${esc(article.published_date)}">
+          <span class="abs">${esc(abs)}</span>
+          ${rel ? `<span class="rel"> (${esc(rel)})</span>` : ''}
+        </time>
+        <button class="copy-btn" aria-label="마크다운으로 복사" title="마크다운으로 복사">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <span class="copy-label">Copy</span>
+        </button>
+      </div>
     </div>
     <h2 class="card-title">
       <a href="${esc(article.source_url)}" target="_blank" rel="noreferrer noopener">
@@ -156,9 +163,34 @@ function renderCard(article) {
 
   // Card tag click → toggle tag filter
   li.querySelectorAll('.card-tag').forEach(btn => {
-    btn.addEventListener('click', () => {
-      toggleTagFilter(btn.dataset.tag);
-    });
+    btn.addEventListener('click', () => toggleTagFilter(btn.dataset.tag));
+  });
+
+  // Copy button
+  li.querySelector('.copy-btn').addEventListener('click', async (e) => {
+    const btn = e.currentTarget;
+    const label = btn.querySelector('.copy-label');
+    try {
+      await navigator.clipboard.writeText(buildMarkdown(article));
+      label.textContent = '✓ Copied!';
+      btn.classList.add('copied');
+    } catch {
+      // Fallback for non-https
+      const ta = document.createElement('textarea');
+      ta.value = buildMarkdown(article);
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      label.textContent = '✓ Copied!';
+      btn.classList.add('copied');
+    }
+    setTimeout(() => {
+      label.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
   });
 
   return li;
@@ -168,11 +200,7 @@ function renderCard(article) {
 function renderPage() {
   const start = page * PAGE_SIZE;
   const slice = filtered.slice(start, start + PAGE_SIZE);
-
-  slice.forEach(article => {
-    $newsList.appendChild(renderCard(article));
-  });
-
+  slice.forEach(article => $newsList.appendChild(renderCard(article)));
   page += 1;
   updateLoadMore();
 }
@@ -181,7 +209,6 @@ function renderPage() {
 function updateLoadMore() {
   const rendered = page * PAGE_SIZE;
   const remaining = filtered.length - Math.min(rendered, filtered.length);
-
   if (rendered < filtered.length) {
     $loadMoreWrap.classList.remove('hidden');
     $loadMoreBtn.textContent = `더 보기 (${remaining}개 남음)`;
@@ -197,22 +224,62 @@ function updateLoadMore() {
   }
 }
 
+/* ── Rebuild tag cloud for a given set of articles ───── */
+/*
+ * When a category is active, only show tags that actually
+ * exist in articles of that category. Preserve the selected
+ * state of any tag that is still shown.
+ */
+function rebuildTagCloud(sourceArticles) {
+  // Count tags within the source article set
+  const tagCount = {};
+  sourceArticles.forEach(a => {
+    (a.tags || '').split(';').forEach(t => {
+      const tag = t.trim();
+      if (tag) tagCount[tag] = (tagCount[tag] || 0) + 1;
+    });
+  });
+
+  const sortedTags = Object.entries(tagCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 80)
+    .map(([tag]) => tag);
+
+  $tagCloud.innerHTML = '';
+  sortedTags.forEach(tag => {
+    const btn = document.createElement('button');
+    btn.className = 'tag-chip' + (activeTags.has(tag) ? ' selected' : '');
+    btn.dataset.tag = tag;
+    btn.textContent = `#${tag}`;
+    btn.setAttribute('aria-pressed', String(activeTags.has(tag)));
+    btn.addEventListener('click', () => {
+      toggleTagFilter(tag);
+      btn.setAttribute('aria-pressed', String(activeTags.has(tag)));
+    });
+    $tagCloud.appendChild(btn);
+  });
+}
+
 /* ── Apply filters & re-render ────────────────────────── */
 function applyFilters() {
-  // 1. Category filter
-  let result = activeCat === 'all'
+  // 1. Articles that belong to the active category
+  const catArticles = activeCat === 'all'
     ? [...allArticles]
     : allArticles.filter(a => (a.category || '').toLowerCase() === activeCat);
 
-  // 2. Tag filter (OR: article must contain at least one selected tag)
+  // 2. Rebuild tag cloud from category-scoped articles
+  rebuildTagCloud(catArticles);
+
+  // 3. Tag filter (OR) applied on top of catArticles
+  let result = catArticles;
   if (activeTags.size > 0) {
-    result = result.filter(a => {
+    result = catArticles.filter(a => {
       const articleTags = (a.tags || '').split(';').map(t => t.trim());
       return [...activeTags].some(sel => articleTags.includes(sel));
     });
   }
 
-  // 3. Sort
+  // 4. Sort
   result.sort((a, b) => {
     const da = a.published_date || '';
     const db = b.published_date || '';
@@ -233,7 +300,6 @@ function applyFilters() {
   }
 
   updateFilterStatus();
-  // update card tag highlights
   updateCardTagHighlights();
 }
 
@@ -245,36 +311,32 @@ function updateFilterStatus() {
     const parts = [];
     if (activeCat !== 'all') parts.push(activeCat);
     activeTags.forEach(t => parts.push(`#${t}`));
-    $filterCount.textContent = parts.slice(0, 3).join(', ') + (parts.length > 3 ? ` 외 ${parts.length - 3}개` : '');
+    $filterCount.textContent = parts.slice(0, 3).join(', ') +
+      (parts.length > 3 ? ` 외 ${parts.length - 3}개` : '');
   } else {
     $filterStatus.classList.add('hidden');
   }
 }
 
-/* ── Update card tag button highlights (after re-render) */
+/* ── Update card tag highlights ───────────────────────── */
 function updateCardTagHighlights() {
   document.querySelectorAll('.card-tag').forEach(btn => {
     btn.classList.toggle('selected', activeTags.has(btn.dataset.tag));
   });
 }
 
-/* ── Toggle tag ─────────────────────────────────────────*/
+/* ── Toggle tag ──────────────────────────────────────── */
 function toggleTagFilter(tag) {
   if (activeTags.has(tag)) {
     activeTags.delete(tag);
   } else {
     activeTags.add(tag);
   }
-  // Update GNB chip state
-  document.querySelectorAll(`.tag-chip[data-tag="${CSS.escape(tag)}"]`).forEach(chip => {
-    chip.classList.toggle('selected', activeTags.has(tag));
-  });
   applyFilters();
 }
 
-/* ── Build GNB: categories + tags ─────────────────────── */
-function buildGnb() {
-  // ── Categories (unique, sorted by count desc)
+/* ── Build GNB: category tabs only (tags built dynamically) */
+function buildCategoryTabs() {
   const catCount = {};
   allArticles.forEach(a => {
     const c = (a.category || '').toLowerCase();
@@ -289,45 +351,20 @@ function buildGnb() {
     btn.role = 'tab';
     btn.setAttribute('aria-selected', 'false');
     btn.textContent = cat;
-    btn.addEventListener('click', () => setCategoryFilter(cat, btn));
+    btn.addEventListener('click', () => setCategoryFilter(cat));
     $categoryTabs.appendChild(btn);
   });
 
-  // Category tab click logic for "전체"
+  // "전체" tab
   const allTab = $categoryTabs.querySelector('[data-cat="all"]');
-  allTab.addEventListener('click', () => setCategoryFilter('all', allTab));
-
-  // ── Tags (sorted by frequency desc)
-  const tagCount = {};
-  allArticles.forEach(a => {
-    (a.tags || '').split(';').forEach(t => {
-      const tag = t.trim();
-      if (tag) tagCount[tag] = (tagCount[tag] || 0) + 1;
-    });
-  });
-
-  const sortedTags = Object.entries(tagCount)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 80)     // cap at 80 most frequent
-    .map(([tag]) => tag);
-
-  sortedTags.forEach(tag => {
-    const btn = document.createElement('button');
-    btn.className = 'tag-chip';
-    btn.dataset.tag = tag;
-    btn.textContent = `#${tag}`;
-    btn.setAttribute('aria-pressed', 'false');
-    btn.addEventListener('click', () => {
-      toggleTagFilter(tag);
-      btn.setAttribute('aria-pressed', String(activeTags.has(tag)));
-    });
-    $tagCloud.appendChild(btn);
-  });
+  allTab.addEventListener('click', () => setCategoryFilter('all'));
 }
 
-/* ── Set category filter ────────────────────────────────*/
-function setCategoryFilter(cat, el) {
+/* ── Set category filter ─────────────────────────────── */
+function setCategoryFilter(cat) {
   activeCat = cat;
+  // Clear tags that may no longer exist in new category
+  activeTags.clear();
 
   document.querySelectorAll('.cat-tab').forEach(t => {
     const isActive = t.dataset.cat === cat;
@@ -338,42 +375,33 @@ function setCategoryFilter(cat, el) {
   applyFilters();
 }
 
-/* ── GNB scroll shadow ──────────────────────────────────*/
+/* ── GNB scroll shadow ───────────────────────────────── */
 window.addEventListener('scroll', () => {
   $gnb.classList.toggle('scrolled', window.scrollY > 4);
 }, { passive: true });
 
-/* ── Clear all filters ──────────────────────────────────*/
+/* ── Clear all filters ───────────────────────────────── */
 $clearAllBtn.addEventListener('click', () => {
   activeCat = 'all';
   activeTags.clear();
-
   document.querySelectorAll('.cat-tab').forEach(t => {
     const isAll = t.dataset.cat === 'all';
     t.classList.toggle('active', isAll);
     t.setAttribute('aria-selected', String(isAll));
   });
-  document.querySelectorAll('.tag-chip').forEach(c => {
-    c.classList.remove('selected');
-    c.setAttribute('aria-pressed', 'false');
-  });
-
   applyFilters();
 });
 
-/* ── Sort ───────────────────────────────────────────────*/
+/* ── Sort ────────────────────────────────────────────── */
 $sortSelect.addEventListener('change', () => {
   sortOrder = $sortSelect.value;
   applyFilters();
 });
 
-/* ── Load More ──────────────────────────────────────────*/
-$loadMoreBtn.addEventListener('click', () => {
-  renderPage();
-  // Smooth scroll hint to newly added cards
-});
+/* ── Load More ───────────────────────────────────────── */
+$loadMoreBtn.addEventListener('click', () => renderPage());
 
-/* ── Set last updated from newest first_collected_date ── */
+/* ── Set last updated near the logo ──────────────────── */
 function setLastUpdated(articles) {
   if (!articles.length) return;
   const dates = articles
@@ -381,12 +409,12 @@ function setLastUpdated(articles) {
     .filter(Boolean)
     .sort()
     .reverse();
-  if (dates[0]) {
+  if (dates[0] && $lastUpdated) {
     $lastUpdated.textContent = `마지막 업데이트: ${dates[0]}`;
   }
 }
 
-/* ── Main: Fetch & Init ─────────────────────────────────*/
+/* ── Main: Fetch & Init ──────────────────────────────── */
 async function init() {
   try {
     const res = await fetch(CSV_URL, { cache: 'no-cache' });
@@ -404,7 +432,6 @@ async function init() {
     }
 
     allArticles = parsed.data.filter(r => r.title && r.source_url);
-
     $loading.classList.add('hidden');
 
     if (allArticles.length === 0) {
@@ -412,7 +439,7 @@ async function init() {
       return;
     }
 
-    buildGnb();
+    buildCategoryTabs();
     setLastUpdated(allArticles);
     applyFilters();
 
