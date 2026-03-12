@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baemin Insight — 푸드테크 뉴스</title>
+  <meta name="description" content="배민 인사이트팀이 수집한 글로벌 푸드테크·배달 산업 최신 뉴스를 한눈에 확인하세요." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ GNB ══════════════ -->
+  <header id="gnb">
+    <div class="gnb-inner">
+      <div class="gnb-top">
+        <a href="/" class="logo">
+          <span class="logo-icon">🍔</span>
+          <span class="logo-text">Baemin Insight</span>
+        </a>
+        <div class="gnb-right">
+          <div class="sort-wrap">
+            <label for="sort-select" class="sr-only">정렬</label>
+            <select id="sort-select" aria-label="정렬 기준">
+              <option value="newest">최신순</option>
+              <option value="oldest">오래된순</option>
+            </select>
+          </div>
+          <div id="filter-status" class="filter-status hidden">
+            <span id="filter-count"></span>
+            <button id="clear-all-btn" aria-label="필터 초기화">✕ 초기화</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Tabs -->
+      <nav class="category-tabs" id="category-tabs" role="tablist" aria-label="카테고리 필터">
+        <button class="cat-tab active" data-cat="all" role="tab" aria-selected="true">전체</button>
+        <!-- dynamic tabs injected by JS -->
+      </nav>
+
+      <!-- Tag Cloud -->
+      <div class="tag-cloud-wrap">
+        <div class="tag-cloud" id="tag-cloud" aria-label="태그 필터">
+          <!-- dynamic tags injected by JS -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════ MAIN ══════════════ -->
+  <main id="main">
+    <div id="loading" class="loading-state" aria-live="polite">
+      <div class="spinner"></div>
+      <p>뉴스를 불러오는 중...</p>
+    </div>
+    <div id="error-state" class="error-state hidden" role="alert">
+      <p>⚠️ 데이터를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.</p>
+    </div>
+    <div id="no-results" class="no-results hidden" role="status">
+      <p>😶 선택한 필터에 맞는 뉴스가 없습니다.</p>
+    </div>
+    <ol id="news-list" class="news-list" aria-label="뉴스 목록"></ol>
+    <div id="load-more-wrap" class="load-more-wrap hidden">
+      <button id="load-more-btn" class="load-more-btn">더 보기</button>
+    </div>
+    <p id="list-footer" class="list-footer hidden"></p>
+  </main>
+
+  <footer id="site-footer">
+    <p>데이터 출처: <a href="https://github.com/mafleur/baemin-product-insight-news-scraping" target="_blank" rel="noreferrer">baemin-product-insight-news-scraping</a></p>
+    <p id="last-updated"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
