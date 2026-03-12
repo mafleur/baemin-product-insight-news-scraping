@@ -34,6 +34,7 @@ const $filterCount   = document.getElementById('filter-count');
 const $clearAllBtn   = document.getElementById('clear-all-btn');
 const $lastUpdated   = document.getElementById('last-updated');
 const $gnb           = document.getElementById('gnb');
+const $tagToggleBtn  = document.getElementById('tag-toggle-btn');
 
 /* ── Utility: date ─────────────────────────────────────── */
 function formatDate(dateStr) {
@@ -258,6 +259,30 @@ function rebuildTagCloud(sourceArticles) {
     });
     $tagCloud.appendChild(btn);
   });
+
+  // Re-collapse and check overflow
+  $tagCloud.classList.remove('expanded');
+  setupTagToggle();
+}
+
+/* ── Tag cloud collapse/expand logic ─────────────────── */
+function setupTagToggle() {
+  if (!$tagToggleBtn) return;
+  // Use rAF to ensure layout is calculated after DOM update
+  requestAnimationFrame(() => {
+    const hasOverflow = $tagCloud.scrollHeight > $tagCloud.clientHeight + 4;
+    if (hasOverflow) {
+      $tagToggleBtn.style.display = 'block';
+      updateToggleLabel(false);
+    } else {
+      $tagToggleBtn.style.display = 'none';
+    }
+  });
+}
+
+function updateToggleLabel(expanded) {
+  $tagToggleBtn.textContent = expanded ? '접기 ▴' : '펼치기 ▾';
+  $tagToggleBtn.setAttribute('aria-expanded', String(expanded));
 }
 
 /* ── Apply filters & re-render ────────────────────────── */
@@ -397,6 +422,14 @@ $sortSelect.addEventListener('change', () => {
   sortOrder = $sortSelect.value;
   applyFilters();
 });
+
+/* ── Tag Toggle ──────────────────────────────────────── */
+if ($tagToggleBtn) {
+  $tagToggleBtn.addEventListener('click', () => {
+    const expanded = $tagCloud.classList.toggle('expanded');
+    updateToggleLabel(expanded);
+  });
+}
 
 /* ── Load More ───────────────────────────────────────── */
 $loadMoreBtn.addEventListener('click', () => renderPage());

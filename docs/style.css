@@ -215,16 +215,35 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* Tag Cloud */
 .tag-cloud-wrap {
-  padding: 8px 0 10px;
-  overflow-x: auto;
-  scrollbar-width: none;
+  padding: 8px 0 4px;
 }
-.tag-cloud-wrap::-webkit-scrollbar { display: none; }
 .tag-cloud {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  /* Two-row collapse: chip height ~24px + gap 5px → 2 rows = 53px */
+  max-height: 56px;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
 }
+.tag-cloud.expanded {
+  max-height: 2000px;
+}
+
+/* Toggle button */
+.tag-toggle-btn {
+  display: none; /* shown by JS if overflow exists */
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  background: none;
+  border: none;
+  padding: 4px 2px 8px;
+  cursor: pointer;
+  transition: color var(--transition);
+}
+.tag-toggle-btn:hover { color: var(--text-secondary); }
 
 .tag-chip {
   font-size: 12px;
@@ -342,16 +361,23 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   letter-spacing: 0.3px;
 }
 
-/* Category badge colors */
-.badge-product    { color: var(--cat-product);     background: var(--cat-product-bg);    }
-.badge-tech       { color: var(--cat-tech);        background: var(--cat-tech-bg);       }
-.badge-ma         { color: var(--cat-ma);          background: var(--cat-ma-bg);         }
-.badge-regulation { color: var(--cat-regulation);  background: var(--cat-regulation-bg); }
-.badge-partnership{ color: var(--cat-partnership); background: var(--cat-partnership-bg);}
-.badge-default    { color: var(--cat-default);     background: var(--cat-default-bg);    }
+/* All badges: unified gray, rectangular (no pill) */
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: #ececea;
+  color: #888884;
+}
 
-.badge-kr     { color: var(--region-kr);     background: var(--region-kr-bg);     }
-.badge-global { color: var(--region-global); background: var(--region-global-bg); }
+.badge-product, .badge-tech, .badge-ma, .badge-regulation,
+.badge-partnership, .badge-default, .badge-kr, .badge-global {
+  background: #ececea;
+  color: #888884;
+}
 
 /* Date */
 .card-date {
