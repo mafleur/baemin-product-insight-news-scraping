@@ -110,7 +110,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-shrink: 0;
   text-decoration: none;
 }
-.logo-icon { font-size: 18px; line-height:1; flex-shrink: 0; }
+.logo-icon { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
 .logo-text {
   font-size: 15px;
   font-weight: 700;
