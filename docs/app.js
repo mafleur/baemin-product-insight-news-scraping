@@ -136,7 +136,7 @@ function renderCard(article) {
 
   const bulletsHtml = bullets.map(b => `<li>${esc(b)}</li>`).join('');
 
-  const isNew = latestCollectedDate && article.first_collected_date === latestCollectedDate;
+  const isNew = latestCollectedDate && (article.first_collected_date || '').trim() === latestCollectedDate;
 
   li.innerHTML = `
     <div class="card-header">
@@ -442,7 +442,7 @@ $loadMoreBtn.addEventListener('click', () => renderPage());
 function setLastUpdated(articles) {
   if (!articles.length) return;
   const dates = articles
-    .map(a => a.first_collected_date)
+    .map(a => (a.first_collected_date || '').trim())
     .filter(Boolean)
     .sort()
     .reverse();
