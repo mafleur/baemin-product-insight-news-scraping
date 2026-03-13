@@ -415,6 +415,23 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .copy-btn svg { flex-shrink: 0; }
 
+/* NEW badge */
+.new-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0d9488;
+  background: #ccfbf1;
+  border: 1px solid #99f6e4;
+  border-radius: 3px;
+  padding: 1px 5px;
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+
 /* Title */
 .card-title {
   font-size: 16px;

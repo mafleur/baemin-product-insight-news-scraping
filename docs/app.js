@@ -17,6 +17,7 @@ let page           = 0;    // how many pages rendered so far
 let activeCat      = 'all';
 let activeTags     = new Set();  // multi-select OR
 let sortOrder      = 'newest';
+let latestCollectedDate = null;  // date of the most recent update batch
 
 /* ── DOM refs ──────────────────────────────────────────── */
 const $loading       = document.getElementById('loading');
@@ -135,6 +136,8 @@ function renderCard(article) {
 
   const bulletsHtml = bullets.map(b => `<li>${esc(b)}</li>`).join('');
 
+  const isNew = latestCollectedDate && article.first_collected_date === latestCollectedDate;
+
   li.innerHTML = `
     <div class="card-header">
       <div class="card-badges">
@@ -153,6 +156,7 @@ function renderCard(article) {
       </div>
     </div>
     <h2 class="card-title">
+      ${isNew ? '<span class="new-badge">NEW</span>' : ''}
       <a href="${esc(article.source_url)}" target="_blank" rel="noreferrer noopener">
         ${esc(article.title)}
       </a>
@@ -442,8 +446,11 @@ function setLastUpdated(articles) {
     .filter(Boolean)
     .sort()
     .reverse();
-  if (dates[0] && $lastUpdated) {
-    $lastUpdated.textContent = `마지막 업데이트: ${dates[0]}`;
+  if (dates[0]) {
+    latestCollectedDate = dates[0];
+    if ($lastUpdated) {
+      $lastUpdated.textContent = `마지막 업데이트: ${dates[0]}`;
+    }
   }
 }
 
