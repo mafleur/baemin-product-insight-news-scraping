@@ -98,11 +98,11 @@ function buildMarkdown(article) {
     .map(s => s.trim())
     .filter(Boolean);
 
-  const summaryMd = bullets.map(b => `* ${b}`).join('\n');
+  const summaryMd = bullets.map(b => `- ${b}`).join('\n');
   return [
     `*${article.title}*`,
     article.source_url,
-    `출처: ${article.source} | ${article.published_date}`,
+    `> 출처: ${article.source} | ${article.published_date}`,
     '',
     summaryMd,
   ].join('\n');
