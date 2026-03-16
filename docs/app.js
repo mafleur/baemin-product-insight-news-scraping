@@ -373,7 +373,15 @@ function buildCategoryTabs() {
     if (c) catCount[c] = (catCount[c] || 0) + 1;
   });
 
-  const cats = Object.entries(catCount).sort((a, b) => b[1] - a[1]).map(([c]) => c);
+  const fixedOrder = ['product', 'business', 'tech', 'partnership'];
+  const cats = Object.keys(catCount).sort((a, b) => {
+    let idxA = fixedOrder.indexOf(a);
+    let idxB = fixedOrder.indexOf(b);
+    if (idxA === -1) idxA = 999;
+    if (idxB === -1) idxB = 999;
+    if (idxA !== idxB) return idxA - idxB;
+    return catCount[b] - catCount[a];
+  });
   cats.forEach(cat => {
     const btn = document.createElement('button');
     btn.className = 'cat-tab';

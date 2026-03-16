@@ -24,19 +24,6 @@
           </a>
           <span class="logo-updated" id="last-updated"></span>
         </div>
-        <div class="gnb-right">
-          <div class="sort-wrap">
-            <label for="sort-select" class="sr-only">정렬</label>
-            <select id="sort-select" aria-label="정렬 기준">
-              <option value="newest">최신순</option>
-              <option value="oldest">오래된순</option>
-            </select>
-          </div>
-          <div id="filter-status" class="filter-status hidden">
-            <span id="filter-count"></span>
-            <button id="clear-all-btn" aria-label="필터 초기화">✕ 초기화</button>
-          </div>
-        </div>
       </div>
 
       <!-- Category Tabs -->
@@ -57,6 +44,19 @@
 
   <!-- ══════════════ MAIN ══════════════ -->
   <main id="main">
+    <div class="list-controls">
+      <div class="sort-wrap">
+        <label for="sort-select" class="sr-only">정렬</label>
+        <select id="sort-select" aria-label="정렬 기준">
+          <option value="newest">최신순</option>
+          <option value="oldest">오래된순</option>
+        </select>
+      </div>
+      <div id="filter-status" class="filter-status hidden">
+        <span id="filter-count"></span>
+        <button id="clear-all-btn" aria-label="필터 초기화">✕ 초기화</button>
+      </div>
+    </div>
     <div id="loading" class="loading-state" aria-live="polite">
       <div class="spinner"></div>
       <p>뉴스를 불러오는 중...</p>
