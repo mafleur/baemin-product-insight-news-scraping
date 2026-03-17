@@ -134,6 +134,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin-bottom: 16px;
 }
 
+.ai-disclaimer {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
 /* Sort select */
 .sort-wrap select {
   font-family: inherit;
