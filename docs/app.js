@@ -18,6 +18,7 @@ let activeCat      = 'all';
 let activeTags     = new Set();  // multi-select OR
 let sortOrder      = 'newest';
 let latestCollectedDate = null;  // date of the most recent update batch
+let showOnlyNew    = false;
 
 /* ── DOM refs ──────────────────────────────────────────── */
 const $loading       = document.getElementById('loading');
@@ -157,7 +158,7 @@ function renderCard(article) {
       </div>
     </div>
     <h2 class="card-title">
-      ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+      ${isNew ? `<button class="new-badge${showOnlyNew ? ' active' : ''}" aria-pressed="${showOnlyNew}" aria-label="새로운 기사 모아보기">NEW</button>` : ''}
       <a href="${esc(article.source_url)}" target="_blank" rel="noreferrer noopener">
         ${esc(article.title)}
       </a>
@@ -171,6 +172,16 @@ function renderCard(article) {
   li.querySelectorAll('.card-tag').forEach(btn => {
     btn.addEventListener('click', () => toggleTagFilter(btn.dataset.tag));
   });
+
+  // NEW badge click → toggle NEW filter
+  const newBadgeBtn = li.querySelector('.new-badge');
+  if (newBadgeBtn) {
+    newBadgeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      showOnlyNew = !showOnlyNew;
+      applyFilters();
+    });
+  }
 
   // Copy button
   li.querySelector('.copy-btn').addEventListener('click', async (e) => {
@@ -309,6 +320,11 @@ function applyFilters() {
     });
   }
 
+  // 3.5. NEW filter
+  if (showOnlyNew) {
+    result = result.filter(a => latestCollectedDate && (a.first_collected_date || '').trim() === latestCollectedDate);
+  }
+
   // 4. Sort
   result.sort((a, b) => {
     const da = a.published_date || '';
@@ -335,11 +351,12 @@ function applyFilters() {
 
 /* ── Filter status badge ──────────────────────────────── */
 function updateFilterStatus() {
-  const hasFilter = activeCat !== 'all' || activeTags.size > 0;
+  const hasFilter = activeCat !== 'all' || activeTags.size > 0 || showOnlyNew;
   if (hasFilter) {
     $filterStatus.classList.remove('hidden');
     const parts = [];
     if (activeCat !== 'all') parts.push(activeCat);
+    if (showOnlyNew) parts.push('NEW 기사');
     activeTags.forEach(t => parts.push(`#${t}`));
     $filterCount.textContent = parts.slice(0, 3).join(', ') +
       (parts.length > 3 ? ` 외 ${parts.length - 3}개` : '');
@@ -422,6 +439,7 @@ window.addEventListener('scroll', () => {
 $clearAllBtn.addEventListener('click', () => {
   activeCat = 'all';
   activeTags.clear();
+  showOnlyNew = false;
   document.querySelectorAll('.cat-tab').forEach(t => {
     const isAll = t.dataset.cat === 'all';
     t.classList.toggle('active', isAll);

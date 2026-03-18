@@ -427,6 +427,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* NEW badge */
 .new-badge {
   display: inline-block;
+  font-family: inherit;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -439,6 +440,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin-right: 6px;
   position: relative;
   top: -1px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.new-badge:hover {
+  background: #99f6e4;
+  color: #0f766e;
+  border-color: #5eead4;
+}
+.new-badge.active {
+  background: #0d9488;
+  color: #fff;
+  border-color: #0f766e;
 }
 
 /* Title */
