@@ -1,0 +1,61 @@
+{
+  "last_updated": "2026-03-23",
+  "skip_urls": {
+    "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": "iFood $3.1B investment announcement (2025-08)",
+    "https://www.investing.com/news/stock-market-news/brazils-ifood-app-announces-31-billion-in-investments-4169621": "iFood $3.1B investment announcement (2025-08)",
+    "https://www.businesswire.com/news/home/20251113803496/en/Gopuff-the-Instant-Commerce-Leader-Raises-a-$250-Million-Funding-Round-Led-by-Eldridge-Industries": "Gopuff $250M fundraise (2025-11)",
+    "https://technical.ly/entrepreneurship/gopuff-raises-250m-next-growth-phase/": "Gopuff $250M fundraise (2025-11)",
+    "https://www.gopuff.com/newsroom/company-news/gopuff-raises-a-250-million-dollar-funding-round": "Gopuff $250M fundraise (2025-11)",
+    "https://philadelphia.today/2025/11/gopuff-raises-250m/": "Gopuff $250M fundraise (2025-11)",
+    "https://techcrunch.com/2026/01/13/india-reportedly-tells-quick-commerce-firms-to-drop-10-minute-delivery-promise/": "India govt asks QC firms to drop 10-min delivery branding (2026-01)",
+    "https://www.aljazeera.com/features/2026/1/28/india-curbs-grocery-under-10-minutes-but-riders-must-still-fatally-race": "India 10-min delivery govt intervention (2026-01)",
+    "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/": "Uber Eats AI grocery cart assistant launch (2026-02-11)",
+    "https://www.businesswire.com/news/home/20260224973889/en/DoorDash-to-Wind-Down-Deliveroo-and-Wolt-Operations-in-Four-Countries": "DoorDash wind down 4 countries — Qatar, Singapore, Japan, Uzbekistan (2026-02-24)",
+    "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Wind-Down-Deliveroo-and-Wolt-Operations-in-Four-Countries/default.aspx": "DoorDash wind down 4 countries — Qatar, Singapore, Japan, Uzbekistan (2026-02-24)",
+    "https://techcrunch.com/2025/11/17/doordash-confirms-data-breach-impacting-users-phone-numbers-and-physical-addresses/": "DoorDash data breach disclosure (2025-11)",
+    "https://about.doordash.com/en-us/news/doordash-official-fifa-world-cup-partnership": "DoorDash FIFA World Cup 2026 sponsorship (2025-11)",
+    "https://mercadoeconsumo.com.br/05/03/2026/foodservice/keeta-promove-200-demissoes-no-brasil-apos-adiar-operacao-no-rio-de-janeiro/": "Meituan Keeta Rio de Janeiro delay + 200 layoffs (2026-03-05)",
+    "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N3ZM1O7:0-china-s-meituan-postpones-keeta-launch-in-brazil-s-rio/": "Meituan Keeta Rio de Janeiro delay (2026-03-05)",
+    "https://upstocks.com/news/market-news/ipo/zepto-ipo-update-quick-commerce-platform-converts-into-public-company-targets-june-2026-listing/article-185839/": "Zepto IPO filing — date unclear, skip",
+    "https://www.deccanherald.com/business/indias-quick-commerce-company-zepto-files-for-122-billion-ipo-3845593": "Zepto IPO $1.22B filing — date unclear, skip",
+    "https://www.globenewswire.com/news-release/2026/03/05/3250198/0/en/North-America-Online-Food-Delivery-Market-Report-2025-2033-Healthy-Meal-Demand-Convenience-Culture-and-Improved-Delivery-Logistics-Propel-the-Market-Toward-105-8-Billion.html": "North America food delivery market report — published 2026-03-05, before cutoff",
+    "https://retailtechinnovationhub.com/home/2026/3/3/amazon-drops-bombshell-in-grocery-delivery-wars-as-speedy-service-hits-brazil-market": "Amazon grocery delivery Brazil — published 2026-03-03, before cutoff"
+  },
+  "stale_events": [
+    {
+      "pattern": "(?i)gopuff.*\\$?250.*million|gopuff.*raises.*250|gopuff.*250m",
+      "reason": "Gopuff $250M fundraise (2025-11) — before cutoff, keep appearing in searches",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)india.*10.?minute.*delivery.*(ban|end|drop|crackdown|government|govt)|10-minute delivery.*india.*government",
+      "reason": "India govt asked QC firms to drop 10-min delivery branding (2026-01) — before cutoff",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)doordash.*wind.?down.*(four|4).*countr|doordash.*deliveroo.*wolt.*(exit|wind)",
+      "reason": "DoorDash wind down Deliveroo/Wolt in 4 countries (2026-02-24) — before cutoff",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)ifood.*\\$?3\\.1.?billion|ifood.*17.*bilh|ifood.*r\\$17",
+      "reason": "iFood $3.1B investment announcement (2025-08) — before cutoff",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)meituan.*keeta.*(rio|layoff|demissão|delay|postpone)",
+      "reason": "Meituan Keeta Rio de Janeiro delay + layoffs (2026-03-05) — before cutoff",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)zepto.*ipo.*(filing|drhp|confidential)|zepto.*files.*ipo",
+      "reason": "Zepto IPO DRHP filing — date unclear each time, skip until listing is confirmed",
+      "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)uber eats.*(ai.*grocery|cart.*assistant|cart.*creation)",
+      "reason": "Uber Eats AI grocery cart assistant (2026-02-11) — before cutoff",
+      "added": "2026-03-23"
+    }
+  ]
+}
