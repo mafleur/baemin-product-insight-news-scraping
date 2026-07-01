@@ -1,7 +1,7 @@
-source_url,reason,excluded_date,note
-https://www.etnews.com/20260518000106,duplicate,2026-05-19,중복 기사
-https://www.newscj.com/news/articleView.html?idxno=3400153,user_excluded,2026-05-19,수동 제외
-https://www.inquirer.com/news/uber-eats-avride-food-delivery-expansion-20260515.html,user_excluded,2026-05-19,수동 제외
-https://www.fnnews.com/news/202605181441036944,duplicate,2026-05-20,3ffc5ab4(CU 쿠팡이츠 24시간)과 중복
-https://www.ajunews.com/view/20260625074808883,user_excluded,2026-07-01,중요도 낮음 - 사용자 삭제
-https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/,user_excluded,2026-07-01,중요도 낮음 - 사용자 삭제
+source_url,reason,excluded_date,note,title_original,summary_ko
+https://www.etnews.com/20260518000106,duplicate,2026-05-19,중복 기사,,
+https://www.newscj.com/news/articleView.html?idxno=3400153,user_excluded,2026-05-19,수동 제외,,
+https://www.inquirer.com/news/uber-eats-avride-food-delivery-expansion-20260515.html,user_excluded,2026-05-19,수동 제외,,
+https://www.fnnews.com/news/202605181441036944,duplicate,2026-05-20,3ffc5ab4(CU 쿠팡이츠 24시간)과 중복,,
+https://www.ajunews.com/view/20260625074808883,user_excluded,2026-07-01,중요도 낮음 - 사용자 삭제,"[2026 소비자정책포럼] 이태희 컬리 본부장 ""AI로 운영 효율·고객 가치 높인다""",AI로 발주·재고관리·농산물 선별·자율주행 로봇 도입 | 품절·폐기 감소 및 생산성 약 30% 개선 추진
+https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/,user_excluded,2026-07-01,중요도 낮음 - 사용자 삭제,Walmart-backed Flipkart expands quick-commerce push as Amazon ramps up in India,플립카트 미닛츠 마이크로풀필먼트센터 1000개 달성 | 주문 전년비 400% 성장하며 블링킷 이어 2위
