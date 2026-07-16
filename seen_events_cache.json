@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-16",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": "iFood $3.1B investment announcement (2025-08)",
     "https://www.investing.com/news/stock-market-news/brazils-ifood-app-announces-31-billion-in-investments-4169621": "iFood $3.1B investment announcement (2025-08)",
@@ -19,7 +19,39 @@
     "https://upstocks.com/news/market-news/ipo/zepto-ipo-update-quick-commerce-platform-converts-into-public-company-targets-june-2026-listing/article-185839/": "Zepto IPO filing — date unclear, skip",
     "https://www.deccanherald.com/business/indias-quick-commerce-company-zepto-files-for-122-billion-ipo-3845593": "Zepto IPO $1.22B filing — date unclear, skip",
     "https://www.globenewswire.com/news-release/2026/03/05/3250198/0/en/North-America-Online-Food-Delivery-Market-Report-2025-2033-Healthy-Meal-Demand-Convenience-Culture-and-Improved-Delivery-Logistics-Propel-the-Market-Toward-105-8-Billion.html": "North America food delivery market report — published 2026-03-05, before cutoff",
-    "https://retailtechinnovationhub.com/home/2026/3/3/amazon-drops-bombshell-in-grocery-delivery-wars-as-speedy-service-hits-brazil-market": "Amazon grocery delivery Brazil — published 2026-03-03, before cutoff"
+    "https://retailtechinnovationhub.com/home/2026/3/3/amazon-drops-bombshell-in-grocery-delivery-wars-as-speedy-service-hits-brazil-market": "Amazon grocery delivery Brazil — published 2026-03-03, before cutoff",
+    "https://www.etnews.com/20260714000330": {
+      "reason": "dup of e52719da (규제 종합 재보도)",
+      "added": "2026-07-16"
+    },
+    "https://www.hankyung.com/article/2026071085721": {
+      "reason": "dup of 0c3c63cf (쿠팡 로켓페이 동일 사건)",
+      "added": "2026-07-16"
+    },
+    "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/": {
+      "reason": "dup of c3ff3dce (도어대시 AI 어시스턴트)",
+      "added": "2026-07-16"
+    },
+    "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/": {
+      "reason": "dup of 25a444eb (우버 유럽 보류)",
+      "added": "2026-07-16"
+    },
+    "https://www.cnbc.com/2026/07/02/india-amazon-walmart-flipkart-quick-commerce.html": {
+      "reason": "dup of EXCLUDED (인도 아마존·플립카트 퀵커머스)",
+      "added": "2026-07-16"
+    },
+    "https://www.business-standard.com/markets/news/swiggy-gains-6-after-foreign-investment-hits-49-76-iocc-status-in-focus-126070700600_1.html": {
+      "reason": "rule-excluded (dup of 23772b3a Swiggy 외국인지분 50%↓; fetch 403)",
+      "added": "2026-07-16"
+    },
+    "https://www.usnews.com/news/top-news/articles/2026-07-10/inside-the-u-s-race-for-drone-delivery-dominance": {
+      "reason": "rule-excluded (dup of a37a36cb 美 드론배달; fetch fail)",
+      "added": "2026-07-16"
+    },
+    "https://yournews.com/2026/07/10/7104298/americas-drone-delivery-revolution-accelerates-as-retail-giants-race-to/": {
+      "reason": "rule-excluded (low-quality dup of usnews 드론 기사)",
+      "added": "2026-07-16"
+    }
   },
   "stale_events": [
     {
