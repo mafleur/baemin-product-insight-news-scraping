@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-20",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": "iFood $3.1B investment announcement (2025-08)",
     "https://www.investing.com/news/stock-market-news/brazils-ifood-app-announces-31-billion-in-investments-4169621": "iFood $3.1B investment announcement (2025-08)",
@@ -51,6 +51,30 @@
     "https://yournews.com/2026/07/10/7104298/americas-drone-delivery-revolution-accelerates-as-retail-giants-race-to/": {
       "reason": "rule-excluded (low-quality dup of usnews 드론 기사)",
       "added": "2026-07-16"
+    },
+    "https://www.investchosun.com/site/data/html_dir/2026/07/16/2026071680192.html": {
+      "reason": "dup of Uber-DH definitive deal (techcrunch 14.8B), tech-media priority",
+      "added": "2026-07-20"
+    },
+    "https://www.newspim.com/news/view/20260716001212": {
+      "reason": "rule-excluded (same event as Uber-DH definitive deal (kept techcrunch))",
+      "added": "2026-07-20"
+    },
+    "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/": {
+      "reason": "rule-excluded (403 inaccessible; dup of Uber-DH deal (techcrunch))",
+      "added": "2026-07-20"
+    },
+    "https://dronedj.com/2026/07/15/zipline-drone-tesla-waymo-uber/": {
+      "reason": "rule-excluded (인사변동 (executive hires lede), weak food-delivery relevance)",
+      "added": "2026-07-20"
+    },
+    "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4380YZ:0-swiggy-says-aggregate-foreign-investment-in-swiggy-at-49-76-as-of-july-06-2026/": {
+      "reason": "rule-excluded (dup of existing Swiggy IOCC 23772b3a + paywall)",
+      "added": "2026-07-20"
+    },
+    "https://reporteri.net/en/NEWS/Order-together--pay-separately-Wolt-launches-split-payments-in-Kosovo-from-July-13-for-group-orders/": {
+      "reason": "rule-excluded (dup of existing Wolt global split payments 5a92795b + 403)",
+      "added": "2026-07-20"
     }
   },
   "stale_events": [
