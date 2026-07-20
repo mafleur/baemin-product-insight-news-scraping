@@ -75,6 +75,14 @@
     "https://reporteri.net/en/NEWS/Order-together--pay-separately-Wolt-launches-split-payments-in-Kosovo-from-July-13-for-group-orders/": {
       "reason": "rule-excluded (dup of existing Wolt global split payments 5a92795b + 403)",
       "added": "2026-07-20"
+    },
+    "https://www.theguru.co.kr/news/article.html?no=104542": {
+      "reason": "user_excluded (인도 퀵커머스 100조 전망, 저신호 시장 전망)",
+      "added": "2026-07-20"
+    },
+    "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/": {
+      "reason": "dup of 405de195 (Uber-DH M&A 공식화 7/15 동일 사건)",
+      "added": "2026-07-20"
     }
   },
   "stale_events": [
