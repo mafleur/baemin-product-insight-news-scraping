@@ -11,7 +11,7 @@
 ## 2026-07-20
 - [ ] 🔒 접근불가: [DoorDash] DoorDash, 뉴멕시코 도로 배달로봇 도입 추진 (Cloudflare 차단) → https://sourcenm.com/2026/07/15/delivery-company-doordash-wants-to-roll-out-robots-on-new-mexico-roads/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [Instacart] Instacart, Arpalus 인수—실시간 선반 인텔리전스 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence
+- [x] 🔒 접근불가: [Instacart] Instacart, Arpalus 인수—실시간 선반 인텔리전스 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence (✅ 2026-07-21 PR Newswire 대체 소스로 수집 완료, id 76c73f8c)
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [Instacart] Instacart–Tractor Supply 파트너십—반려·농자재 배달 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-and-tractor-supply-partner-deliver-pet-supplies-farm
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
