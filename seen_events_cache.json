@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -164,6 +164,34 @@
     "https://thefederal.com/category/business/swiggy-iocc-249336": {
       "reason": "rule-excluded (early-dup of 23772b3a — Swiggy 외국인 지분 50% 미만)",
       "added": "2026-07-21"
+    },
+    "https://www.sahi.com/news/swiggy-partners-hpcl-to-launch-india-s-first-on-demand-5-kg-and-10-kg-lpg-cylinder-delivery-856517-PE1_C": {
+      "reason": "dup of 342f1265 (Swiggy-HPCL LPG 실린더 배달 개시 동일 발표 재보도)",
+      "added": "2026-07-22"
+    },
+    "https://trak.in/stories/zomato-working-on-ai-powered-food-ordering-process/": {
+      "reason": "dup of 9cb392fa (Zomato AI 음성봇 주문 시범 동일 사건 재보도)",
+      "added": "2026-07-22"
+    },
+    "https://www.eqs-news.com/news/ad-hoc/delivery-hero-enters-into-a-business-combination-agreement-with-uber-technologies-and-into-a-sale-and-purchase-agreement-with-ssw-partners-regarding-certain-businesses/e10e6ede-29dd-47da-aff4-c18b9161a425_en": {
+      "reason": "dup of EXCLUDED (7/16 Uber-DH 기업결합 계약 발표 — 사용자 제외 사건 재보도)",
+      "added": "2026-07-22"
+    },
+    "https://lasvegassun.com/news/2026/jul/16/uber-announces-acquisition-offer-for-delivery-hero/": {
+      "reason": "dup of EXCLUDED (7/16 Uber-DH 기업결합 계약 발표 — 사용자 제외 사건 재보도)",
+      "added": "2026-07-22"
+    },
+    "https://newsroom.justeattakeaway.com/en-WW/268092-europe-has-the-opportunity-to-make-platform-work-work-for-everyone/": {
+      "reason": "rule-excluded (선언적 플랫폼노동 정책 옹호 기고 — 노동이슈/선언적 기사 제외 규칙)",
+      "added": "2026-07-22"
+    },
+    "https://www.bloomberg.com/news/articles/2026-07-11/india-regulator-probes-swiggy-instamart-on-food-safety-concerns": {
+      "reason": "rule-excluded (동일 사건 Bloomberg 페이월 — Medianama 소스 채택)",
+      "added": "2026-07-22"
+    },
+    "https://www.tescoplc.com/tesco-expands-rapid-delivery-reach-through-new-uber-eats-and-deliveroo-partnerships/": {
+      "reason": "rule-excluded (동일 사건 — Grocery Gazette 소스로 수집, 공식 페이지 접근 차단)",
+      "added": "2026-07-22"
     }
   },
   "stale_events": [
