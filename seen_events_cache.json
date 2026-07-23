@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -192,6 +192,46 @@
     "https://www.tescoplc.com/tesco-expands-rapid-delivery-reach-through-new-uber-eats-and-deliveroo-partnerships/": {
       "reason": "rule-excluded (동일 사건 — Grocery Gazette 소스로 수집, 공식 페이지 접근 차단)",
       "added": "2026-07-22"
+    },
+    "https://kr.investing.com/news/stock-market-news/article-2020339": {
+      "reason": "dup of 405de195 (우버 DH 공개매수·배민 편입)",
+      "added": "2026-07-23"
+    },
+    "https://www.digitalcommerce360.com/2026/07/21/instacart-acquisition-arpalus-grocery-tech/": {
+      "reason": "dup of 76c73f8c (instacart arpalus)",
+      "added": "2026-07-23"
+    },
+    "https://www.businesstoday.in/technology/news/story/zepto-to-take-on-blinkit-gourmet-firstclub-with-new-premium-grocery-service-select-542865-2026-07-14": {
+      "reason": "dup of 3d23cd2e (zepto select)",
+      "added": "2026-07-23"
+    },
+    "https://focustaiwan.tw/business/202607220014": {
+      "reason": "dup of 505310b4 (grab-foodpanda taiwan review)",
+      "added": "2026-07-23"
+    },
+    "https://prtimes.jp/main/html/rd/p/000000533.000029254.html": {
+      "reason": "dup of 9edd7235 (demae-can meiten filter)",
+      "added": "2026-07-23"
+    },
+    "https://www.globalbankingandfinance.com/uks-tesco-boosts-rapid-delivery-uber-eats-deliveroo-deals/": {
+      "reason": "dup of 249c14ba (tesco uber/deliveroo)",
+      "added": "2026-07-23"
+    },
+    "https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence": {
+      "reason": "rule-excluded (covered by 76c73f8c (arpalus))",
+      "added": "2026-07-23"
+    },
+    "https://www.deccanherald.com/business/companies/zomatos-parent-eternal-reports-q1-2026-net-profit-of-rs-92-crore-revenue-jumps-182-yoy-to-rs-20211-crore-4083413": {
+      "reason": "rule-excluded (dup of eternal Q1 event (freepressjournal collected))",
+      "added": "2026-07-23"
+    },
+    "https://theprint.in/feature/swiggy-instamart-hpcl-start-lpg-cylinder-delivery-service/2987489/": {
+      "reason": "rule-excluded (dup of existing swiggy-hpcl LPG event)",
+      "added": "2026-07-23"
+    },
+    "https://english.cw.com.tw/article/article.action?id=4900": {
+      "reason": "rule-excluded (related to 505310b4 grab-foodpanda taiwan; blocked 403)",
+      "added": "2026-07-23"
     }
   },
   "stale_events": [

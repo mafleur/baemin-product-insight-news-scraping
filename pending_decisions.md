@@ -15,3 +15,8 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [Instacart] Instacart–Tractor Supply 파트너십—반려·농자재 배달 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-and-tractor-supply-partner-deliver-pet-supplies-farm
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-07-23
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 퀵커머스의 다음 성장엔진 프리미엄 식료품 (Access Denied/Akamai) → https://www.business-standard.com/industry/news/why-quick-commerce-platforms-are-betting-on-premium-grocery-126072100689_1.html
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🆕 신규 업체: Matternet (Matternet taps Beeline to accelerate US drone delivery expansion) — 타겟 추가하려면 `ADD` 표시
