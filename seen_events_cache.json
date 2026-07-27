@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-27",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -232,6 +232,110 @@
     "https://english.cw.com.tw/article/article.action?id=4900": {
       "reason": "rule-excluded (related to 505310b4 grab-foodpanda taiwan; blocked 403)",
       "added": "2026-07-23"
+    },
+    "https://www.ddaily.co.kr/page/view/2026072709072051745": {
+      "reason": "dup of etnews 20260727000195 (쿠팡이츠 옆동네 인기 맛집 동일 사건)",
+      "added": "2026-07-27"
+    },
+    "https://www.bloter.net/news/articleView.html?idxno=668425": {
+      "reason": "dup of zdnet 20260721154039 (우버 DH 인수·공정위 심사 동일 사안)",
+      "added": "2026-07-27"
+    },
+    "https://www.ciol.com/news/zomato-tests-ai-voice-ordering-to-make-food-discovery-more-conversational-12168572": {
+      "reason": "dup of 9cb392fa (조마토 AI 음성 주문봇 파일럿 동일 사건)",
+      "added": "2026-07-27"
+    },
+    "https://portal.clientesa.com.br/ifood-anuncia-nova-fase-do-agente-de-ia-ailo-no-whatsapp/": {
+      "reason": "dup of 6c394fe9 (iFood 아일로 원클릭 주문 업데이트 동일 발표)",
+      "added": "2026-07-27"
+    },
+    "https://eduka.ai/ifood-grande-atualizacao-ailo-assistente-ia/": {
+      "reason": "dup of 6c394fe9 (iFood 아일로 업데이트 동일 발표 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://launchbaseafrica.com/2026/07/16/uber-to-acquire-glovo-and-talabats-african-operations-under-delivery-heros-16-9bn-takeover/": {
+      "reason": "dup of weetracker 2026/07/17 (글로보·탈라바트 아프리카 편입 동일 내용)",
+      "added": "2026-07-27"
+    },
+    "https://kabutan.jp/news/?b=k202607150018": {
+      "reason": "dup of 577e0e1d (데마에칸 26년8월기 적자 하향 동일 공시)",
+      "added": "2026-07-27"
+    },
+    "https://www.newspim.com/news/view/20260723000879": {
+      "reason": "rule-excluded (Uber-DH M&A 재보도(이미 수집된 사건, 결정적 진전 아님))",
+      "added": "2026-07-27"
+    },
+    "https://www.goodmorningvietnam.co.kr/news/article.html?no=82729": {
+      "reason": "rule-excluded (Uber-DH M&A 재보도·저순위 매체)",
+      "added": "2026-07-27"
+    },
+    "https://www.dt.co.kr/article/12072630": {
+      "reason": "rule-excluded (입점업체 상생·지원 캠페인성 기사)",
+      "added": "2026-07-27"
+    },
+    "https://kr.investing.com/news/stock-market-news/article-2021884": {
+      "reason": "rule-excluded (Uber-DH M&A 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://www.jabon.co.kr/news/articleView.html?idxno=5248": {
+      "reason": "rule-excluded (Uber-DH M&A 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://www.mt.co.kr/future/2026/07/26/2026072614062643043": {
+      "reason": "rule-excluded (음식배달·퀵커머스 범위 밖(AI 물류 스타트업 투자))",
+      "added": "2026-07-27"
+    },
+    "https://www.business-standard.com/markets/news/strong-q1-fy27-for-eternal-market-share-gains-ahead-for-blinkit-126072301405_1.html": {
+      "reason": "rule-excluded (Eternal Q1 실적 이미 DB 수집)",
+      "added": "2026-07-27"
+    },
+    "https://www.taipeitimes.com/News/biz/archives/2026/07/23/2003861199": {
+      "reason": "rule-excluded (Grab-Foodpanda FTC 심사연장 이미 DB 수집)",
+      "added": "2026-07-27"
+    },
+    "https://www.taiwannews.com.tw/news/6405833": {
+      "reason": "rule-excluded (Grab-Foodpanda FTC 심사연장 이미 DB 수집)",
+      "added": "2026-07-27"
+    },
+    "https://focustaiwan.tw/business/202607210022": {
+      "reason": "rule-excluded (Grab-Foodpanda FTC 동일 사건 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://www.theretailbulletin.com/food-and-drink/tesco-expands-rapid-delivery-service-through-uber-eats-and-deliveroo-24-07-2026/": {
+      "reason": "rule-excluded (Tesco 파트너십 이미 DB 수집)",
+      "added": "2026-07-27"
+    },
+    "https://retailtechinnovationhub.com/home/2026/7/21/tesco-ramps-up-rapid-grocery-delivery-push-with-uber-eats-and-deliveroo-partnerships": {
+      "reason": "rule-excluded (Tesco 파트너십 이미 DB 수집)",
+      "added": "2026-07-27"
+    },
+    "https://www.thenationalnews.com/business/2026/07/16/talabat-owner-delivery-hero-acquired-by-uber-in-148bn-deal/": {
+      "reason": "rule-excluded (Uber-DH M&A 국가별 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://www.moroccoworldnews.com/2026/07/331246/uber-to-take-over-glovo-morocco-in-15-billion-delivery-hero-deal/": {
+      "reason": "rule-excluded (Uber-DH M&A 국가별 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://foodondemand.com/07222026/uber-to-takeover-delivery-hero-for-14-8-billion-in-largest-acquisition-yet/": {
+      "reason": "rule-excluded (Uber-DH M&A 재보도)",
+      "added": "2026-07-27"
+    },
+    "https://www.axios.com/local/washington-dc/2026/07/15/coco-robotics-dc-delivery-robots-logan-circle": {
+      "reason": "rule-excluded (Coco Robotics DC 출시 이미 DB 수집(PR Newswire))",
+      "added": "2026-07-27"
+    },
+    "https://en.channeliam.com/2026/07/24/flipkart-to-launch-online-food-delivery-service-india/": {
+      "reason": "rule-excluded (Flipkart 동일 사건 저순위 매체)",
+      "added": "2026-07-27"
+    },
+    "https://startuptalky.com/news/flipkart-set-to-challenge-swiggy-and-zomato/": {
+      "reason": "rule-excluded (Flipkart 동일 사건 저순위 매체)",
+      "added": "2026-07-27"
+    },
+    "https://www.businesstoday.in/markets/ipo-corner/story/zepto-ipo-blinkit-vs-instamart-vs-zepto-how-the-quick-commerce-rivals-compare-544998-2026-07-24": {
+      "reason": "rule-excluded (Zepto IPO 진행중 비교 기사(IPO 규칙 제외))",
+      "added": "2026-07-27"
     }
   },
   "stale_events": [
