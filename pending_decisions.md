@@ -13,7 +13,7 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [x] 🔒 접근불가: [Instacart] Instacart, Arpalus 인수—실시간 선반 인텔리전스 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence (✅ 2026-07-21 PR Newswire 대체 소스로 수집 완료, id 76c73f8c)
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [Instacart] Instacart–Tractor Supply 파트너십—반려·농자재 배달 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-and-tractor-supply-partner-deliver-pet-supplies-farm
+- [x] 🔒 접근불가: [Instacart] Instacart–Tractor Supply 파트너십—반려·농자재 배달 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-and-tractor-supply-partner-deliver-pet-supplies-farm (✅ 2026-07-28 company.instacart.com 공식 뉴스룸 대체 소스로 수집 완료)
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-07-23
@@ -31,3 +31,7 @@
 - [ ] 🆕 신규 업체: Deliverect (Deliverect-SoundHound AI 음성주문 자동화 제휴) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🆕 신규 업체: Talabat (Talabat owner Delivery Hero acquired by Uber) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🆕 신규 업체: Glovo (Uber to Take Over Glovo Morocco in Delivery Hero Deal) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-07-28
+- [ ] 🆕 신규 업체: NTT동일본 (도쿄 미드타운 야에스 로봇 배송 본격 가동 (NAVER Cloud·미쓰이부동산 협력)) — 타겟 추가하려면 `ADD` 표시
+- [ ] 🆕 신규 업체: RIVR (RIVR, 험지·악천후 배달로봇 시험 확대 (아마존 투자)) — 타겟 추가하려면 `ADD` 표시

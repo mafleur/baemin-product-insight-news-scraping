@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -336,6 +336,54 @@
     "https://www.businesstoday.in/markets/ipo-corner/story/zepto-ipo-blinkit-vs-instamart-vs-zepto-how-the-quick-commerce-rivals-compare-544998-2026-07-24": {
       "reason": "rule-excluded (Zepto IPO 진행중 비교 기사(IPO 규칙 제외))",
       "added": "2026-07-27"
+    },
+    "https://www.ebn.co.kr/news/articleView.html?idxno=1717906": {
+      "reason": "dup of ac714583 (쿠팡이츠 '옆동네 인기 맛집' 장거리 배달 8월 24일 시범 운영 동일 사건)",
+      "added": "2026-07-28"
+    },
+    "https://www.busan.com/view/busan/view.php?code=2026072710334612841": {
+      "reason": "dup of ac714583 (쿠팡이츠 장거리 배달 권역 확대 동일 사건 재보도)",
+      "added": "2026-07-28"
+    },
+    "https://www.alphabiz.co.kr/news/articleView.html?idxno=164574": {
+      "reason": "dup of 3905b490 (우버의 딜리버리히어로 인수 확정 발표와 동일 사건)",
+      "added": "2026-07-28"
+    },
+    "https://retail-insider.com/retail-insider/2026/07/the-keg-launches-first-ever-delivery-service-through-exclusive-doordash-partnership/": {
+      "reason": "dup of DoorDash IR 공식자료 (동일한 더케그-도어대시 독점 배달 개시, 공식 IR 우선)",
+      "added": "2026-07-28"
+    },
+    "https://www.grocerydive.com/news/instacart-acquires-arpalus-ai-inventory-computer-vision-ecommerce/825494/": {
+      "reason": "dup of 76c73f8c (인스타카트 아르팔루스 인수 동일 사건)",
+      "added": "2026-07-28"
+    },
+    "https://www.storyboard18.com/amp/brand-marketing/blinkit-says-it-now-rivals-zepto-and-instamart-combined-on-scale-posts-fifth-straight-quarter-of-profitability-gains-105260.htm": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건(블링킷 규모·수익성)의 다른 URL 재보도)",
+      "added": "2026-07-28"
+    },
+    "https://www.igd.com/commercial-insight/retail-analysis/retailers/tesco/articles/more-than-rapid-delivery-tescos-aggregator-partnerships/73694": {
+      "reason": "dup of 249c14ba (테스코의 우버이츠·딜리버루 입점 확대 동일 사건 분석)",
+      "added": "2026-07-28"
+    },
+    "https://www.storyboard18.com/amp/brand-marketing/cci-dismisses-complaint-against-eternal-over-zomato-platform-fees-pricing-105379.htm": {
+      "reason": "rule-excluded (GLOBAL 정부·규제 절차 뉴스(CCI 불만 기각) + 기존 수집 URL의 amp 변형)",
+      "added": "2026-07-28"
+    },
+    "https://www.breakingviews.com/columns/breaking-view/uber-feast-marks-end-easy-food-delivery-ma-2026-07-17/": {
+      "reason": "rule-excluded (오피니언 칼럼 + 이미 수집된 우버-DH 딜 재해석(401 페이월))",
+      "added": "2026-07-28"
+    },
+    "https://mercadoeconsumo.com.br/24/07/2026/gestao/ifood-lanca-programa-de-gestao-para-restaurantes-parceiros/": {
+      "reason": "rule-excluded (선언적 입점업체 역량강화 프로그램(150명 한정 교육) — 요금·서비스 구조 변경 아님)",
+      "added": "2026-07-28"
+    },
+    "https://tiinside.com.br/24/07/2026/ifood-revela-jornada-de-transformacao-digital-com-foco-em-pessoas-e-cultura/": {
+      "reason": "rule-excluded (조직·문화 중심 디지털 전환 기사 — 서비스·기술 변화 아님)",
+      "added": "2026-07-28"
+    },
+    "https://news.nate.com/view/20260714n14158": {
+      "reason": "rule-excluded (기존 ae5b3b6b(컬리 강남 첫 매장)과 동일 사건 + 본문 인코딩 오류로 접근 실패)",
+      "added": "2026-07-28"
     }
   },
   "stale_events": [
