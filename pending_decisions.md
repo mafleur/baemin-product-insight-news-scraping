@@ -35,3 +35,6 @@
 ## 2026-07-28
 - [ ] 🆕 신규 업체: NTT동일본 (도쿄 미드타운 야에스 로봇 배송 본격 가동 (NAVER Cloud·미쓰이부동산 협력)) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🆕 신규 업체: RIVR (RIVR, 험지·악천후 배달로봇 시험 확대 (아마존 투자)) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-07-29
+- [ ] 🆕 신규 업체: Atoms (Travis Kalanick's robotics company raises $1.7B, led by a16z) — 타겟 추가하려면 `ADD` 표시

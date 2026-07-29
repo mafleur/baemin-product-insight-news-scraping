@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -384,6 +384,42 @@
     "https://news.nate.com/view/20260714n14158": {
       "reason": "rule-excluded (기존 ae5b3b6b(컬리 강남 첫 매장)과 동일 사건 + 본문 인코딩 오류로 접근 실패)",
       "added": "2026-07-28"
+    },
+    "https://www.insightkorea.co.kr/news/articleView.html?idxno=251117": {
+      "reason": "dup of 53b5025b (우버 DH 인수 공정위 멤버십 심사 재보도)",
+      "added": "2026-07-29"
+    },
+    "https://news.nate.com/view/20260728n00125": {
+      "reason": "rule-excluded (오피니언 칼럼 + 우버-DH 인수 기수집 사건 재보도, 본문 접근 실패)",
+      "added": "2026-07-29"
+    },
+    "https://investor.uber.com/news-events/news/press-release-details/2026/GameStop-Joins-Uber-Eats-to-Deliver-Video-Games-Collectibles-and-Electronics-to-Customers-Nationwide/default.aspx": {
+      "reason": "rule-excluded (GameStop 우버이츠 입점 기수집 사건 중복)",
+      "added": "2026-07-29"
+    },
+    "https://retailtechinnovationhub.com/home/2026/7/15/gamestop-joins-uber-eats-platform-for-video-games-collectibles-and-electronics-on-demand-delivery-service": {
+      "reason": "rule-excluded (GameStop 우버이츠 입점 기수집 사건 중복)",
+      "added": "2026-07-29"
+    },
+    "https://www.pymnts.com/news/delivery/2026/uber-eats-expands-retail-delivery-push-with-gamestop-and-foot-locker-partnerships/": {
+      "reason": "rule-excluded (GameStop·풋락커 사건 중복(공식 PR 우선))",
+      "added": "2026-07-29"
+    },
+    "https://retailtechinnovationhub.com/home/2026/7/28/morrisons-notches-up-a-uk-first-as-it-deploys-instacart-ai-powered-smart-trolleys-in-preston-store": {
+      "reason": "rule-excluded (모리슨스 케이퍼카트 동일사건(공식 PR 우선))",
+      "added": "2026-07-29"
+    },
+    "https://www.tipranks.com/news/private-companies/instacart-enters-uk-in-store-tech-market-with-morrisons-caper-smart-trolley-launch": {
+      "reason": "rule-excluded (모리슨스 케이퍼카트 동일사건(공식 PR 우선))",
+      "added": "2026-07-29"
+    },
+    "https://newskarnataka.com/finance/blinkit-adds-2-7-million-users-widens-lead-in-quick-commerce/16072026/": {
+      "reason": "rule-excluded (수치 집계성 추이 기사 + 인도 뉴스 일일 상한)",
+      "added": "2026-07-29"
+    },
+    "https://sanjosespotlight.com/san-jose-to-develop-regulations-for-delivery-robots/": {
+      "reason": "rule-excluded (배달로봇 뉴스 일일 상한(메이퇀 드론 건 우선))",
+      "added": "2026-07-29"
     }
   },
   "stale_events": [
