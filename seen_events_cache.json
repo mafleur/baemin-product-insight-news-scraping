@@ -420,6 +420,22 @@
     "https://sanjosespotlight.com/san-jose-to-develop-regulations-for-delivery-robots/": {
       "reason": "rule-excluded (배달로봇 뉴스 일일 상한(메이퇀 드론 건 우선))",
       "added": "2026-07-29"
+    },
+    "https://finance.sina.com.cn/tech/roll/2026-07-22/doc-iniispna7979042.shtml": {
+      "reason": "rule-excluded (daily-cap:automation-hw: 자동화 하드웨어(로봇·드론·스마트카트) 하루 1건 상한 — Instacart 스마트카트 우선, 누적 수치 마일스톤이라 후순위)",
+      "added": "2026-07-29"
+    },
+    "https://channellife.co.uk/story/youlend-just-eat-takeaway-pass-150m-in-financing": {
+      "reason": "rule-excluded (daily-cap:finance: 금융(금융지원·금융상품) 하루 1건 상한 — Rappi 임베디드 금융 우선, 누적 금액 마일스톤이라 후순위)",
+      "added": "2026-07-29"
+    },
+    "https://technode.global/2026/07/22/ubers-potential-asean-return-via-foodpanda-deal-could-reshape-regional-competition-maybank/": {
+      "reason": "rule-excluded (rule:uber-dh-nonessential+sea: Uber-DH 인수 파생 전망 기사 + 동남아 권역 판도 예측)",
+      "added": "2026-07-29"
+    },
+    "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/": {
+      "reason": "rule-excluded (rule:funding-round: 단순 투자유치 기사(a16z 주도 17억 달러 라운드))",
+      "added": "2026-07-29"
     }
   },
   "stale_events": [
