@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-30",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -436,6 +436,22 @@
     "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/": {
       "reason": "rule-excluded (rule:funding-round: 단순 투자유치 기사(a16z 주도 17억 달러 라운드))",
       "added": "2026-07-29"
+    },
+    "https://www.klnews.co.kr/news/articleView.html?idxno=322006": {
+      "reason": "dup of ae5b3b6b (컬리 강남 첫 상설 오프라인 매장 추진 건과 동일 사건)",
+      "added": "2026-07-30"
+    },
+    "https://www.grocerydive.com/news/hy-vee-rapid-delivery-pickup-30-minutes-ecommerce/826005/": {
+      "reason": "dup of beac2364 (하이비 30분 퀵배송 도입 건은 기존 퀵커머스 기사에 이미 기록)",
+      "added": "2026-07-30"
+    },
+    "https://www.koreajoongangdaily.com/business/uber-acquires-baemins-parent-opening-doors-for-new-integrated-services/12777967": {
+      "reason": "rule-excluded (Uber-DH 파생 해설·전망 (결정적 진전 아님))",
+      "added": "2026-07-30"
+    },
+    "https://www.cnbc.com/2026/07/29/doordash-launches-drone-delivery-faa-certification.html": {
+      "reason": "rule-excluded (source-priority: 동일 드론 사업 출범 건, TechCrunch 기사로 수집)",
+      "added": "2026-07-30"
     }
   },
   "stale_events": [

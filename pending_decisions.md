@@ -38,3 +38,8 @@
 
 ## 2026-07-29
 - [ ] 🆕 신규 업체: Atoms (Travis Kalanick's robotics company raises $1.7B, led by a16z) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-07-30
+- [ ] 🔒 접근불가: [出前館] 데마에칸 구조적 적자 분석—메르카리와의 결정적 차이 (도요케이자이 페이월, 본문 미확보 / 해설 칼럼=저신호로 자동 폴백 미적용) → https://toyokeizai.net/articles/-/951810
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🆕 신규 업체: Hy-Vee (Hy-Vee introduces rapid online ordering options — 30분 픽업·배송) — 타겟 추가하려면 `ADD` 표시
