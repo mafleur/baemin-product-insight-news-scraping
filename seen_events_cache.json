@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-03",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -452,6 +452,58 @@
     "https://www.cnbc.com/2026/07/29/doordash-launches-drone-delivery-faa-certification.html": {
       "reason": "rule-excluded (source-priority: 동일 드론 사업 출범 건, TechCrunch 기사로 수집)",
       "added": "2026-07-30"
+    },
+    "https://www.etnews.com/20260803000052": {
+      "reason": "dup of df7128f3 (배민 딜리 X3-R B마트 투입 기존 기록의 후속 재보도)",
+      "added": "2026-08-03"
+    },
+    "https://m.ceoscoredaily.com/page/view/2026073016461789948": {
+      "reason": "dup of 783ec4ea (배민 라이더 위치연동·쿠팡이츠 장거리배달 기존 기록 묶음 재보도)",
+      "added": "2026-08-03"
+    },
+    "https://www.hankyung.com/article/202607281151g": {
+      "reason": "dup of 7dabddf0 (컬리 패션 큐레이션 강화 기존 기록의 인터뷰형 재보도)",
+      "added": "2026-08-03"
+    },
+    "https://www.ezyeconomy.com/news/articleView.html?idxno=238210": {
+      "reason": "dup of 53b5025b (우버-DH 공정위 기업결합 심사 쟁점 기존 기록과 동일)",
+      "added": "2026-08-03"
+    },
+    "https://gendai.media/articles/-/169732": {
+      "reason": "dup of 577e0e1d (데마에칸 26년8월기 최종적자 78억엔 기존 기록과 동일)",
+      "added": "2026-08-03"
+    },
+    "https://www.businesstoday.in/technology/startups/story/what-kind-of-retailer-is-swiggy-becoming-546498-2026-07-31": {
+      "reason": "dup of (후보간) Inc42 인스타마트 손익분기 (동일 인스타마트 1분기 손익분기 건 해설 기사)",
+      "added": "2026-08-03"
+    },
+    "https://chaindrugreview.com/quick-commerce-gains-ground-in-healthcare/": {
+      "reason": "dup of (후보간) Kearney 퀵커머스 보고서 (동일 커니 보고서의 헬스케어 부문 발췌 보도)",
+      "added": "2026-08-03"
+    },
+    "https://www.hankyung.com/article/202608030839g": {
+      "reason": "rule-excluded (same-event lower-priority source (배민 딜리 로봇 → etnews 채택))",
+      "added": "2026-08-03"
+    },
+    "https://techcabal.com/2026/07/30/glovo-pioneers-ai-quick-commerce/": {
+      "reason": "rule-excluded (same-event lower-priority source (Glovo AI → dev.ua 채택))",
+      "added": "2026-08-03"
+    },
+    "https://techpoint.africa/news/glovo-launches-ai-chat-feature/": {
+      "reason": "rule-excluded (same-event lower-priority source (Glovo AI → dev.ua 채택))",
+      "added": "2026-08-03"
+    },
+    "https://logweb.com.br/logistica-delivery-ifood-bag-especializada-transporte-pizzas/": {
+      "reason": "rule-excluded (same-event lower-priority source (iFood 백 → Exame 채택))",
+      "added": "2026-08-03"
+    },
+    "https://www.business-standard.com/markets/news/zepto-ipo-zepto-puts-ipo-plan-on-hold-what-if-it-had-listed-126073000878_1.html": {
+      "reason": "rule-excluded (speculative what-if + same event as Zepto IPO 연기 확정 기사)",
+      "added": "2026-08-03"
+    },
+    "https://about.doordash.com/en-us/news/doordash-air": {
+      "reason": "rule-excluded (same event as already-collected DoorDash drone articles (TechCrunch/CNBC 2026-07-29); 403 on fetch)",
+      "added": "2026-08-03"
     }
   },
   "stale_events": [
