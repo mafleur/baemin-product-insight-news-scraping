@@ -504,6 +504,22 @@
     "https://about.doordash.com/en-us/news/doordash-air": {
       "reason": "rule-excluded (same event as already-collected DoorDash drone articles (TechCrunch/CNBC 2026-07-29); 403 on fetch)",
       "added": "2026-08-03"
+    },
+    "https://www.asiatoday.co.kr/kn/view.php?key=20260731010011802": {
+      "reason": "user-excluded (ESG·브랜드 활동 종합 홍보성 기사 (신규 제외규칙: ESG/사회공헌 홍보))",
+      "added": "2026-08-03"
+    },
+    "https://inc42.com/buzz/swiggys-instamart-hits-contribution-margin-breakeven-in-q1-fy27/": {
+      "reason": "user-excluded (해외 단순 손익(기여이익 손익분기) 보고 기사 (신규 제외규칙))",
+      "added": "2026-08-03"
+    },
+    "https://shopappy.com/news/policy-regulation/china-ecommerce-law-overhaul": {
+      "reason": "user-excluded (해외 전자상거래법 개정 추진 단계 기사 (신규 제외규칙: 해외 입법 논의))",
+      "added": "2026-08-03"
+    },
+    "https://dev.ua/en/news/glovo-launches-ai-assistant-for-orders-now-you-can-search-for-food-directly-in-chatgpt-and-claude": {
+      "reason": "user-excluded (사용자 판단 제외 (유사 AI 어시스턴트 기사 다수, 2026-08-03))",
+      "added": "2026-08-03"
     }
   },
   "stale_events": [
