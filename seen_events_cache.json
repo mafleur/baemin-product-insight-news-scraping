@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -520,6 +520,22 @@
     "https://dev.ua/en/news/glovo-launches-ai-assistant-for-orders-now-you-can-search-for-food-directly-in-chatgpt-and-claude": {
       "reason": "user-excluded (사용자 판단 제외 (유사 AI 어시스턴트 기사 다수, 2026-08-03))",
       "added": "2026-08-03"
+    },
+    "https://economist.co.kr/article/view/ecn202607290060": {
+      "reason": "dup of 67ec881a (땡겨요 성장세 동일 사건 재보도)",
+      "added": "2026-08-04"
+    },
+    "https://www.grab.com/sg/press/others/grab-reports-record-second-quarter-2026-results-raises-full-year-guidance-and-announces-750-million-share-repurchase-program/": {
+      "reason": "rule-excluded (해외 단순 손익 보고(Q2 실적·가이던스·자사주 매입 중심))",
+      "added": "2026-08-04"
+    },
+    "https://news.nate.com/view/20260803n06783?mid=n1101": {
+      "reason": "rule-excluded (dup of df7128f3 배민 딜리 X3-R 투입 동일 사건, source-priority 전자신문 우선)",
+      "added": "2026-08-04"
+    },
+    "https://www.insurancejournal.com/news/national/2026/07/29/879557.htm": {
+      "reason": "rule-excluded (dup of 0927100d DoorDash 자체 드론사업 출범 동일 사건, source-priority)",
+      "added": "2026-08-04"
     }
   },
   "stale_events": [
