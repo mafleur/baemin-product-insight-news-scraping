@@ -536,6 +536,10 @@
     "https://www.insurancejournal.com/news/national/2026/07/29/879557.htm": {
       "reason": "rule-excluded (dup of 0927100d DoorDash 자체 드론사업 출범 동일 사건, source-priority)",
       "added": "2026-08-04"
+    },
+    "https://www.theweek.in/news/biz-tech/2026/08/03/swiggy-zomato-boycott-did-flipkart-luck-out-in-its-food-delivery-launch-timing.html": {
+      "reason": "user-excluded (관심도 낮음, 2026-08-04 요청)",
+      "added": "2026-08-04"
     }
   },
   "stale_events": [
