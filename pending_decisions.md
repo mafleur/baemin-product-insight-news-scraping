@@ -48,3 +48,9 @@
 - [ ] 🔒 접근불가: [Zepto] 제프토, pre-IPO 자금조달 마무리하며 상장 연기 (Akamai Access Denied, 브라우저 UA 재시도 실패) → https://www.business-standard.com/markets/news/zepto-seals-pre-ipo-fundraise-defers-listing-to-focus-on-execution-126080101115_1.html
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Kroger (Kroger releases AI Shopping Assistant storewide — 미국 그로서리 AI 쇼핑 어시스턴트 전사 확대) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-08-05
+- [ ] 🔒 접근불가: [Grab] AI로 제품 출시 30% 빨라졌다는 CFO 발언 (CNBC 빈 응답 — 세션 WebSearch 예산 소진으로 provenance 확보 불가) → https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 퀵커머스, 확장 대신 기존 자산에서 성장 모색 (Business Standard Akamai 차단) → https://www.business-standard.com/companies/news/beyond-expansion-quick-commerce-seeks-more-growth-from-existing-assets-126080200252_1.html
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

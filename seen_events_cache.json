@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -540,6 +540,106 @@
     "https://www.theweek.in/news/biz-tech/2026/08/03/swiggy-zomato-boycott-did-flipkart-luck-out-in-its-food-delivery-launch-timing.html": {
       "reason": "user-excluded (관심도 낮음, 2026-08-04 요청)",
       "added": "2026-08-04"
+    },
+    "https://www.newspim.com/news/view/20260804001026": {
+      "reason": "dup of 706d8cc8 (이마트 쿠팡이츠 퀵커머스 파일럿, 동일 사건)",
+      "added": "2026-08-05"
+    },
+    "https://www.pymnts.com/news/delivery/2026/doordash-in-house-delivery-drones-cleared-for-takeoff/": {
+      "reason": "dup of 0927100d (DoorDash FAA Part 135 드론 인증, 동일 사건)",
+      "added": "2026-08-05"
+    },
+    "https://stockhouse.com/news/the-market-online-news/2026/07/30/uber-eats-expands-grocery-delivery-network-with-new-u-s-regional-retail-partners": {
+      "reason": "dup of 6d2caaaf (Uber Eats 지역 그로서리 파트너 추가, 동일 사건)",
+      "added": "2026-08-05"
+    },
+    "https://ppc.land/deliveroo-cuts-local-rate-cards-20-as-programmatic-ads-launch-in-four-markets/": {
+      "reason": "dup of 11a33525 (Deliveroo 프로그래매틱 광고 4개국 출시, 후속 보도)",
+      "added": "2026-08-05"
+    },
+    "https://www.asiae.co.kr/article/2026080507474671468": {
+      "reason": "rule-excluded (본문 fetch 실패, 동일 사건 대체 매체 마이데일리 채택)",
+      "added": "2026-08-05"
+    },
+    "https://www.bloomberg.com/news/articles/2026-07-29/faa-approves-doordash-delivery-drones-humans-will-still-handle-most-orders": {
+      "reason": "rule-excluded (Bloomberg 페이월 우회 규칙, 동일 사건 이미 DB 수집)",
+      "added": "2026-08-05"
+    },
+    "https://biz.heraldcorp.com/article/10830888": {
+      "reason": "rule-excluded (동일 사건, 전문지 전자신문 우선)",
+      "added": "2026-08-05"
+    },
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-swiggy-q1-2026-shows-margin-progress-shares-rise-93CH-4824281": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고 기사)",
+      "added": "2026-08-05"
+    },
+    "https://news.aibase.com/news/29913": {
+      "reason": "rule-excluded (Meituan 배달 비중심, 순수 AI 모델 기술 기사)",
+      "added": "2026-08-05"
+    },
+    "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고 기사)",
+      "added": "2026-08-05"
+    },
+    "https://www.bloomberg.com/news/articles/2026-08-01/zepto-turns-to-private-funding-with-ipo-plans-on-hold-for-now": {
+      "reason": "rule-excluded (단순 투자유치·밸류에이션 중심 + Bloomberg 페이월)",
+      "added": "2026-08-05"
+    },
+    "https://www.bloomberg.com/news/articles/2026-08-03/investors-slash-zepto-s-valuation-delaying-india-ipo-plans": {
+      "reason": "rule-excluded (단순 투자유치·밸류에이션 중심 + Bloomberg 페이월)",
+      "added": "2026-08-05"
+    },
+    "https://www.khaleejtimes.com/uae/dubai-regulated-gardening-services-careem-dubai-police-dubai-municipality": {
+      "reason": "rule-excluded (비배달 서비스·중동 로컬 뉴스)",
+      "added": "2026-08-05"
+    },
+    "https://www.thedronegirl.com/2026/07/30/drone-delivery-news-july-2026/": {
+      "reason": "daily-cap: 자동화 하드웨어 (배민 배달로봇 건 우선)",
+      "added": "2026-08-05"
+    },
+    "https://partner.yogiyo.co.kr/content/view/요기요_요기더적립_기능개선_안내_260731": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-07-23": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-07-27": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#inspiration-ads-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#redesigned-campaign-creation-experience": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#bulk-team-member-invitations": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#improvements-to-order-guides-for-business-accounts": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#loyalty-program-page-customization-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#customer-management-enhancements-in-instacart-platform-portal-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#checkout-notification-when-the-customers-location-is-not-the-same-as-the-delivery-address": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#mobile-view-for-operational-dashboard-in-instacart-platform-portal": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-05"
     }
   },
   "stale_events": [
