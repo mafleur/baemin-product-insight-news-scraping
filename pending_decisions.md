@@ -54,3 +54,7 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 퀵커머스, 확장 대신 기존 자산에서 성장 모색 (Business Standard Akamai 차단) → https://www.business-standard.com/companies/news/beyond-expansion-quick-commerce-seeks-more-growth-from-existing-assets-126080200252_1.html
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-06
+- [ ] 🔒 접근불가: [iFood] 아이푸드, 해고 없이 AI 도입하는 방식 (Forbes Brasil 빈 응답 — 세션 WebSearch 예산 소진으로 provenance 확보 불가) → https://forbes.com.br/forbes-mkt/2026/08/como-o-ifood-aposta-no-uso-da-ia-sem-demitir-funcionarios/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

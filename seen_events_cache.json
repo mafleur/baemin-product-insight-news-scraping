@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -640,6 +640,98 @@
     "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#mobile-view-for-operational-dashboard-in-instacart-platform-portal": {
       "reason": "daily-cap: 파트너 공지",
       "added": "2026-08-05"
+    },
+    "https://www.fnnews.com/news/202608050837186727": {
+      "reason": "dup of a8a8b102 (김범석 의장 2분기 실적 발표 동일 사건)",
+      "added": "2026-08-06"
+    },
+    "https://www.hankyung.com/article/2026080324661": {
+      "reason": "dup of https://www.hankyung.com/article/202608031140i (동일 중기부 플랫폼 상생 성적 공개 추진 건, 단독 기사 우선)",
+      "added": "2026-08-06"
+    },
+    "https://view.asiae.co.kr/article/2026080418082912572": {
+      "reason": "dup of c45983be (공정위 하반기 업무보고 동일 사건)",
+      "added": "2026-08-06"
+    },
+    "https://theaiinsider.tech/2026/07/31/doordash-wins-faa-approval-to-launch-in-house-autonomous-drone-delivery-program/": {
+      "reason": "dup of 0927100d (FAA 파트135 인증·자체 드론사업 출범 동일 사건)",
+      "added": "2026-08-06"
+    },
+    "https://www.retailcustomerexperience.com/news/uber-eats-partners-with-a-slew-of-grocery-retailers/": {
+      "reason": "dup of 6d2caaaf (우버이츠 지역 그로서리 신규 제휴 동일 발표)",
+      "added": "2026-08-06"
+    },
+    "https://www.romania-insider.com/wolt-split-payments-romania-august-2026": {
+      "reason": "dup of 5a92795b (볼트 분할결제 글로벌 확대의 루마니아 재보도)",
+      "added": "2026-08-06"
+    },
+    "https://apacnewsnetwork.com/2026/07/blinkit-pulls-ahead-as-quick-commerce-race-enters-profitability-phase/": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건 재보도)",
+      "added": "2026-08-06"
+    },
+    "https://www.business-standard.com/companies/news/beyond-expansion-quick-commerce-seeks-more-growth-from-existing-assets-126080200252_1.html": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건 재보도)",
+      "added": "2026-08-06"
+    },
+    "https://www.bloomberg.com/news/articles/2026-08-05/doordash-issues-strong-outlook-fueled-by-rise-in-orders": {
+      "reason": "rule-excluded (Bloomberg 페이월·대체 소스 존재 + GLOBAL 단순 손익)",
+      "added": "2026-08-06"
+    },
+    "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-06"
+    },
+    "https://inc42.com/features/swiggys-instamart-turns-a-corner/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익(기여이익 손익분기))",
+      "added": "2026-08-06"
+    },
+    "https://scanx.trade/stock-market-news/companies/swiggy-caps-foreign-ownership-at-49-50-ahead-of-agm/46354244": {
+      "reason": "rule-excluded (지분한도 공시·include 카테고리 미해당)",
+      "added": "2026-08-06"
+    },
+    "https://www.fwdstart.me/p/careem-first-public-p-l-reveals-widening-losses-as-growth-slows-sharply": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-06"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-07-27-financial-entries-3-0": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://vendor.foodpanda.com.tw/news/6a62be73fcc51c351fbf4ad2": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#anchor-links-on-content-pages-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#preview-navigation-changes-before-publishing-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#updated-item-tile-design": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#family-cart-switching-prompt": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#resizable-columns-in-instacart-platform-portal-list-views": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_07_0_release_notes#simplified-suggested-searches-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
+    },
+    "https://api-docs.deliveroo.com/page/picking-app-release-notes#release-v1280": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-06"
     }
   },
   "stale_events": [
