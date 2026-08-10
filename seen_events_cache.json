@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-10",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -732,6 +732,58 @@
     "https://api-docs.deliveroo.com/page/picking-app-release-notes#release-v1280": {
       "reason": "rule-excluded (daily-cap: 파트너 공지)",
       "added": "2026-08-06"
+    },
+    "https://www.fnnews.com/news/202608091830365925": {
+      "reason": "dup of 68268c1b (배민 딜리 X3-R 투입 건 현장 르포 재보도)",
+      "added": "2026-08-10"
+    },
+    "https://www.fntimes.com/html/view.php?ud=202608071123018259b5b890e35c_18": {
+      "reason": "dup of https://www.newspim.com/news/view/20260807000102 (세븐일레븐·이마트·쿠팡나우 기존 사건 묶은 종합 재보도)",
+      "added": "2026-08-10"
+    },
+    "https://www.youthdaily.co.kr/news/article.html?no=224777": {
+      "reason": "dup of https://byline.network/2026/08/07_2928173/ (동일 쿠팡 AI 쇼핑 기능 발표(전문지 우선))",
+      "added": "2026-08-10"
+    },
+    "https://www.youthdaily.co.kr/news/article.html?no=224502": {
+      "reason": "dup of a8a8b102 (기존 쿠팡 2분기 실적 발표와 동일 이벤트)",
+      "added": "2026-08-10"
+    },
+    "https://www.fnnews.com/news/202608031535258822": {
+      "reason": "dup of 68268c1b (배민 B마트 딜리 X3-R 신규 모델 투입 동일 사건)",
+      "added": "2026-08-10"
+    },
+    "https://portal.clientesa.com.br/ifood-anuncia-bag-e-operacao-especializada-para-entregas-de-alimentos-que-exigem-cuidados/": {
+      "reason": "dup of 87f2e173 (iFood 전용 백 프로·숙련 배달원 매칭 도입 재보도)",
+      "added": "2026-08-10"
+    },
+    "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-10"
+    },
+    "https://investors.instacart.com/news-releases/news-release-details/instacart-announces-second-quarter-2026-financial-results": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-10"
+    },
+    "https://mediaoffice.ae/en/news/2026/august/02-08/dubai-unveil-gardening-services-platform-with-careem": {
+      "reason": "rule-excluded (음식배달·퀵커머스와 무관(정원관리 서비스))",
+      "added": "2026-08-10"
+    },
+    "https://www.bwdisrupt.com/article/swiggy-targets-rs-10-000-cr-ebitda-by-fy31-bets-on-affordability-instamart-to-triple-scale-618202": {
+      "reason": "rule-excluded (Swiggy 8/6 실적 발표 동일 사건(Entrackr 채택))",
+      "added": "2026-08-10"
+    },
+    "https://www.asiae.co.kr/article/2026080610594278384": {
+      "reason": "rule-excluded (카카오 AI에이전트-쿠팡이츠 동일 사건(한국경제 채택))",
+      "added": "2026-08-10"
+    },
+    "https://tech.yahoo.com/transportation/articles/doordash-delivery-robot-drive-itself-173114581.html": {
+      "reason": "rule-excluded (Gizmodo 원보도의 어그리게이터 재보도)",
+      "added": "2026-08-10"
+    },
+    "https://www.talkingretail.com/news/special-reports/meeting-the-need-for-speed-big-story-rapid-delivery-07-08-2026/": {
+      "reason": "rule-excluded (본문 fetch 빈 응답·저신호 특집)",
+      "added": "2026-08-10"
     }
   },
   "stale_events": [

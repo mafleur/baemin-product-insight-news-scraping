@@ -58,3 +58,12 @@
 ## 2026-08-06
 - [ ] 🔒 접근불가: [iFood] 아이푸드, 해고 없이 AI 도입하는 방식 (Forbes Brasil 빈 응답 — 세션 WebSearch 예산 소진으로 provenance 확보 불가) → https://forbes.com.br/forbes-mkt/2026/08/como-o-ifood-aposta-no-uso-da-ia-sem-demitir-funcionarios/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-10
+- [ ] 🔒 접근불가: [배달의민족/INDUSTRY-KR] 쿠팡·배민 출혈경쟁 돌파구는 '슈퍼 앱'? (시사저널 본문 빈 응답 — 세션 fetch 캐시 중복으로 재조회 불가) → https://www.sisajournal.com/news/articleView.html?idxno=382670
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Careem] Careem, 두바이·아부다비 단체행사용 케이터링 서비스 출시 (본문 빈 응답 — 세션 fetch 캐시 중복으로 재조회 불가) → https://www.theprochefme.com/careem-launches-catering-service-for-group-events-in-dubai-and-abu-dhabi/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [DoorDash] 도어대시 배달로봇, 자율주행하지만 적재는 사람이 (Gizmodo 본문 빈 응답) → https://gizmodo.com/doordash-sends-drivers-to-restaurants-just-to-load-food-into-delivery-robots-2000793984
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🆕 신규 업체: Manna (Manna CEO Explains Why Drone Firm Chose Tulsa for U.S. Hub — 아일랜드 드론배달 기업, 미국 털사 거점) — 타겟 추가하려면 `ADD` 표시
