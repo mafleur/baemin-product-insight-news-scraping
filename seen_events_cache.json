@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -784,6 +784,58 @@
     "https://www.talkingretail.com/news/special-reports/meeting-the-need-for-speed-big-story-rapid-delivery-07-08-2026/": {
       "reason": "rule-excluded (본문 fetch 빈 응답·저신호 특집)",
       "added": "2026-08-10"
+    },
+    "https://www.fnnews.com/news/202608061350302816": {
+      "reason": "dup of 68268c1b (배민 신형 딜리 르포성 재보도)",
+      "added": "2026-08-11"
+    },
+    "https://www.fnnews.com/news/202608070901064601": {
+      "reason": "dup of e4b7c4c0 (세븐일레븐-쿠팡이츠 동일 발표)",
+      "added": "2026-08-11"
+    },
+    "https://retailtechinnovationhub.com/home/2026/7/29/uber-eats-adds-new-regional-grocery-partners-across-the-us-including-hays-and-piggly-wiggly": {
+      "reason": "dup of 6d2caaaf (우버이츠 미국 지역마트 입점 동일 발표)",
+      "added": "2026-08-11"
+    },
+    "https://press.wolt.com/en-RO/269046-wolt-launches-split-payments-for-group-orders-in-romania/": {
+      "reason": "dup of 5a92795b (볼트 분할결제 루마니아 순차 적용)",
+      "added": "2026-08-11"
+    },
+    "https://grandesnomesdapropaganda.com.br/anunciantes/ifood-lanca-bag-com-tecnologia-inedita/": {
+      "reason": "dup of 87f2e173 (아이푸드 백 프로 동일 사건)",
+      "added": "2026-08-11"
+    },
+    "https://qz.com/doordash-q2-2026-earnings-revenue-outlook-080626": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-11"
+    },
+    "https://www.bloomberg.com/news/articles/2026-08-03/grab-boosts-earnings-forecast-on-robust-ride-delivery-demand": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고 + Bloomberg 페이월)",
+      "added": "2026-08-11"
+    },
+    "https://www.sec.gov/Archives/edgar/data/0001855612/000185561226000123/a2026q2-earningspressrelea.htm": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-11"
+    },
+    "https://tbreak.com/careem-first-public-financials-h1-2026/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-11"
+    },
+    "https://www.agbi.com/tech/2026/08/careem-super-app-revenue-rises-but-losses-deepen/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-11"
+    },
+    "https://news.livedoor.com/topics/detail/31967789/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고 (데마에칸 최종적자))",
+      "added": "2026-08-11"
+    },
+    "https://www.sentv.co.kr/article/view/sentv202608070016": {
+      "reason": "rule-excluded (same-event source priority (세븐일레븐x쿠팡이츠))",
+      "added": "2026-08-11"
+    },
+    "https://www.e-science.co.kr/news/articleView.html?idxno=133136": {
+      "reason": "rule-excluded (same-event source priority (세븐일레븐x쿠팡이츠))",
+      "added": "2026-08-11"
     }
   },
   "stale_events": [
