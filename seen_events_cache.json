@@ -856,6 +856,18 @@
     "https://www.sisajournal.com/news/articleView.html?idxno=382670": {
       "reason": "dup of 41da0303 (배달앱 성장 둔화·퀵커머스 등 사업 다각화 진단과 동일 내용)",
       "added": "2026-08-12"
+    },
+    "https://www.stocktitan.net/news/IDT/nrs-connects-retailers-to-uber-vfjponkvo5e9.html": {
+      "reason": "rule-excluded (low-profile-vendor-onboarding)",
+      "added": "2026-08-12"
+    },
+    "https://investors.instacart.com/news-releases/news-release-details/instacart-and-academy-sports-outdoors-team-same-day-delivery": {
+      "reason": "rule-excluded (low-profile-vendor-onboarding)",
+      "added": "2026-08-12"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-08-07": {
+      "reason": "rule-excluded (too-granular-api-change)",
+      "added": "2026-08-12"
     }
   },
   "stale_events": [
