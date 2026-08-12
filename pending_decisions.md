@@ -67,3 +67,6 @@
 - [ ] 🔒 접근불가: [DoorDash] 도어대시 배달로봇, 자율주행하지만 적재는 사람이 (Gizmodo 본문 빈 응답) → https://gizmodo.com/doordash-sends-drivers-to-restaurants-just-to-load-food-into-delivery-robots-2000793984
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Manna (Manna CEO Explains Why Drone Firm Chose Tulsa for U.S. Hub — 아일랜드 드론배달 기업, 미국 털사 거점) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-08-12
+- [ ] 🆕 신규 업체: Google (Google Maps adds agentic features, including food ordering and hotel bookings) — 타겟 추가하려면 `ADD` 표시

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -836,6 +836,26 @@
     "https://www.e-science.co.kr/news/articleView.html?idxno=133136": {
       "reason": "rule-excluded (same-event source priority (세븐일레븐x쿠팡이츠))",
       "added": "2026-08-11"
+    },
+    "https://www.fntimes.com/html/view.php?ud=202608030848332127b5b890e35c_18": {
+      "reason": "dup of 68268c1b (배민 신형 배달로봇 딜리 X3-R 실전 투입과 동일 사건)",
+      "added": "2026-08-12"
+    },
+    "https://v.daum.net/v/yX2X1inQYl": {
+      "reason": "dup of c380dd19 (카카오 AI 에이전트 첫 파트너 쿠팡이츠 연동과 동일 발표)",
+      "added": "2026-08-12"
+    },
+    "https://www.ebn.co.kr/news/articleView.html?idxno=1719629": {
+      "reason": "dup of e4b7c4c0 (세븐일레븐 1500여 점포 쿠팡이츠 배달 개시와 동일 사건)",
+      "added": "2026-08-12"
+    },
+    "https://www.insightkorea.co.kr/news/articleView.html?idxno=252165": {
+      "reason": "dup of EXCLUDED (편의점-쿠팡이츠 24시간 배송 경쟁 기사와 동일 사안(수동 제외 건))",
+      "added": "2026-08-12"
+    },
+    "https://www.sisajournal.com/news/articleView.html?idxno=382670": {
+      "reason": "dup of 41da0303 (배달앱 성장 둔화·퀵커머스 등 사업 다각화 진단과 동일 내용)",
+      "added": "2026-08-12"
     }
   },
   "stale_events": [
