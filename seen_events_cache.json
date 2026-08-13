@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -868,6 +868,50 @@
     "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-08-07": {
       "reason": "rule-excluded (too-granular-api-change)",
       "added": "2026-08-12"
+    },
+    "https://newsway.co.kr/news/view?ud=2026080710344961638": {
+      "reason": "dup of e4b7c4c0 (세븐일레븐·CU·GS25 쿠팡이츠 편의점 퀵커머스 확대 동일 사안)",
+      "added": "2026-08-13"
+    },
+    "https://www.ajunews.com/view/20260806143020053": {
+      "reason": "dup of (후보간) (부릉 AI 자동배차 성과 — 아시아투데이 기사와 동일 사건)",
+      "added": "2026-08-13"
+    },
+    "https://retailtechinnovationhub.com/home/2026/8/11/just-eat-takeawaycom-rolls-out-ai-voice-assistant-across-europe-building-on-uk-and-germany-launches": {
+      "reason": "dup of 54f51f6d (저스트잇 유럽 전역 AI 음성 어시스턴트 출시 동일 발표)",
+      "added": "2026-08-13"
+    },
+    "https://gizmodo.com/doordash-sends-drivers-to-restaurants-just-to-load-food-into-delivery-robots-2000793984": {
+      "reason": "rule-excluded (daily-cap: 자동화 하드웨어)",
+      "added": "2026-08-13"
+    },
+    "https://www.thefairnews.co.kr/news/articleView.html?idxno=69431": {
+      "reason": "rule-excluded (published 2026-02-11 — CUTOFF_COLLECT 밖)",
+      "added": "2026-08-13"
+    },
+    "https://www.deccanherald.com/india/karnataka/bengaluru/restaurants-gig-workers-meet-swiggy-zomato-over-independence-day-strike-4100954": {
+      "reason": "rule-excluded (라이더·긱워커 노동 이슈)",
+      "added": "2026-08-13"
+    },
+    "https://www.mlex.com/mlex/amp/articles/2512244": {
+      "reason": "rule-excluded (GLOBAL 정부·규제 절차 뉴스)",
+      "added": "2026-08-13"
+    },
+    "https://www.elcolombiano.com/negocios/rappi-medellin-turbo-pedidos-restaurantes-2026-MN39706468": {
+      "reason": "rule-excluded (수치 집계성 추이 기사)",
+      "added": "2026-08-13"
+    },
+    "https://news.nate.com/view/20260811n27692": {
+      "reason": "rule-excluded (dup of 59e47fd8 (신한 땡겨요 대출 동일 사건) + 본문 fetch 실패)",
+      "added": "2026-08-13"
+    },
+    "https://www.viva100.com/article/20260807500064": {
+      "reason": "rule-excluded (dup of e4b7c4c0 (세븐일레븐 쿠팡이츠 동일 사건) + 본문 fetch 실패)",
+      "added": "2026-08-13"
+    },
+    "https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html": {
+      "reason": "rule-excluded (dup of DB Grab AI 30% faster (pymnts) + 본문 fetch 실패)",
+      "added": "2026-08-13"
     }
   },
   "stale_events": [

@@ -70,3 +70,6 @@
 
 ## 2026-08-12
 - [ ] 🆕 신규 업체: Google (Google Maps adds agentic features, including food ordering and hotel bookings) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-08-13
+- [ ] 🆕 신규 업체: 부릉(메쉬코리아) (라이더 최적동선 짜주니 상점도착 3.5분 단축…부릉 'AI의 힘') — 타겟 추가하려면 `ADD` 표시
