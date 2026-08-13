@@ -912,6 +912,22 @@
     "https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html": {
       "reason": "rule-excluded (dup of DB Grab AI 30% faster (pymnts) + 본문 fetch 실패)",
       "added": "2026-08-13"
+    },
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02784726645544040": {
+      "reason": "user-excluded (약관·이용정책 개정 기사)",
+      "added": "2026-08-13"
+    },
+    "https://www.newsfreezone.co.kr/news/articleView.html?idxno=703674": {
+      "reason": "user-excluded (상생·포용 프레이밍 금융지원 기사)",
+      "added": "2026-08-13"
+    },
+    "https://www.pointe.co.kr/news/articleView.html?idxno=82763": {
+      "reason": "user-excluded (체험기·리뷰형 기사)",
+      "added": "2026-08-13"
+    },
+    "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/": {
+      "reason": "user-excluded (지분 매각·처분 뉴스(단순 투자 뉴스))",
+      "added": "2026-08-13"
     }
   },
   "stale_events": [
