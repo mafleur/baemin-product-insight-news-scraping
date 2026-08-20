@@ -944,6 +944,14 @@
     "https://www.whalesbook.com/corporate-news/English/sebiexchange/Swiggy-AGM-All-resolutions-passed-including-foreign-ownership-cap/6a84696b6817e697e7d126b1": {
       "reason": "rule-excluded (daily-cap: 인도 뉴스)",
       "added": "2026-08-20"
+    },
+    "https://www.news1.kr/industry/distribution/6258996": {
+      "reason": "user-excluded (동일 스토리라인 중복(배민 심야·24시간 단계 확대) — d425a04a·c87642f3와 같은 사안의 후속 단계)",
+      "added": "2026-08-20"
+    },
+    "https://about.doordash.com/en-us/news/gap-and-gap-factory-land-on-doordash": {
+      "reason": "user-excluded (개별 리테일러 플랫폼 입점 단발 소식 — 예외(a) 오적용, 화이트리스트 미해당)",
+      "added": "2026-08-20"
     }
   },
   "stale_events": [
@@ -981,6 +989,21 @@
       "pattern": "(?i)uber eats.*(ai.*grocery|cart.*assistant|cart.*creation)",
       "reason": "Uber Eats AI grocery cart assistant (2026-02-11) — before cutoff",
       "added": "2026-03-23"
+    },
+    {
+      "pattern": "(?i)(배민|배달의민족).*(24시간|심야|새벽).*(확대|연장|시범|운영)",
+      "reason": "배민 심야·24시간 배달 단계적 확대 스토리라인 — 2026-05 이후 단계마다 재보도됨. 단계 확대는 DUPLICATE 취급",
+      "added": "2026-08-20"
+    },
+    {
+      "pattern": "(?i)(delivery hero|glovo|foodpanda|talabat|pedidosya|hungerstation).*(agentic|ai assistant|ai 어시스턴트|ai 비서)",
+      "reason": "DH 그룹 에이전틱 AI 어시스턴트(2026-08-13 28c356d8) — 브랜드별 순차 발표 예상, 후속은 DUPLICATE",
+      "added": "2026-08-20"
+    },
+    {
+      "pattern": "(?i)(lands on|now on|comes to|available on|joins) (doordash|uber eats|instacart|deliveroo|grab)",
+      "reason": "개별 리테일러·브랜드의 플랫폼 입점 단발 소식 — 전면 제외 대상",
+      "added": "2026-08-20"
     }
   ]
 }
