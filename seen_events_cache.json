@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-20",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -928,6 +928,22 @@
     "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/": {
       "reason": "user-excluded (지분 매각·처분 뉴스(단순 투자 뉴스))",
       "added": "2026-08-13"
+    },
+    "https://www.asiae.co.kr/article/2026081216554475487": {
+      "reason": "dup of 896a4d1f (제주 쿠팡나우 퀵커머스 시범 개시와 동일 사건)",
+      "added": "2026-08-20"
+    },
+    "https://biz.heraldcorp.com/article/10833035": {
+      "reason": "dup of 7085ce4b (7월 쿠팡·쿠팡이츠 결제추정액 역대 최대 동일 발표)",
+      "added": "2026-08-20"
+    },
+    "https://retailtechinnovationhub.com/home/2026/8/13/delivery-hero-launch-ai-assistant-for-local-shops-and-restaurants-with-roll-out-due-across-platform": {
+      "reason": "dup of 28c356d8 (동일 후보) (동일 AI 어시스턴트 출시 재보도, 공식 뉴스룸 우선)",
+      "added": "2026-08-20"
+    },
+    "https://www.whalesbook.com/corporate-news/English/sebiexchange/Swiggy-AGM-All-resolutions-passed-including-foreign-ownership-cap/6a84696b6817e697e7d126b1": {
+      "reason": "rule-excluded (daily-cap: 인도 뉴스)",
+      "added": "2026-08-20"
     }
   },
   "stale_events": [
