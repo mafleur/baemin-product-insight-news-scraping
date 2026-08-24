@@ -73,3 +73,9 @@
 
 ## 2026-08-13
 - [ ] 🆕 신규 업체: 부릉(메쉬코리아) (라이더 최적동선 짜주니 상점도착 3.5분 단축…부릉 'AI의 힘') — 타겟 추가하려면 `ADD` 표시
+
+## 2026-08-24
+- [ ] 🔒 접근불가: [배달의민족/쿠팡이츠] 배민·쿠팡이츠 무료배달 '비용 15% 상한제' 정치권 논의 (비즈니스포스트 본문 빈 응답 — 날짜 확인 불가) → https://www.businesspost.co.kr/BP?command=article_view&num=444171
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Careem] Careem, Dineout 음식 탐색용 인앱 AI 챗 출시 준비 (독점) (아라비안비즈니스 본문 빈 응답 — 발행일 확인 불가) → https://www.arabianbusiness.com/business/technology/exclusive-careem-gearing-up-to-launch-in-app-ai-chat-to-simplify-food-discovery-on-dineout
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

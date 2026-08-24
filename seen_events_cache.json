@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-24",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -952,6 +952,22 @@
     "https://about.doordash.com/en-us/news/gap-and-gap-factory-land-on-doordash": {
       "reason": "user-excluded (개별 리테일러 플랫폼 입점 단발 소식 — 예외(a) 오적용, 화이트리스트 미해당)",
       "added": "2026-08-20"
+    },
+    "https://www.newspim.com/news/view/20260818000855": {
+      "reason": "dup of EXCLUDED (8/18 신한 땡겨요 우수가맹점 대출 출시와 동일 사건 (사용자 제외 이벤트))",
+      "added": "2026-08-24"
+    },
+    "https://www.ajunews.com/view/20260821162921414": {
+      "reason": "dup of https://www.ajunews.com/view/20260819121515419 (동일 아주경제 「퀵커머스 전쟁」 연속기획의 후속편)",
+      "added": "2026-08-24"
+    },
+    "https://www.forbes.com/sites/bernardmarr/2026/08/21/how-instacart-is-using-physical-ai-to-reinvent-the-grocery-store/": {
+      "reason": "dup of 72bc5ccc (캐퍼카트 확산·아르팔루스 인수 기존 사건 재보도, 단계적 확대 추정)",
+      "added": "2026-08-24"
+    },
+    "https://www.newsis.com/view/NISX20260807_0003740394": {
+      "reason": "rule-excluded (cutoff 밖 (2026-08-07 < 2026-08-10))",
+      "added": "2026-08-24"
     }
   },
   "stale_events": [
