@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -968,6 +968,22 @@
     "https://www.newsis.com/view/NISX20260807_0003740394": {
       "reason": "rule-excluded (cutoff 밖 (2026-08-07 < 2026-08-10))",
       "added": "2026-08-24"
+    },
+    "https://v.daum.net/v/20260819173000087": {
+      "reason": "dup of 20a19858 (쿠팡이츠 도착보장 재도입 발표와 동일 사건)",
+      "added": "2026-08-25"
+    },
+    "https://www.cstoredive.com/news/gopuff-expands-private-label-debuts-first-seasonal-product-lineup/828415/": {
+      "reason": "dup of 44d9d985 (고퍼프 가을 한정 PB 확대 발표와 동일 사건)",
+      "added": "2026-08-25"
+    },
+    "https://www.pymnts.com/news/delivery/2026/uber-teams-with-zipline-to-expand-drone-delivery-service/": {
+      "reason": "dup of 45c058d6 (우버-집라인 드론 배달 제휴와 동일 사건)",
+      "added": "2026-08-25"
+    },
+    "https://www.zipline.com/newsroom/zipline-will-make-1-million-deliveries-per-day-through-new-uber-partnership": {
+      "reason": "dup of 45c058d6 (우버-집라인 드론 배달 제휴와 동일 사건)",
+      "added": "2026-08-25"
     }
   },
   "stale_events": [

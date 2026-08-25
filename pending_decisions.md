@@ -79,3 +79,7 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [Careem] Careem, Dineout 음식 탐색용 인앱 AI 챗 출시 준비 (독점) (아라비안비즈니스 본문 빈 응답 — 발행일 확인 불가) → https://www.arabianbusiness.com/business/technology/exclusive-careem-gearing-up-to-launch-in-app-ai-chat-to-simplify-food-discovery-on-dineout
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-25
+- [ ] 🔒 접근불가: [DoorDash] 서브 로보틱스, 도어대시 제휴 2개 도시 확대·그럽허브 추가 (블룸버그 페이라월 — 대체 매체 기사 미발견) → https://www.bloomberg.com/news/articles/2026-08-17/serve-robotics-expands-doordash-deal-in-two-cities-adds-grubhub-post-uber-riff
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
