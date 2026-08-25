@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -984,6 +984,42 @@
     "https://www.zipline.com/newsroom/zipline-will-make-1-million-deliveries-per-day-through-new-uber-partnership": {
       "reason": "dup of 45c058d6 (우버-집라인 드론 배달 제휴와 동일 사건)",
       "added": "2026-08-25"
+    },
+    "https://www.vendingtimes.com/news/zomato-pilots-food-vending-machines-in-india-offices/": {
+      "reason": "dup of 0f2ae147 (동일 Zomato Now 구르가온 음식 자판기 파일럿)",
+      "added": "2026-08-26"
+    },
+    "https://www.medianama.com/2026/08/223-zepto-blinkit-regulatory-food-safety-violations/": {
+      "reason": "rule-excluded (해외 GLOBAL 식품안전 위반 기사)",
+      "added": "2026-08-26"
+    },
+    "https://fortune.com/2026/08/21/amazon-uber-doordash-walmart-drone-delivery-wars/": {
+      "reason": "daily-cap: 자동화 하드웨어",
+      "added": "2026-08-26"
+    },
+    "https://www.cnbc.com/2026/08/19/amazon-plans-drone-expansion-as-top-exec-projects-1-million-deliveries.html": {
+      "reason": "daily-cap: 자동화 하드웨어 + 본문 fetch 실패",
+      "added": "2026-08-26"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#preference-picker": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-26"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#multiple-replacement-options": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-26"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#nutritious-choice-carousel": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-26"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#restock-reminders-on-checkout-aisle-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-26"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#customize-l1-l2-and-l3-department-page-layouts-storefront-pro": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-08-26"
     }
   },
   "stale_events": [

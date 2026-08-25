@@ -83,3 +83,7 @@
 ## 2026-08-25
 - [ ] 🔒 접근불가: [DoorDash] 서브 로보틱스, 도어대시 제휴 2개 도시 확대·그럽허브 추가 (블룸버그 페이라월 — 대체 매체 기사 미발견) → https://www.bloomberg.com/news/articles/2026-08-17/serve-robotics-expands-doordash-deal-in-two-cities-adds-grubhub-post-uber-riff
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-26
+- [ ] 🔒 접근불가: [iFood] iFood, 프로덕션 ML 모델 270개 보유 (CEO 인터뷰) (Mobile Time 본문 빈 응답 — provenance 확보 후 4회 재시도 실패, 대체 매체 없음) → https://www.mobiletime.com.br/noticias/17/08/2026/ifood-machine-learning/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
