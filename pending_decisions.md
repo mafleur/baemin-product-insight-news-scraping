@@ -87,3 +87,7 @@
 ## 2026-08-26
 - [ ] 🔒 접근불가: [iFood] iFood, 프로덕션 ML 모델 270개 보유 (CEO 인터뷰) (Mobile Time 본문 빈 응답 — provenance 확보 후 4회 재시도 실패, 대체 매체 없음) → https://www.mobiletime.com.br/noticias/17/08/2026/ifood-machine-learning/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-27
+- [ ] 🔒 접근불가: [Zepto] Zepto IPO 좌절이 드러낸 인도 퀵커머스 균열 (Nikkei Asia 페이월 — 빈 응답, 대체 매체 미발견) → https://asia.nikkei.com/business/retail/zepto-ipo-setback-highlights-fault-lines-in-india-s-quick-commerce-sector
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

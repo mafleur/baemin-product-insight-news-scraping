@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -698,8 +698,8 @@
       "added": "2026-08-06"
     },
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
-      "reason": "rule-excluded (daily-cap: 파트너 공지)",
-      "added": "2026-08-06"
+      "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
+      "added": "2026-08-27"
     },
     "https://vendor.foodpanda.com.tw/news/6a62be73fcc51c351fbf4ad2": {
       "reason": "rule-excluded (daily-cap: 파트너 공지)",
@@ -1020,6 +1020,22 @@
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#customize-l1-l2-and-l3-department-page-layouts-storefront-pro": {
       "reason": "daily-cap: 파트너 공지",
       "added": "2026-08-26"
+    },
+    "https://www.betanews.net/article/view/beta202608180021": {
+      "reason": "dup of EXCLUDED (user-excluded 신한 땡겨요 대출 동일 사건)",
+      "added": "2026-08-27"
+    },
+    "https://www.socialvalue.kr/news/view/1065577843257757": {
+      "reason": "dup of EXCLUDED (user-excluded 신한 땡겨요 대출 동일 사건)",
+      "added": "2026-08-27"
+    },
+    "https://www.spokesman.com/stories/2026/aug/17/serve-robotics-expands-doordash-deal-adds-grubhub-/": {
+      "reason": "dup of ac584cbc (서브로보틱스 그럽허브 제휴 동일 발표)",
+      "added": "2026-08-27"
+    },
+    "https://www.whalesbook.com/news/English/technology/Eternal-Limited-Pilots-Zomato-Now-Food-Vending-Machines/6a86f7b284d2dd5c12dddb8a": {
+      "reason": "dup of 0f2ae147 (조마토 나우 자판기 동일 사건)",
+      "added": "2026-08-27"
     }
   },
   "stale_events": [
