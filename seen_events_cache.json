@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-31",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1036,6 +1036,30 @@
     "https://www.whalesbook.com/news/English/technology/Eternal-Limited-Pilots-Zomato-Now-Food-Vending-Machines/6a86f7b284d2dd5c12dddb8a": {
       "reason": "dup of 0f2ae147 (조마토 나우 자판기 동일 사건)",
       "added": "2026-08-27"
+    },
+    "https://www.gopuff.com/newsroom/company-news/gopuff-expands-private-label-assortment-and-introduces-first-ever-seasonal-product-lineup": {
+      "reason": "dup of 44d9d985 (Gopuff 가을 PB 라인업 동일 발표)",
+      "added": "2026-08-31"
+    },
+    "https://ceo.baemin.com/notice/14657": {
+      "reason": "dup of 0d92055a (배민 바쁨상태 전국 오픈 동일 공지)",
+      "added": "2026-08-31"
+    },
+    "https://www.scmp.com/tech/big-tech/article/3365595/meituan-snaps-losing-streak-profitable-june-quarter-though-douyin-threat-looms": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-08-31"
+    },
+    "https://news.aibase.com/news/30367": {
+      "reason": "rule-excluded (Meituan 배달 비주력 AI 전환 기사)",
+      "added": "2026-08-31"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#spend-limit-approval-requests": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-08-31"
+    },
+    "https://wowtale.net/2026/08/27/263536/": {
+      "reason": "rule-excluded (제3자 핀테크 선정산 금융지원)",
+      "added": "2026-08-31"
     }
   },
   "stale_events": [

@@ -91,3 +91,8 @@
 ## 2026-08-27
 - [ ] 🔒 접근불가: [Zepto] Zepto IPO 좌절이 드러낸 인도 퀵커머스 균열 (Nikkei Asia 페이월 — 빈 응답, 대체 매체 미발견) → https://asia.nikkei.com/business/retail/zepto-ipo-setback-highlights-fault-lines-in-india-s-quick-commerce-sector
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-08-31
+- [ ] 🔒 접근불가: [Zepto] Zepto, 인앱 UPI 결제 도입…스위기·조마토 합류 (BW Businessworld 본문 빈 응답 — 발행일 확인 불가) → https://www.businessworld.in/article/zepto-rolls-out-in-app-upi-payments-joining-swiggy-and-zomato-report-586219
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🚫 차단 도메인 후보: ad-hoc-news.de — 추가하려면 `BLOCK` 표시
