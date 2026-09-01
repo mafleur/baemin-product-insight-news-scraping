@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1056,6 +1056,58 @@
     "https://wowtale.net/2026/08/27/263536/": {
       "reason": "rule-excluded (제3자 핀테크 선정산 금융지원)",
       "added": "2026-08-31"
+    },
+    "https://www.thefairnews.co.kr/news/articleView.html?idxno=86566": {
+      "reason": "dup of joongangenews 543963 (동일 버그바운티 발표 타 매체)",
+      "added": "2026-09-01"
+    },
+    "https://www.ftoday.co.kr/news/articleView.html?idxno=364231": {
+      "reason": "dup of sateconomy 1065595225356424 (배민 생활플랫폼 커머스 동일 스토리라인)",
+      "added": "2026-09-01"
+    },
+    "https://www.betanews.net/article/view/beta202608310053": {
+      "reason": "dup of hankyung 202608312812g (컬리N마트 1주년 동일 발표)",
+      "added": "2026-09-01"
+    },
+    "https://www.hankyung.com/article/2026083146281": {
+      "reason": "dup of 3f919b2b (컬리 상반기 실적·네이버 협업 재보도)",
+      "added": "2026-09-01"
+    },
+    "https://www.dt.co.kr/article/12078671": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건(신한 땡겨요 대출)의 재보도)",
+      "added": "2026-09-01"
+    },
+    "https://www.rte.ie/news/business/2026/0827/1589398-delivery-hero-quarterly-results/": {
+      "reason": "dup of 489ba6b9 (DH 2026 가이던스 상향 동일 발표)",
+      "added": "2026-09-01"
+    },
+    "https://www.nikkei.com/article/DGXZQOCC188A80Y6A810C2000000/": {
+      "reason": "dup of 091cfd1e (데마에칸 시부야 자율주행로봇 실증 동일 건)",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#coupons-savings-and-transaction-history-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#creatives-design-controls-for-content-page-and-homepage-customization-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#digital-flyer-localization-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#updated-delivery-orders-and-pickup-orders-pages-in-instacart-platform-portal": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#live-preview-on-content-pages-and-custom-homepages-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#featured-collections-in-instacart-platform-portal-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-09-01"
     }
   },
   "stale_events": [
