@@ -53,3 +53,16 @@
 - [x] 🚫 차단 도메인 후보: mordorintelligence.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)  ✅ 2026-09-02 prompt.md Blocked Domains에 반영
 - [x] 🚫 차단 도메인 후보: imarcgroup.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)  ✅ 2026-09-02 prompt.md Blocked Domains에 반영
 - [x] 🚫 차단 도메인 후보: researchandmarkets.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)  ✅ 2026-09-02 prompt.md Blocked Domains에 반영
+
+## 2026-09-03
+- [ ] 🚫 차단 도메인 후보: thebusinessresearchcompany.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: futuremarketinsights.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: businessresearchinsights.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: persistencemarketresearch.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: marketdataforecast.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: insightaceanalytic.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: giiresearch.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: coherentmarketinsights.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: marketresearchfuture.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: 360iresearch.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: marketreportsworld.com — 추가하려면 `BLOCK` 표시 (KR-IND·GL-IND 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)

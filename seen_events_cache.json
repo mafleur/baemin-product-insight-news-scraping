@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1136,6 +1136,34 @@
     "https://institucional.ifood.com.br/releases/ifood-denuncia-keeta-ao-cade-por-praticas-predatorias/": {
       "reason": "dup of 4f534219 (iFood CADE Keeta 제소 동일 사건, 본문 403)",
       "added": "2026-09-02"
+    },
+    "https://view.asiae.co.kr/article/2026090109302891865": {
+      "reason": "dup of 146e3e66 (10월 1일 포인트 적립형 배민클럽 신규 상품 출시 동일 발표)",
+      "added": "2026-09-03"
+    },
+    "https://view.asiae.co.kr/article/2026083108560216989": {
+      "reason": "dup of 1c5381dc (컬리N마트 1년 만에 거래액 10배 성장 동일 보도)",
+      "added": "2026-09-03"
+    },
+    "https://www.watch.impress.co.jp/docs/news/2135036.html": {
+      "reason": "dup of 091cfd1e (데마에칸 사사즈카 자율주행 로봇 배달 실증 동일 건)",
+      "added": "2026-09-03"
+    },
+    "https://finance.biggo.com/news/cb64b4f8-ac7f-4b60-8ea7-04da3659bb28": {
+      "reason": "rule-excluded (daily-check: GLOBAL 단순 손익 보고(Meituan Q2 실적))",
+      "added": "2026-09-03"
+    },
+    "https://techcrunch.com/2026/09/02/delivery-hero-board-backs-ubers-15b-takeover-bid/": {
+      "reason": "rule-excluded (daily-check: Uber-DH 규칙 — 이사회 권고는 결정적 진전 목록 밖)",
+      "added": "2026-09-03"
+    },
+    "https://investors.instacart.com/news-releases/news-release-details/instacart-and-world-market-announce-exclusive-partnership": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점(화이트리스트 밖))",
+      "added": "2026-09-03"
+    },
+    "https://investors.instacart.com/news-releases/news-release-details/instacart-and-petsense-tractor-supply-launch-exclusive-same-day": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점(기존 카테고리))",
+      "added": "2026-09-03"
     }
   },
   "stale_events": [
