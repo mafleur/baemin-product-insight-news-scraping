@@ -96,3 +96,11 @@
 - [ ] 🔒 접근불가: [Zepto] Zepto, 인앱 UPI 결제 도입…스위기·조마토 합류 (BW Businessworld 본문 빈 응답 — 발행일 확인 불가) → https://www.businessworld.in/article/zepto-rolls-out-in-app-upi-payments-joining-swiggy-and-zomato-report-586219
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🚫 차단 도메인 후보: ad-hoc-news.de — 추가하려면 `BLOCK` 표시
+
+## 2026-09-02
+- [ ] 🚫 차단 도메인 후보: statista.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: grandviewresearch.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: fortunebusinessinsights.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: mordorintelligence.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: imarcgroup.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)
+- [ ] 🚫 차단 도메인 후보: researchandmarkets.com — 추가하려면 `BLOCK` 표시 (산업 배치 검색이 뉴스 대신 상시형 마켓리포트로 채워짐)

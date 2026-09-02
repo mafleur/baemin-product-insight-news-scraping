@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1108,6 +1108,34 @@
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#featured-collections-in-instacart-platform-portal-storefront-pro-5": {
       "reason": "daily-cap: 파트너 공지",
       "added": "2026-09-01"
+    },
+    "https://www.asiatoday.co.kr/kn/view.php?key=20260831010010645": {
+      "reason": "dup of a249e64b (배민 버그바운티 포상금 2배 확대 동일 사건)",
+      "added": "2026-09-02"
+    },
+    "https://robotstart.info/article/2026/08/24/382311.html": {
+      "reason": "dup of 091cfd1e (데마에칸 시부야 사사즈카 Neubie 실증 동일 사건)",
+      "added": "2026-09-02"
+    },
+    "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건(플립카트 미닛츠 확장)의 새 URL 재보도)",
+      "added": "2026-09-02"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#on-sale-filter-includes-coupons-and-promotions": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-09-02"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#replacement-default-shown-before-checkout": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-09-02"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#divider-line-element-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-09-02"
+    },
+    "https://institucional.ifood.com.br/releases/ifood-denuncia-keeta-ao-cade-por-praticas-predatorias/": {
+      "reason": "dup of 4f534219 (iFood CADE Keeta 제소 동일 사건, 본문 403)",
+      "added": "2026-09-02"
     }
   },
   "stale_events": [
