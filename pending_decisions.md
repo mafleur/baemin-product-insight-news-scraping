@@ -8,9 +8,7 @@
 - [x] 🚫 차단 도메인 후보: yournews.com — 추가하려면 `BLOCK` 표시  ✅ 2026-09-02 prompt.md Blocked Domains에 반영
 
 ## 2026-07-20
-- [x] 🔒 접근불가: [Instacart] Instacart, Arpalus 인수—실시간 선반 인텔리전스 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence (✅ 2026-07-21 PR Newswire 대체 소스로 수집 완료, id 76c73f8c)
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [x] 🔒 접근불가: [Instacart] Instacart–Tractor Supply 파트너십—반려·농자재 배달 (Cloudflare 차단) → https://investors.instacart.com/news-releases/news-release-details/instacart-and-tractor-supply-partner-deliver-pet-supplies-farm (✅ 2026-07-28 company.instacart.com 공식 뉴스룸 대체 소스로 수집 완료)
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-07-23
@@ -81,3 +79,6 @@
 - [ ] 🆕 신규 업체: 로켓나우(Rocket Now) (쿠팡 일본 자회사 CP One Japan 운영 배달앱 — 出前館·menu 기사에 일본 3강 재편 축으로 반복 등장) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🔒 접근불가: [Deliveroo] Deliveroo AI 하이퍼로컬 커머스 (web_fetch 빈 응답, 발행일 확인 불가) → https://www.caterermiddleeast.com/news/deliveroo-ai-hyperlocal-commerce-doordash-backed-innovation
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-09-08
+- [ ] 🚫 차단 도메인 후보: einpresswire.com — 추가하려면 `BLOCK` 표시 (보도자료 배포 — GL-IND 검색 잠식)

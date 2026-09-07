@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1200,6 +1200,26 @@
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#nutritious-choice-carousel": {
       "reason": "dup of bf0124bf (동일 릴리스 항목 기수집)",
       "added": "2026-09-07"
+    },
+    "https://www.youthdaily.co.kr/news/article.html?no=225656": {
+      "reason": "dup of 59a8025f (민트스타 전국 4000곳 확대와 동일 사건)",
+      "added": "2026-09-08"
+    },
+    "https://www.etoday.co.kr/news/view/2622310": {
+      "reason": "dup of e6afed46 (롯데슈퍼-쿠팡이츠 퀵커머스 재진입 8/30 기사에 이미 포함)",
+      "added": "2026-09-08"
+    },
+    "https://www.fnnews.com/news/202609071814265388": {
+      "reason": "dup of b181f015 (동일 매체·동일일자 같은 기사 재게재)",
+      "added": "2026-09-08"
+    },
+    "https://www.bloomberg.com/news/articles/2026-09-02/meituan-s-500-estimate-surge-may-revive-china-delivery-stocks": {
+      "reason": "rule-excluded (해외 단순 손익·주가 뉴스 + Bloomberg 페이월)",
+      "added": "2026-09-08"
+    },
+    "https://www.bloomberg.com/news/articles/2026-09-02/delivery-hero-board-recommends-holders-accept-uber-takeover-bid-mtkbg82t": {
+      "reason": "rule-excluded (Uber-DH 규칙: 이사회 권고는 결정적 진전(딜 종결·경쟁당국 최종결정) 아님)",
+      "added": "2026-09-08"
     }
   },
   "stale_events": [
