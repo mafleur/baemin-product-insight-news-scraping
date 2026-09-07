@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-07",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1002,12 +1002,12 @@
       "added": "2026-08-26"
     },
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#preference-picker": {
-      "reason": "daily-cap: 파트너 공지",
-      "added": "2026-08-26"
+      "reason": "dup of 79375bf9 (동일 릴리스 항목 기수집)",
+      "added": "2026-09-07"
     },
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#multiple-replacement-options": {
-      "reason": "daily-cap: 파트너 공지",
-      "added": "2026-08-26"
+      "reason": "dup of f4e5f913 (동일 릴리스 항목 기수집)",
+      "added": "2026-09-07"
     },
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#restock-reminders-on-checkout-aisle-storefront-pro-5": {
       "reason": "daily-cap: 파트너 공지",
@@ -1164,6 +1164,42 @@
     "https://investors.instacart.com/news-releases/news-release-details/instacart-and-petsense-tractor-supply-launch-exclusive-same-day": {
       "reason": "rule-excluded (daily-check: 개별 업체 입점(기존 카테고리))",
       "added": "2026-09-03"
+    },
+    "https://biz.heraldcorp.com/article/10864239": {
+      "reason": "dup of e6afed46 (롯데슈퍼-쿠팡이츠 퀵커머스 제휴 기보도, 점포수·운영시간만 구체화)",
+      "added": "2026-09-07"
+    },
+    "https://tnnews.co.kr/archives/292893": {
+      "reason": "dup of e6afed46 (동일 롯데슈퍼-쿠팡이츠 제휴 사건의 타 매체 보도)",
+      "added": "2026-09-07"
+    },
+    "https://news.coupang.com/archives/66229/": {
+      "reason": "dup of 85b69293 (쿠팡이츠 스탬프 리워드 도입, 이미 수집된 동일 사건)",
+      "added": "2026-09-07"
+    },
+    "https://tnnews.co.kr/archives/292744": {
+      "reason": "dup of 85b69293 (쿠팡이츠 스탬프 이벤트를 사례로 든 해설 기사)",
+      "added": "2026-09-07"
+    },
+    "https://www.consumerwide.com/news/articleView.html?idxno=66841": {
+      "reason": "dup of 146e3e66 (배민클럽 포인트 적립 신상품 출시 동일 발표)",
+      "added": "2026-09-07"
+    },
+    "https://www.uber.com/us/en/newsroom/simplerfasteruber/": {
+      "reason": "dup of 91fc7eb8 (우버 인력 10% 감축·배달조직 통합 동일 발표)",
+      "added": "2026-09-07"
+    },
+    "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/sept-2026-ads-offers-updates/": {
+      "reason": "dup of e1519c8c (Uber Eats 광고·오퍼 도구 개편 동일 공지 기수집)",
+      "added": "2026-09-07"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#order-collaboration-for-family-accounts": {
+      "reason": "dup of 6ebf6a1a (동일 릴리스 항목 기수집)",
+      "added": "2026-09-07"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#nutritious-choice-carousel": {
+      "reason": "dup of bf0124bf (동일 릴리스 항목 기수집)",
+      "added": "2026-09-07"
     }
   },
   "stale_events": [

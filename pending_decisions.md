@@ -66,3 +66,18 @@
 - [x] 🚫 차단 도메인 후보: marketresearchfuture.com — `BLOCK`  ✅ 2026-09-03 prompt.md Blocked Domains에 반영
 - [x] 🚫 차단 도메인 후보: 360iresearch.com — `BLOCK`  ✅ 2026-09-03 prompt.md Blocked Domains에 반영
 - [x] 🚫 차단 도메인 후보: marketreportsworld.com — `BLOCK`  ✅ 2026-09-03 prompt.md Blocked Domains에 반영
+
+## 2026-09-07
+- [ ] 🚫 차단 도메인 후보: mordorintelligence.kr — 추가하려면 `BLOCK` 표시 (한국어 서브도메인 — .com만 차단돼 KR-IND 검색 상단을 계속 점유)
+- [ ] 🚫 차단 도메인 후보: seo.goover.ai — 추가하려면 `BLOCK` 표시 (AI 생성 상시형 리포트 — 산업 배치 결과 잠식)
+- [ ] 🚫 차단 도메인 후보: openpr.com — 추가하려면 `BLOCK` 표시 (유료 마켓리포트 배포 — GL-IND 검색 잠식)
+- [ ] 🚫 차단 도메인 후보: express-press-release.net — 추가하려면 `BLOCK` 표시 (유료 마켓리포트 배포)
+- [ ] 🚫 차단 도메인 후보: cognitivemarketresearch.com — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🚫 차단 도메인 후보: knowledge-sourcing.com — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🚫 차단 도메인 후보: skyquestt.com — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🚫 차단 도메인 후보: marknteladvisors.com — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🚫 차단 도메인 후보: market.us — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🚫 차단 도메인 후보: custommarketinsights.com — 추가하려면 `BLOCK` 표시 (마켓리포트 판매 SEO)
+- [ ] 🆕 신규 업체: 로켓나우(Rocket Now) (쿠팡 일본 자회사 CP One Japan 운영 배달앱 — 出前館·menu 기사에 일본 3강 재편 축으로 반복 등장) — 타겟 추가하려면 `ADD` 표시
+- [ ] 🔒 접근불가: [Deliveroo] Deliveroo AI 하이퍼로컬 커머스 (web_fetch 빈 응답, 발행일 확인 불가) → https://www.caterermiddleeast.com/news/deliveroo-ai-hyperlocal-commerce-doordash-backed-innovation
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
