@@ -82,3 +82,20 @@
 
 ## 2026-09-08
 - [ ] 🚫 차단 도메인 후보: einpresswire.com — 추가하려면 `BLOCK` 표시 (보도자료 배포 — GL-IND 검색 잠식)
+
+## 2026-09-09
+- [ ] 🚫 차단 도메인 후보: oysterlink.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: zippia.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: review42.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: demandsage.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: businessofapps.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: theglobalfiles.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: stackfood.app — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: folio3.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: webbytemplate.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: metricscart.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: cloudkitchens.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: webandcrafts.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: marksparksolutions.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: marketgrowthreports.com — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)
+- [ ] 🚫 차단 도메인 후보: researchgate.net — 추가하려면 `BLOCK` 표시 (GL-IND 검색이 무날짜 에버그린 SEO 통계 페이지로 100% 점유됨)

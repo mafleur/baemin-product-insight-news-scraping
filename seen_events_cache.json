@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-09",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1220,6 +1220,14 @@
     "https://www.bloomberg.com/news/articles/2026-09-02/delivery-hero-board-recommends-holders-accept-uber-takeover-bid-mtkbg82t": {
       "reason": "rule-excluded (Uber-DH 규칙: 이사회 권고는 결정적 진전(딜 종결·경쟁당국 최종결정) 아님)",
       "added": "2026-09-08"
+    },
+    "https://www.venturesquare.net/1109647": {
+      "reason": "dup of 1c5381dc (컬리N마트 1년 거래액 10배 동일 발표(매체만 다름))",
+      "added": "2026-09-09"
+    },
+    "https://www.kpinews.kr/newsView/1065575407170545": {
+      "reason": "dup of 0d92055a (땡배달비 인상·당일 철회 동일 사건)",
+      "added": "2026-09-09"
     }
   },
   "stale_events": [
