@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1228,6 +1228,26 @@
     "https://www.kpinews.kr/newsView/1065575407170545": {
       "reason": "dup of 0d92055a (땡배달비 인상·당일 철회 동일 사건)",
       "added": "2026-09-09"
+    },
+    "https://www.ajunews.com/view/20260831084341712": {
+      "reason": "dup of 1c5381dc (컬리N마트 1년 거래액 10배 동일 발표)",
+      "added": "2026-09-10"
+    },
+    "https://www.grocerydive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/829859/": {
+      "reason": "dup of b5b86785 (동일 클레멘타인 출시, 우선순위 낮은 매체)",
+      "added": "2026-09-10"
+    },
+    "https://www.modernretail.co/technology/instacart-launches-custom-ai-assistants-for-retailers-and-its-own/": {
+      "reason": "dup of b5b86785 (클레멘타인·카트어시스턴트 동일 패키지 발표)",
+      "added": "2026-09-10"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/meituan-mpngf-q2-2026-earnings-190123345.html": {
+      "reason": "dup of bd32b2a3 (메이투안 2분기 흑자전환 동일 사건)",
+      "added": "2026-09-10"
+    },
+    "https://www.kpinews.kr/newsView/1065592954430235": {
+      "reason": "rule-excluded (early-dedup 0.67: 땡배달비 인상 철회 = 기존 0d6ce25d)",
+      "added": "2026-09-10"
     }
   },
   "stale_events": [

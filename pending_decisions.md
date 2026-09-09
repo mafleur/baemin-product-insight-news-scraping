@@ -7,8 +7,6 @@
 - [x] 🆕 신규 업체: Coco Robotics (Coco Robotics Brings Autonomous Delivery to Washington, D.C.) — ❌ 2026-09-03 보류 종료: 자동화 하드웨어 일일 상한 1건이라 타겟 추가해도 최종 저장량은 그대로고 검색 예산만 소모
 - [x] 🚫 차단 도메인 후보: yournews.com — 추가하려면 `BLOCK` 표시  ✅ 2026-09-02 prompt.md Blocked Domains에 반영
 
-## 2026-07-20
-
 ## 2026-07-23
 - [x] 🆕 신규 업체: Matternet (Matternet taps Beeline to accelerate US drone delivery expansion) — ❌ 2026-09-03 보류 종료: 동일 — 드론 하드웨어 업체, 자동화 하드웨어 버킷 상한에 묶임
 
