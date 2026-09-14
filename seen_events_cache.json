@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-14",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1248,6 +1248,26 @@
     "https://www.kpinews.kr/newsView/1065592954430235": {
       "reason": "rule-excluded (early-dedup 0.67: 땡배달비 인상 철회 = 기존 0d6ce25d)",
       "added": "2026-09-10"
+    },
+    "https://company.instacart.com/pressreleases/meet-clementine-instacart-s-ai-shopping-assistant-that-takes-what-s-for-dinner-off-your-plate": {
+      "reason": "dup of b5b86785 (동일 사건(인스타카트 클레멘타인 출시) 기수집)",
+      "added": "2026-09-14"
+    },
+    "https://marketech-apac.com/foodpanda-brings-food-delivery-to-chatgpt-and-claude-with-new-ai-plug-in/": {
+      "reason": "dup of EXCLUDED (DH 그룹 Glovo 동일 기능 순차 발표(사용자 제외 사건))",
+      "added": "2026-09-14"
+    },
+    "https://www.etnews.com/20260909000226": {
+      "reason": "rule-excluded (daily-check: 음식배달·퀵커머스 범위 밖(리테일 가구 설치 물류))",
+      "added": "2026-09-14"
+    },
+    "https://www.g-enews.com/article/Distribution/2026/09/202609111434128152740eacf404_1": {
+      "reason": "rule-excluded (rule-excluded: 해설·분석성 + 개인정보 유출 여파(배민 건만 수집))",
+      "added": "2026-09-14"
+    },
+    "https://about.doordash.com/en-us/news/doordash-and-locally-partner": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점·연동(Locally 화이트리스트 미해당))",
+      "added": "2026-09-14"
     }
   },
   "stale_events": [

@@ -101,3 +101,6 @@
 - [x] ⛔ Cornershop 타겟에서 제거 — Uber Eats 태그로 흡수.
 - [x] 🔍 GL-C에 공정위 전용 쿼리 1회 신설 (SEARCH_BUDGET 15→16).
 - [x] ➖ 산업 배치(KR-IND·GL-IND) 쿼리는 **현행 유지** 결정.
+
+## 2026-09-14
+- [ ] 🆕 신규 업체: Shipt (Shipt becomes the latest delivery app with an AI shopping assistant) — 타겟 추가하려면 `ADD` 표시
