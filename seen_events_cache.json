@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1268,6 +1268,18 @@
     "https://about.doordash.com/en-us/news/doordash-and-locally-partner": {
       "reason": "rule-excluded (daily-check: 개별 업체 입점·연동(Locally 화이트리스트 미해당))",
       "added": "2026-09-14"
+    },
+    "https://www.edaily.co.kr/News/Read?newsId=03129126645580120": {
+      "reason": "dup of e6afed46 (롯데슈퍼-쿠팡이츠 입점 건의 후속 보도)",
+      "added": "2026-09-15"
+    },
+    "https://view.asiae.co.kr/article/2026090308260252511": {
+      "reason": "dup of 0576793e (부릉 AI 자동조정 요금제 도입 동일 발표)",
+      "added": "2026-09-15"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-09-25": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지 (2건 상한, 미래일자 2026-09-25))",
+      "added": "2026-09-15"
     }
   },
   "stale_events": [
