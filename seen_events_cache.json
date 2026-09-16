@@ -1278,8 +1278,8 @@
       "added": "2026-09-15"
     },
     "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-09-25": {
-      "reason": "rule-excluded (daily-cap: 파트너 공지 (2건 상한, 미래일자 2026-09-25))",
-      "added": "2026-09-15"
+      "reason": "rule-excluded (개별 API 단위 변경 — 2026-09-16 규칙 강화)",
+      "added": "2026-09-16"
     },
     "https://www.newspim.com/news/view/20260907000027": {
       "reason": "dup of e6afed46 (롯데슈퍼-쿠팡이츠 퀵커머스 재보도)",
@@ -1319,6 +1319,10 @@
     },
     "https://pulse2.com/grab-to-acquire-60-of-atome-financial-for-1-49-billion-and-plans-to-buy-remaining-40": {
       "reason": "rule-excluded (TLDR: SEA 권역 로컬 + 비배달 핀테크 M&A)",
+      "added": "2026-09-16"
+    },
+    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-09-14": {
+      "reason": "rule-excluded (개별 API 단위 변경 — 2026-09-16 규칙 강화)",
       "added": "2026-09-16"
     }
   },
