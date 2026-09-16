@@ -104,3 +104,9 @@
 
 ## 2026-09-14
 - [ ] 🆕 신규 업체: Shipt (Shipt becomes the latest delivery app with an AI shopping assistant) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-09-16
+- [ ] 🔒 접근불가: [배달의민족] 11년만에 화면 개편하는 배달의민족 → https://platum.kr/archives/164375
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Instacart] Instacart launches AI-powered Smart Shop technology → https://investors.instacart.com/news-releases/news-release-details/instacart-launches-ai-powered-smart-shop-technology-and-new
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
