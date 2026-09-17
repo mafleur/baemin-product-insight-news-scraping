@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1324,6 +1324,22 @@
     "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-09-14": {
       "reason": "rule-excluded (개별 API 단위 변경 — 2026-09-16 규칙 강화)",
       "added": "2026-09-16"
+    },
+    "https://www.g-enews.com/article/Distribution/2026/09/202609161542521207740eacf404_1": {
+      "reason": "dup of fbb4d2d3 (배민B마트 vs 쿠팡나우 퀵커머스 경쟁 동일 사건)",
+      "added": "2026-09-17"
+    },
+    "https://rojotoshosai.jp/rocket-now-8-million-downloads-food-delivery-2026/": {
+      "reason": "dup of 7408952e (로켓나우 800만 DL 동일 발표)",
+      "added": "2026-09-17"
+    },
+    "https://view.asiae.co.kr/article/2026091515244632297": {
+      "reason": "dup of 2f8741e6 (중기중앙회 거래비용 26.2% 동일 조사)",
+      "added": "2026-09-17"
+    },
+    "https://www.cnbc.com/2026/09/16/grab-financial-services-atome-purchase-.html": {
+      "reason": "dup of pulse2 기수집 (Grab-Atome 60% 인수 동일 사건)",
+      "added": "2026-09-17"
     }
   },
   "stale_events": [
