@@ -1340,6 +1340,10 @@
     "https://www.cnbc.com/2026/09/16/grab-financial-services-atome-purchase-.html": {
       "reason": "dup of pulse2 기수집 (Grab-Atome 60% 인수 동일 사건)",
       "added": "2026-09-17"
+    },
+    "https://inc42.com/buzz/govt-tightens-ecommerce-rules-ahead-of-the-festive-season/": {
+      "reason": "user-excluded (2026-09-17)",
+      "added": "2026-09-17"
     }
   },
   "stale_events": [
