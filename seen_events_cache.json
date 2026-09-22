@@ -1376,6 +1376,18 @@
     "https://news.nate.com/view/20260911n34101": {
       "reason": "rule-excluded (재게시 애그리게이터·원문 미확인)",
       "added": "2026-09-22"
+    },
+    "https://view.asiae.co.kr/article/2026091611515597512": {
+      "reason": "user-excluded (사용자 제외 — 형사사건 보도, 제품·정책 변화 없음)",
+      "added": "2026-09-22"
+    },
+    "https://about.doordash.com/en-us/news/doordash-costco-partnership": {
+      "reason": "user-excluded (사용자 제외 — 코스트코 제휴 확대 기사 기수집)",
+      "added": "2026-09-22"
+    },
+    "https://entrackr.com/news/zomato-swiggy-deliver-near-meituan-unit-economics-despite-22x-smaller-indian-market-12518269": {
+      "reason": "user-excluded (사용자 제외 — 애널리스트 유닛이코노믹스 분석)",
+      "added": "2026-09-22"
     }
   },
   "stale_events": [
