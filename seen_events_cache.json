@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-22",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1344,6 +1344,38 @@
     "https://inc42.com/buzz/govt-tightens-ecommerce-rules-ahead-of-the-festive-season/": {
       "reason": "user-excluded (2026-09-17)",
       "added": "2026-09-17"
+    },
+    "https://www.sedaily.com/article/20093130": {
+      "reason": "dup of 5db455f0 (배민 AI 배달시간 예측 = 준비시간 입력 개선 공지와 동일 사건)",
+      "added": "2026-09-22"
+    },
+    "https://www.dailian.co.kr/news/view/1690260/%EC%8B%A0%ED%95%9C%EC%9D%80%ED%96%89-%EB%95%A1%EA%B2%A8%EC%9A%94-%ED%9A%8C%EC%9B%90-1000%EB%A7%8C%EB%AA%85-%EB%8B%AC-2026": {
+      "reason": "dup of 318a0d85 (땡겨요 회원 1000만 돌파 동일 사건)",
+      "added": "2026-09-22"
+    },
+    "https://www.hankyung.com/article/2026091073521": {
+      "reason": "dup of 318a0d85 (1000만 회원 임박 — 동일 마일스톤 선행 단계)",
+      "added": "2026-09-22"
+    },
+    "https://wproo.com/2026/09/17/nova-inteligencia-artificial-do-ifood-auxilia-restaurantes-a-impulsionar-vendas-via-whatsapp/": {
+      "reason": "dup of e053aae9 (iFood 식당용 AI 출시의 왓츠앱 앵글)",
+      "added": "2026-09-22"
+    },
+    "https://antihype.com.br/c/negocios/ifood-investimento-24-bilhoes-envios-lojas/": {
+      "reason": "dup of a947fb5e (iFood 240억 헤알 투자 발표 동일 사건)",
+      "added": "2026-09-22"
+    },
+    "https://agenciagbc.com/2026/09/18/ifood-prepara-mudanca-que-pode-transformar-as-compras-de-supermercado-no-brasil/": {
+      "reason": "dup of a947fb5e (iFood 240억 헤알 투자의 비식품 카테고리 앵글)",
+      "added": "2026-09-22"
+    },
+    "https://www.newsway.co.kr/news/view?ud=2026092114400436369": {
+      "reason": "rule-excluded (fetch 실패·저신호, 동일사건 대체기사 수집됨)",
+      "added": "2026-09-22"
+    },
+    "https://news.nate.com/view/20260911n34101": {
+      "reason": "rule-excluded (재게시 애그리게이터·원문 미확인)",
+      "added": "2026-09-22"
     }
   },
   "stale_events": [

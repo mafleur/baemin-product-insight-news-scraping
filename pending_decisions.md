@@ -110,3 +110,7 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [Instacart] Instacart launches AI-powered Smart Shop technology → https://investors.instacart.com/news-releases/news-release-details/instacart-launches-ai-powered-smart-shop-technology-and-new
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-09-22
+- [ ] 🔒 접근불가: [로켓나우] Coupang's cost-cutting Rocket Now shakes up Japan's food delivery sector → https://asia.nikkei.com/business/food-beverage/coupang-s-cost-cutting-rocket-now-shakes-up-japan-s-food-delivery-sector
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
