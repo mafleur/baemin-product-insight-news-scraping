@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-30",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1388,6 +1388,94 @@
     "https://entrackr.com/news/zomato-swiggy-deliver-near-meituan-unit-economics-despite-22x-smaller-indian-market-12518269": {
       "reason": "user-excluded (사용자 제외 — 애널리스트 유닛이코노믹스 분석)",
       "added": "2026-09-22"
+    },
+    "https://www.thefairnews.co.kr/news/articleView.html?idxno=88790": {
+      "reason": "dup of 6cdbbaad (우아한테크콘퍼런스 2026 개최 동일 사건(이투데이 기수집))",
+      "added": "2026-09-30"
+    },
+    "https://www.seoul.co.kr/news/economy/industry/2026/09/29/20260929022006": {
+      "reason": "dup of e6afed46 (롯데슈퍼-쿠팡이츠 퀵커머스 제휴 동일 스토리라인의 규모 확대 후속)",
+      "added": "2026-09-30"
+    },
+    "https://www.ftoday.co.kr/news/articleView.html?idxno=365964": {
+      "reason": "dup of newspim 20260922001103 (땡겨요 강원 협약 동일 사건 — 후보 간 중복)",
+      "added": "2026-09-30"
+    },
+    "https://www.newspim.com/news/view/20260923000450": {
+      "reason": "dup of e6afed46 (SSM 퀵커머스 확대 동일 트렌드·동일 GS더프레시 수치 재보도)",
+      "added": "2026-09-30"
+    },
+    "https://view.asiae.co.kr/article/2026092311190315996": {
+      "reason": "dup of 2f8741e6 (중기중앙회 거래비용 26%대 조사 결과 재보도)",
+      "added": "2026-09-30"
+    },
+    "https://company.instacart.com/pressreleases/instacart-gives-grocers-and-cpg-brands-a-live-view-of-every-store": {
+      "reason": "dup of 630bb833 (매장 진열 가시성 솔루션 출시 동일 발표(PYMNTS 기수집))",
+      "added": "2026-09-30"
+    },
+    "https://www.pymnts.com/aggregators/2026/costco-and-doordash-launch-same-day-delivery-in-us/": {
+      "reason": "dup of EXCLUDED (user-excluded — 도어대시·코스트코 전국 확대 기수집분)",
+      "added": "2026-09-30"
+    },
+    "https://mezha.net/eng/news/mcdonald-s-i-meituan-zapustyly-dostavku-izhi-dronamy-u-shankhai/": {
+      "reason": "dup of 753f57df (상하이 맥도날드 전용 드론 노선 개통 동일 사건)",
+      "added": "2026-09-30"
+    },
+    "https://melhorinvestimento.net/noticias/ifood-lanca-novo-servico-de-entregas-lojas-fora-do-app": {
+      "reason": "dup of b1c85b85 (Envios iFood 출시 동일 사건)",
+      "added": "2026-09-30"
+    },
+    "https://guiadafarmacia.com.br/ifood-lanca-solucao-de-entregas-para-pedidos-fora-do-app/": {
+      "reason": "dup of b1c85b85 (Envios iFood 출시 동일 사건)",
+      "added": "2026-09-30"
+    },
+    "https://mundorh.com.br/ifood-investe-r-24-bilhoes-e-amplia-uso-de-ia/": {
+      "reason": "dup of a947fb5e (브라질 240억 헤알 투자·AI 확대 동일 발표)",
+      "added": "2026-09-30"
+    },
+    "https://www.cnbc.com/2026/09/16/costco-and-uber-partnership.html": {
+      "reason": "dup of pymnts costco-uber-eats-47-states (코스트코-우버이츠 47개주 확대 동일 사건(기수집))",
+      "added": "2026-09-30"
+    },
+    "https://www.ocafezinho.com/2026/09/16/ifood-elevara-investimento-no-brasil-a-r-24-bilhoes": {
+      "reason": "dup of a947fb5e (240억 헤알 투자 동일 발표)",
+      "added": "2026-09-30"
+    },
+    "https://www.bloomberg.com/news/articles/2026-09-23/amazon-swiggy-among-firms-facing-india-food-regulator-s-action": {
+      "reason": "rule-excluded (rule: 해외(GLOBAL) 식품안전 위반 기사)",
+      "added": "2026-09-30"
+    },
+    "https://view.asiae.co.kr/article/2026092315074530089": {
+      "reason": "rule-excluded (rule: Uber-DH 해설·칼럼(결정적 진전 아님))",
+      "added": "2026-09-30"
+    },
+    "https://www.mt.co.kr/economy/2026/09/22/2026092213385177748": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://imnews.imbc.com/news/2026/econo/article/6853526_36932.html": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200190.html": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://www.g-enews.com/article/General-News/2026/09/202609221931551717ea14faf6f5_1": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://futurechosun.com/archives/161071": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://news.jkn.co.kr/post/993755": {
+      "reason": "rule-excluded (rule: 우버-DH 공정위 사전심사 착수 — 최종 결정 아님)",
+      "added": "2026-09-30"
+    },
+    "https://www.ana.net/magazines/show/id/news-2026-09-21-instacart-in-store-solutions": {
+      "reason": "rule-excluded (rule: 페이월 — 공식 보도자료로 대체했고 그 건은 DB 기수집)",
+      "added": "2026-09-30"
     }
   },
   "stale_events": [

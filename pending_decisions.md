@@ -73,7 +73,6 @@
 - [x] 🚫 차단 도메인 후보: market.us — `BLOCK`  ✅ 2026-09-09 prompt.md Blocked Domains에 반영 (이후 동종 도메인은 자동 차단)
 - [x] 🚫 차단 도메인 후보: custommarketinsights.com — `BLOCK`  ✅ 2026-09-09 prompt.md Blocked Domains에 반영 (이후 동종 도메인은 자동 차단)
 - [x] 🆕 신규 업체: 로켓나우(Rocket Now) (쿠팡 일본 자회사 CP One Japan 운영 배달앱 — 出前館·menu 기사에 일본 3강 재편 축으로 반복 등장) — `ADD`  ✅ 2026-09-09 GLOBAL 타겟 추가(GL-D 배치, company=로켓나우)
-- [x] 🔒 접근불가: [Deliveroo] Deliveroo AI 하이퍼로컬 커머스 → Chrome 재시도 결과 **발행일 2025-12-02**로 확인, 컷오프 밖이라 수집 불가. 종결.
 
 ## 2026-09-08
 - [x] 🚫 차단 도메인 후보: einpresswire.com — `BLOCK`  ✅ 2026-09-09 prompt.md Blocked Domains에 반영 (이후 동종 도메인은 자동 차단)
@@ -113,4 +112,10 @@
 
 ## 2026-09-22
 - [ ] 🔒 접근불가: [로켓나우] Coupang's cost-cutting Rocket Now shakes up Japan's food delivery sector → https://asia.nikkei.com/business/food-beverage/coupang-s-cost-cutting-rocket-now-shakes-up-japan-s-food-delivery-sector
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-09-30
+- [ ] 🔒 접근불가: [Deliveroo] Deliveroo enters a new era of AI, hyperlocal commerce and DoorDash-backed innovation → https://www.caterermiddleeast.com/news/deliveroo-ai-hyperlocal-commerce-doordash-backed-innovation
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [iFood] iFood lança recurso para escolha de rotas (배달파트너 경로 선택 기능 출시) → https://institucional.ifood.com.br/releases/ifood-lanca-recurso-para-escolha-de-rotas/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
