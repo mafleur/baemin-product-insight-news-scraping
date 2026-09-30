@@ -117,5 +117,5 @@
 ## 2026-09-30
 - [ ] 🔒 접근불가: [Deliveroo] Deliveroo enters a new era of AI, hyperlocal commerce and DoorDash-backed innovation → https://www.caterermiddleeast.com/news/deliveroo-ai-hyperlocal-commerce-doordash-backed-innovation
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [iFood] iFood lança recurso para escolha de rotas (배달파트너 경로 선택 기능 출시) → https://institucional.ifood.com.br/releases/ifood-lanca-recurso-para-escolha-de-rotas/
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [x] 🔒 접근불가: [iFood] iFood lança recurso para escolha de rotas → https://institucional.ifood.com.br/releases/ifood-lanca-recurso-para-escolha-de-rotas/
+      (2026-09-30 해결: Akamai가 브라우저도 차단. Canaltech 대체 기사로 확인 — 발행일 2026-04-09 'Rotas Disponíveis', 컷오프 밖이라 수집 불가)
