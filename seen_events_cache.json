@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1476,6 +1476,82 @@
     "https://www.ana.net/magazines/show/id/news-2026-09-21-instacart-in-store-solutions": {
       "reason": "rule-excluded (rule: 페이월 — 공식 보도자료로 대체했고 그 건은 DB 기수집)",
       "added": "2026-09-30"
+    },
+    "https://www.fnnews.com/news/202609220926004949": {
+      "reason": "dup of 6cdbbaad (우아콘 2026 개최 발표 동일 사건)",
+      "added": "2026-10-01"
+    },
+    "https://prtimes.jp/main/html/rd/p/000000036.000161570.html": {
+      "reason": "dup of 85b69293 (Coupang 그룹 내 동일 스탬프 리워드 기능)",
+      "added": "2026-10-01"
+    },
+    "https://smartmarketing.biz-journal.jp/pickup-news/post_337340.html": {
+      "reason": "dup of 7408952e (로켓나우 무료배달·전국 확대 재보도)",
+      "added": "2026-10-01"
+    },
+    "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 분할 보도(문자 주문 AI))",
+      "added": "2026-10-01"
+    },
+    "https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 분할 보도(자체 드론))",
+      "added": "2026-10-01"
+    },
+    "https://www.freightwaves.com/news/doordash-launches-retail-returns-service-self-designed-drones": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 분할 보도(반품 서비스))",
+      "added": "2026-10-01"
+    },
+    "https://www.gurufocus.com/news/9103650/doordash-launches-dashos-platform-to-enhance-restaurant-growth-and-customer-experience-dash": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 분할 보도(DashOS))",
+      "added": "2026-10-01"
+    },
+    "https://ir.doordash.com/news/news-details/2026/New-AI-Tools-Helping-Dashers-Get-Started-and-Get-More-from-Every-Dash/default.aspx": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 분할 보도(DashBuddy))",
+      "added": "2026-10-01"
+    },
+    "https://www.grocerydive.com/news/instacart-doordash-tackle-online-grocery-affordability/831246/": {
+      "reason": "dup of d2bd7bc9 (인스타카트 동일가 확대 스토리라인 재보도)",
+      "added": "2026-10-01"
+    },
+    "https://www.acessa.com/noticias/2026/09/340081-ifood-anuncia-investimento-recorde-de-rs-24-bi-em-meio-a-disputas-na-justica-e-no-cade.html": {
+      "reason": "dup of a947fb5e (iFood 240억 헤알 투자 발표 동일 사건)",
+      "added": "2026-10-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#store-level-direct-pay-connections-in-stripe-associations": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-10-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#fee-rewards-available-with-any-distribution-channel": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-10-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#phone-number-masking-in-chat-and-notifications": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-10-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#buy-it-again-carousel-on-digital-flyer-pages-storefront-pro-5": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-10-01"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#improved-order-issue-reporting": {
+      "reason": "daily-cap: 파트너 공지",
+      "added": "2026-10-01"
+    },
+    "https://www.kmib.co.kr/article/view.asp?arcid=9000018352": {
+      "reason": "rule-excluded (롯데슈퍼 단일업체 홍보성 기획기사)",
+      "added": "2026-10-01"
+    },
+    "https://tiinside.com.br/17/09/2026/ifood-anuncia-investimento-recorde-de-r-24-bilhoes-no-brasil/": {
+      "reason": "rule-excluded (iFood R$24bi 동일 사건 재보도·403)",
+      "added": "2026-10-01"
+    },
+    "https://digitimes.com/news/a20260924VL221/grab-taiwan-expansion-asia-market.html": {
+      "reason": "rule-excluded (Grab 대만 단계적 확대 후속·403)",
+      "added": "2026-10-01"
+    },
+    "https://www.asiatime.co.kr/article/20260929500389": {
+      "reason": "rule-excluded (robots 차단·저신호 트렌드 기획)",
+      "added": "2026-10-01"
     }
   },
   "stale_events": [
