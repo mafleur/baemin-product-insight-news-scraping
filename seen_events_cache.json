@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-06",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1552,6 +1552,78 @@
     "https://www.asiatime.co.kr/article/20260929500389": {
       "reason": "rule-excluded (robots 차단·저신호 트렌드 기획)",
       "added": "2026-10-01"
+    },
+    "https://www.segye.com/newsView/20261003501588": {
+      "reason": "dup of ddaed247 (배민 B마트 티머니 교통카드 판매 개시 동일 사건)",
+      "added": "2026-10-06"
+    },
+    "https://about.doordash.com/en-us/news/dashbuddy": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 패키지의 DashBuddy 구성요소)",
+      "added": "2026-10-06"
+    },
+    "https://www.digitalcommerce360.com/2026/10/01/doordash-expands-access-to-agentic-ordering-for-offices-corporate-customers/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026의 기업용 MCP 커넥터 발표)",
+      "added": "2026-10-06"
+    },
+    "https://www.infoq.com/news/2026/10/uber-eats-search-latency/": {
+      "reason": "dup of 925b87dd (우버이츠 검색 파이프라인 재설계 동일 발표 재보도)",
+      "added": "2026-10-06"
+    },
+    "https://www.mt.co.kr/tech/2026/09/24/2026092311045910590": {
+      "reason": "dup of 7408952e (로켓나우 일본 다운로드 마일스톤·무료배달 재보도)",
+      "added": "2026-10-06"
+    },
+    "https://www.prosus.com/news-insights/2026/ifood-move-2026-toqan-puts-ai-to-work-for-brazils-restaurants": {
+      "reason": "dup of e053aae9 (iFood 식당용 AI 비서 토칸 출시 동일 사건)",
+      "added": "2026-10-06"
+    },
+    "https://itforum.com.br/noticias/skills-ia-ifood-rh/": {
+      "reason": "dup of 7a58a6f4 (iFood HR AI 스킬 공개의 후속 다운로드 실적)",
+      "added": "2026-10-06"
+    },
+    "https://entrepreneur.com/business-news/doordashs-new-ai-agent-lets-you-order-dinner-by-text": {
+      "reason": "dup of b0740d06 (Dash Forward 2026의 문자 주문 AI 에이전트 발표)",
+      "added": "2026-10-06"
+    },
+    "https://insideretail.com.au/top-stories/target-launches-on-uber-eats-for-one-hour-delivery-202610": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점 (호주 Target은 화이트리스트 Target Corp.과 별개 법인))",
+      "added": "2026-10-06"
+    },
+    "https://technode.com/2026/09/30/meituan-releases-longcat-2-5-preview-with-image-understanding/": {
+      "reason": "rule-excluded (Meituan 순수 AI 모델 기술 — 배달이 주 focus 아님)",
+      "added": "2026-10-06"
+    },
+    "https://www.medianama.com/2026/10/223-amazon-quick-commerce-grocery-loss-fy26/": {
+      "reason": "rule-excluded (해외 단순 손익 보고 기사)",
+      "added": "2026-10-06"
+    },
+    "https://grocerygazette.co.uk/2026/10/05/deliveroo-announces-plans-to-expand-robotic-delivery-fleet": {
+      "reason": "rule-excluded (same-event 하위 소스 (prnewswire 채택))",
+      "added": "2026-10-06"
+    },
+    "https://retailtechinnovationhub.com/home/2026/10/4/deliveroo-preps-launch-of-food-and-grocery-delivery-robots-in-some-parts-of-the-uk": {
+      "reason": "rule-excluded (same-event 하위 소스 (prnewswire 채택))",
+      "added": "2026-10-06"
+    },
+    "https://travelextra.ie/just-eat-launches-whatsapp-ordering": {
+      "reason": "rule-excluded (same-event 하위 소스 (JET 뉴스룸 채택))",
+      "added": "2026-10-06"
+    },
+    "https://www.fntimes.com/html/view.php?ud=202609221525018906b5b890e35c_18": {
+      "reason": "rule-excluded (early-dedup: 우아한테크콘퍼런스 2026 기존 수집(6cdbbaad))",
+      "added": "2026-10-06"
+    },
+    "https://roboticsandautomationnews.com/2026/10/01/flytrex-launches-rooftop-drone-docks-and-predictive-ai-to-cut-delivery-costs-by-60-percent/105406/": {
+      "reason": "rule-excluded (daily-cap: 자동화 하드웨어)",
+      "added": "2026-10-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#manual-pinning-on-flyer-carousels-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-10-06"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#scope-navigation-links-to-store-groups-storefront-pro-5": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-10-06"
     }
   },
   "stale_events": [

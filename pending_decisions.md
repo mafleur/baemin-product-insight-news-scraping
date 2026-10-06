@@ -113,3 +113,8 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [x] 🔒 접근불가: [iFood] iFood lança recurso para escolha de rotas → https://institucional.ifood.com.br/releases/ifood-lanca-recurso-para-escolha-de-rotas/
       (2026-09-30 해결: Akamai가 브라우저도 차단. Canaltech 대체 기사로 확인 — 발행일 2026-04-09 'Rotas Disponíveis', 컷오프 밖이라 수집 불가)
+
+## 2026-10-06
+- [ ] 🔒 접근불가: [iFood] Envios iFood terá novas modalidades logísticas, diz CEO → https://www.mobiletime.com.br/noticias/30/09/2026/envios-ifood-tera-logist/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🆕 신규 업체: Flytrex (옥상 드론 도크·예측 AI로 배달비 60% 절감) — 타겟 추가하려면 `ADD` 표시
