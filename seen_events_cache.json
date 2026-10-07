@@ -1660,6 +1660,10 @@
     "https://newsbytesapp.com/news/india/telangana-suspends-swiggy-instamart-flipkart-zepto-dark-stores-after-inspections/tldr": {
       "reason": "rule-excluded (해외(GLOBAL) 식품안전 위반 기사 — 유통기한 경과·위생 적발에 따른 영업정지)",
       "added": "2026-10-07"
+    },
+    "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#view-attribute-information-sources": {
+      "reason": "rule-excluded (user: 지엽적 — 릴리스노트 개별 항목)",
+      "added": "2026-10-07"
     }
   },
   "stale_events": [
