@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1624,6 +1624,42 @@
     "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#scope-navigation-links-to-store-groups-storefront-pro-5": {
       "reason": "rule-excluded (daily-cap: 파트너 공지)",
       "added": "2026-10-06"
+    },
+    "https://techcrunch.com/2026/10/06/uber-is-spending-2-3b-to-get-into-catering/": {
+      "reason": "dup of 360cd469 (동일 ezCater 인수 발표 — 공식 IR 우선)",
+      "added": "2026-10-07"
+    },
+    "https://www.restaurantdive.com/news/uber-eats-acquires-ezcater-2-billion/832219/": {
+      "reason": "dup of 360cd469 (동일 ezCater 인수 발표 — 공식 IR 우선)",
+      "added": "2026-10-07"
+    },
+    "https://iphoneincanada.ca/2026/10/06/skip-and-instacart-team-up-to-expand-delivery-options-across-canada": {
+      "reason": "dup of 2a1bd6b8 (동일 스킵·인스타카트 제휴 — 공식 보도자료 우선)",
+      "added": "2026-10-07"
+    },
+    "https://chainstoreage.com/doordash-launches-text-orders-drones-return-pick-ups-ai-tools": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 발표 묶음 재보도)",
+      "added": "2026-10-07"
+    },
+    "https://avweb.com/aviation-news/doordash-unveils-new-delivery-drone/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 DoorDash Air 드론 개별 보도)",
+      "added": "2026-10-07"
+    },
+    "https://www.pymnts.com/news/delivery/2026/doordash-slides-into-your-dms-with-dinner/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 AI 문자 주문 후속 보도)",
+      "added": "2026-10-07"
+    },
+    "https://www.agitossp.com.br/keeta-retoma-expansao-no-brasil-com-o-lancamento-de-21-cidades/": {
+      "reason": "dup of 816e8189 (키타 브라질 진출 스토리라인의 단계적 확대)",
+      "added": "2026-10-07"
+    },
+    "https://gironews.com/varejo-digital/nuvemshop-e-ifood-aceleram-entregas-no-e-commerce-com-integracao-d2c/": {
+      "reason": "rule-excluded (daily-check: 개별 업체 연동 (Nuvemshop 비화이트리스트, iFood Envios b1c85b85로 카테고리 기오픈))",
+      "added": "2026-10-07"
+    },
+    "https://newsbytesapp.com/news/india/telangana-suspends-swiggy-instamart-flipkart-zepto-dark-stores-after-inspections/tldr": {
+      "reason": "rule-excluded (해외(GLOBAL) 식품안전 위반 기사 — 유통기한 경과·위생 적발에 따른 영업정지)",
+      "added": "2026-10-07"
     }
   },
   "stale_events": [

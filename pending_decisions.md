@@ -118,3 +118,7 @@
 - [ ] 🔒 접근불가: [iFood] Envios iFood terá novas modalidades logísticas, diz CEO → https://www.mobiletime.com.br/noticias/30/09/2026/envios-ifood-tera-logist/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Flytrex (옥상 드론 도크·예측 AI로 배달비 60% 절감) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-10-07
+- [ ] 🔒 접근불가: [Careem] Careem enhances grocery shopping with AI-based list-to-cart tool → https://gulfbusiness.com/?p=313978
+      (ID-only URL이 홈으로 리졸브돼 본문 미확보. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
