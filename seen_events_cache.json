@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1664,6 +1664,30 @@
     "https://docs.instacart.com/storefront/releases/2026_09_0_release_notes#view-attribute-information-sources": {
       "reason": "rule-excluded (user: 지엽적 — 릴리스노트 개별 항목)",
       "added": "2026-10-07"
+    },
+    "https://www.khan.co.kr/article/202610042053005": {
+      "reason": "dup of 9741db70 (배달앱 대금·정산 분쟁조정 통계 동일 사건 재보도)",
+      "added": "2026-10-08"
+    },
+    "https://daily.hankooki.com/news/articleView.html?idxno=1412379": {
+      "reason": "dup of 7034ba19 (10/12 국감 배민·쿠팡 증인 채택 동일 사건)",
+      "added": "2026-10-08"
+    },
+    "https://www.newscj.com/news/articleView.html?idxno=3438138": {
+      "reason": "dup of 7034ba19 (동일 국감 증인 채택 사건 보도)",
+      "added": "2026-10-08"
+    },
+    "https://mobilesyrup.com/2026/10/07/skip-canada-instacart-partnership": {
+      "reason": "dup of 2a1bd6b8 (스킵·인스타카트 캐나다 제휴 공식 발표와 동일 사건)",
+      "added": "2026-10-08"
+    },
+    "https://www.bastillepost.com/global/article/6229785-keeta-expands-brazil-coverage-to-32-cities-with-21-new-launches-reaching-10-million-app-downloads": {
+      "reason": "dup of 760e06c9 (키타 브라질 21개 도시 확장 동일 사건, InfoMoney 유지)",
+      "added": "2026-10-08"
+    },
+    "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/": {
+      "reason": "dup of fcb7f087 (딜리버루·코코로보틱스 영국 로봇배달 제휴 공식 발표와 동일 사건)",
+      "added": "2026-10-08"
     }
   },
   "stale_events": [

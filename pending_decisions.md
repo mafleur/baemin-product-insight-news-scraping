@@ -105,7 +105,6 @@
 - [ ] 🆕 신규 업체: Shipt (Shipt becomes the latest delivery app with an AI shopping assistant) — 타겟 추가하려면 `ADD` 표시
 
 ## 2026-09-22
-- [ ] 🔒 접근불가: [로켓나우] Coupang's cost-cutting Rocket Now shakes up Japan's food delivery sector → https://asia.nikkei.com/business/food-beverage/coupang-s-cost-cutting-rocket-now-shakes-up-japan-s-food-delivery-sector
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-09-30
@@ -122,3 +121,7 @@
 ## 2026-10-07
 - [ ] 🔒 접근불가: [Careem] Careem enhances grocery shopping with AI-based list-to-cart tool → https://gulfbusiness.com/?p=313978
       (ID-only URL이 홈으로 리졸브돼 본문 미확보. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-10-08
+- [ ] 🔒 접근불가: [컬리] 컬리, 네이버 협업 바탕 HMR 확대…K푸드로 해외사업 본격화 → https://www.asiatime.co.kr/article/20261007500286
+      (robots.txt 차단. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
