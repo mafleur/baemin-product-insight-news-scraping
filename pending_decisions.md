@@ -131,3 +131,8 @@
 - [ ] 🔒 접근불가: [요기요] 요기요앱 신규 카테고리 오픈 안내 (파트너 공지, 날짜 신호 없음) → https://partner.yogiyo.co.kr/content/view/요기요앱-신규-카테고리-오픈-안내-1
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 입점 화이트리스트 후보: Wakefern Food Corp (미 북동부 최대 식료품 협동조합 — Uber Eats 그로서리 확대 제휴) — 추가하려면 `ADD` 표시
+
+## 2026-10-13
+- [ ] 🔒 접근불가: [쿠팡이츠] 공정위, 쿠팡이츠 늑장 심의…1년 가까이 불공정약관 방치 → https://www.etnews.com/20261001000448
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🆕 신규 업체: Swish (Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato) — 타겟 추가하려면 `ADD` 표시

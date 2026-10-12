@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1740,6 +1740,42 @@
     "https://roboticsandautomationnews.com/2026/10/08/lowes-launches-20-minute-drone-delivery-with-wing-and-doordash/105770/": {
       "reason": "user-excluded (배달앱×마이너 개별 기업 단발 제휴 — 화이트리스트 밖)",
       "added": "2026-10-12"
+    },
+    "https://www.newspim.com/news/view/20260930001079": {
+      "reason": "dup of 318a0d85 (땡겨요 1000만 돌파 동일 사건)",
+      "added": "2026-10-13"
+    },
+    "https://retail-insider.com/retail-insider/2026/10/skip-instacart-partner-to-expand-grocery-restaurant-delivery-options-for-canadians": {
+      "reason": "dup of 2a1bd6b8 (Skip·Instacart 캐나다 제휴 동일 건)",
+      "added": "2026-10-13"
+    },
+    "https://www.seudinheiro.com/2026/seu-negocio/guerra-do-delivery-restaurantes-estao-no-centro-da-briga-entre-ifood-99food-e-keeta-cbcb/": {
+      "reason": "dup of 760e06c9 (99Food 독점조항 무효화 해설 재보도)",
+      "added": "2026-10-13"
+    },
+    "https://ndmais.com.br/economia/keeta-expande-operacao-no-brasil-servico-de-entregas-21-cidades/": {
+      "reason": "dup of 760e06c9 (Meituan=Keeta 그룹 동일, 브라질 21개 도시 확대 동일 사건)",
+      "added": "2026-10-13"
+    },
+    "https://yourstory.com/2026/10/india-quick-commerce-set-for-usd-90b-boom-by-2031-google-redseer-study": {
+      "reason": "dup of EXCLUDED (사용자 수동 제외 사건 재보도)",
+      "added": "2026-10-13"
+    },
+    "https://theweek.in/news/health/2026/10/12/maharashtra-fda-cracks-down-on-zepto-and-brijwasi-licences-suspended-over-food-safety-violations.html": {
+      "reason": "rule-excluded (GLOBAL 식품안전 위반 기사 제외)",
+      "added": "2026-10-13"
+    },
+    "https://www.itv.com/news/2026-10-08/just-eat-takeaway-orders-return-to-growth-after-nearly-five-years": {
+      "reason": "rule-excluded (same-event 소스 우선순위(The Next Web 채택))",
+      "added": "2026-10-13"
+    },
+    "https://www.asiatime.co.kr/article/20261012500304": {
+      "reason": "rule-excluded (fetch 실패(robots) 저신호 폐기)",
+      "added": "2026-10-13"
+    },
+    "https://aninews.in/news/business/indias-quick-commerce-growth-set-to-accelerate-food-delivery-to-remain-steady-report16020261011150010/": {
+      "reason": "rule-excluded (daily-cap: 인도 뉴스)",
+      "added": "2026-10-13"
     }
   },
   "stale_events": [
