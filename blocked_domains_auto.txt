@@ -482,3 +482,12 @@ thecvguy.net  # 2026-10-08
 pipeline.capital  # 2026-10-08
 signalnewsbaltimore.com  # 2026-10-08
 newsy-today.com  # 2026-10-08
+theteams.kr  # 2026-10-12
+newsbytesapp.com  # 2026-10-12
+zenhousemedia.com  # 2026-10-12
+internationalnewsandviews.com  # 2026-10-12
+webindia123.com  # 2026-10-12
+planify.in  # 2026-10-12
+test-news.aibase.com  # 2026-10-12
+journalarta.com  # 2026-10-12
+kabutore.biz  # 2026-10-12

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-12",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1688,6 +1688,54 @@
     "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/": {
       "reason": "dup of fcb7f087 (딜리버루·코코로보틱스 영국 로봇배달 제휴 공식 발표와 동일 사건)",
       "added": "2026-10-08"
+    },
+    "https://ddaily.co.kr/page/view/2026100716190951514": {
+      "reason": "dup of e74aa696 (요기패스 200만 돌파 임박 동일 사건, DB 선행 보도)",
+      "added": "2026-10-12"
+    },
+    "https://biz.newdaily.co.kr/site/data/html/2026/10/07/2026100700042.html": {
+      "reason": "dup of e74aa696 (같은 날 같은 요기패스 200만 발표의 타 매체 보도)",
+      "added": "2026-10-12"
+    },
+    "https://view.asiae.co.kr/article/2026100709015734952": {
+      "reason": "dup of e74aa696 (같은 날 같은 요기패스 200만 발표의 타 매체 보도)",
+      "added": "2026-10-12"
+    },
+    "https://theshelbyreport.com/2026/10/01/doordash-unveils-text-ordering-drone-delivery-retail-expansion-at-dash-forward/": {
+      "reason": "dup of b0740d06 (Dash Forward 2026 공식 발표의 매체 재보도)",
+      "added": "2026-10-12"
+    },
+    "https://www.entrepreneur.com/business-news/doordashs-new-ai-agent-lets-you-order-dinner-by-text": {
+      "reason": "dup of b0740d06 (Dash Forward 문자 주문 AI 발표의 부분 재보도)",
+      "added": "2026-10-12"
+    },
+    "https://thestreet.com/retail/doordash-ai-text-order-food-grocery-shopping": {
+      "reason": "dup of b0740d06 (같은 문자 주문 AI 베타, Dash Forward 발표 후속 재보도)",
+      "added": "2026-10-12"
+    },
+    "https://www.pymnts.com/news/acquiring/2026/uber-eats-enters-catering-space-with-2-billion-dollar-ezcater-deal/": {
+      "reason": "dup of 360cd469 (우버의 ezCater 23억달러 인수 발표 선행 수집분과 동일)",
+      "added": "2026-10-12"
+    },
+    "https://mobilesyrup.com/2026/10/07/skip-canada-instacart-partnership/": {
+      "reason": "dup of 2a1bd6b8 (Skip·인스타카트 캐나다 제휴 공식 발표의 재보도)",
+      "added": "2026-10-12"
+    },
+    "https://revistabusiness.com.br/2026/10/09/keeta-retoma-expansao-no-brasil-chega-a-21-novas-cidades-e-mantem-plano-de-r-56-bilhoes/": {
+      "reason": "dup of 760e06c9 (키타 브라질 21개 도시 확장 재개 동일 사건)",
+      "added": "2026-10-12"
+    },
+    "https://www.deccanherald.com/amp/story/business/companies/quick-commerce-to-reach-90-billion-by-fy31-capturing-5-of-retail-market-google-redseer-report-4173655": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건 재보도(구글·레드시어 인도 퀵커머스 전망))",
+      "added": "2026-10-12"
+    },
+    "https://perishablenews.com/retailfoodservice/doordash-and-costco-expand-global-partnership-with-nationwide-u-s-launch/": {
+      "reason": "dup of EXCLUDED (사용자 제외 사건 재보도(코스트코 전국 확대))",
+      "added": "2026-10-12"
+    },
+    "https://www.tribuneindia.com/news/emkay-report/indias-quick-commerce-growth-set-to-accelerate-food-delivery-to-remain-steady-report": {
+      "reason": "rule-excluded (daily-cap: 인도 뉴스 (하루 2건 상한, 증권사 분기 전망 수치라 전략적 중요도 최하위))",
+      "added": "2026-10-12"
     }
   },
   "stale_events": [
