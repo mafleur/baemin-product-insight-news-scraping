@@ -1736,6 +1736,10 @@
     "https://www.tribuneindia.com/news/emkay-report/indias-quick-commerce-growth-set-to-accelerate-food-delivery-to-remain-steady-report": {
       "reason": "rule-excluded (daily-cap: 인도 뉴스 (하루 2건 상한, 증권사 분기 전망 수치라 전략적 중요도 최하위))",
       "added": "2026-10-12"
+    },
+    "https://roboticsandautomationnews.com/2026/10/08/lowes-launches-20-minute-drone-delivery-with-wing-and-doordash/105770/": {
+      "reason": "user-excluded (배달앱×마이너 개별 기업 단발 제휴 — 화이트리스트 밖)",
+      "added": "2026-10-12"
     }
   },
   "stale_events": [
