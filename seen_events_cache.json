@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "skip_urls": {
     "https://finance.yahoo.com/news/brazils-ifood-app-announces-3-100543479.html": {
       "reason": "iFood $3.1B investment announcement (2025-08)",
@@ -1776,6 +1776,46 @@
     "https://aninews.in/news/business/indias-quick-commerce-growth-set-to-accelerate-food-delivery-to-remain-steady-report16020261011150010/": {
       "reason": "rule-excluded (daily-cap: 인도 뉴스)",
       "added": "2026-10-13"
+    },
+    "https://www.fntimes.com/html/view.php?ud=202610121950547667b5b890e35c_18": {
+      "reason": "dup of d8768637 (배민 국감 질의 동일 사건)",
+      "added": "2026-10-14"
+    },
+    "https://www.newspim.com/news/view/20261013000526": {
+      "reason": "dup of 868d4a38 (배민 뷰티 즉시배달 확장 보도)",
+      "added": "2026-10-14"
+    },
+    "https://about.doordash.com/en-ca/news/costco-doordash-partnership-canada": {
+      "reason": "dup of EXCLUDED (DoorDash×코스트코 권역 단계적 확대)",
+      "added": "2026-10-14"
+    },
+    "https://deliveroo.co.uk/more/news-articles/autonomous-robot-launch": {
+      "reason": "dup of fcb7f087 (Deliveroo×Coco 로봇배송 공식 뉴스룸 원문)",
+      "added": "2026-10-14"
+    },
+    "https://www.businesstoday.in/markets/stocks/story/eternal-swiggy-shares-in-focus-as-fssai-to-tighten-grip-on-80-bn-online-market-561219-2026-10-13": {
+      "reason": "rule-excluded (해외 입법·규제 추진 단계 + 주가 프레이밍)",
+      "added": "2026-10-14"
+    },
+    "https://www.mlex.com/mlex/amp/articles/2536660": {
+      "reason": "rule-excluded (M&A 심사 진행 단계 — 결정적 진전 아님)",
+      "added": "2026-10-14"
+    },
+    "https://www.mlex.com/mlex/articles/2536169/ifood-complaint-puts-subsidy-battle-at-center-of-brazil-food-delivery-rivalry": {
+      "reason": "rule-excluded (해외 정부·규제 절차 뉴스(CADE 제소 건))",
+      "added": "2026-10-14"
+    },
+    "https://kalingatv.com/business/indias-quick-commerce-growth-set-to-accelerate-food-delivery-to-remain-steady-report/": {
+      "reason": "rule-excluded (이미 제외된 인도 Emkay 리포트의 신디케이션 재게시)",
+      "added": "2026-10-14"
+    },
+    "https://www.etnews.com/20261001000448": {
+      "reason": "rule-excluded (dup of 61c64142 (공정위 쿠팡이츠 약관 심의 지연 동일 사건) — 본문 fetch 실패)",
+      "added": "2026-10-14"
+    },
+    "https://retailtechinnovationhub.com/home/2026/10/11/morrisons-becomes-one-of-first-uk-grocery-brands-to-tap-autonomous-delivery-as-just-eat-expands-trial": {
+      "reason": "rule-excluded (fetch 실패 — Retail Times 대체 기사로 수집 완료)",
+      "added": "2026-10-14"
     }
   },
   "stale_events": [

@@ -136,3 +136,9 @@
 - [ ] 🔒 접근불가: [쿠팡이츠] 공정위, 쿠팡이츠 늑장 심의…1년 가까이 불공정약관 방치 → https://www.etnews.com/20261001000448
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Swish (Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-10-14
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] EU 집행위, 온라인 음식배달 부문 반독점 조사 개시 → https://ieu-monitoring.com/editorial/online-food-delivery-sector-eu-commission-opens-antitrust-investigation/439643
+      (발행일 미확인으로 폐기. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Wolt] 덴마크 경쟁당국, Wolt에 시장지배적 지위 남용 과징금 → https://www.twobirds.com/en/insights/2026/denmark/hattrick-of-abuse-of-dominance-wolt-faces-fine-for-one-exclusionary-and-two-exploitative-abuses-in-d
+      (발행일 미확인으로 폐기. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
