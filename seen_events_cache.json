@@ -1816,6 +1816,10 @@
     "https://retailtechinnovationhub.com/home/2026/10/11/morrisons-becomes-one-of-first-uk-grocery-brands-to-tap-autonomous-delivery-as-just-eat-expands-trial": {
       "reason": "rule-excluded (fetch 실패 — Retail Times 대체 기사로 수집 완료)",
       "added": "2026-10-14"
+    },
+    "https://retailtimes.co.uk/just-eat-expands-autonomous-delivery-with-morrisons/": {
+      "reason": "user-excluded (자율주행 로봇 시범지역 확대 — 메이저 건만 수집)",
+      "added": "2026-10-14"
     }
   },
   "stale_events": [
