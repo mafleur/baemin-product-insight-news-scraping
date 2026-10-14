@@ -138,7 +138,5 @@
 - [ ] 🆕 신규 업체: Swish (Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato) — 타겟 추가하려면 `ADD` 표시
 
 ## 2026-10-14
-- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] EU 집행위, 온라인 음식배달 부문 반독점 조사 개시 → https://ieu-monitoring.com/editorial/online-food-delivery-sector-eu-commission-opens-antitrust-investigation/439643
-      (발행일 미확인으로 폐기. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [Wolt] 덴마크 경쟁당국, Wolt에 시장지배적 지위 남용 과징금 → https://www.twobirds.com/en/insights/2026/denmark/hattrick-of-abuse-of-dominance-wolt-faces-fine-for-one-exclusionary-and-two-exploitative-abuses-in-d
-      (발행일 미확인으로 폐기. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [x] 🔒 접근불가 해소: [INDUSTRY-GLOBAL] EU 집행위 반독점 조사 — Chrome 재시도 결과 **2024-07-24 기사**(Delivery Hero·Glovo 카르텔 건)로 확인, 수집 대상 아님 → https://ieu-monitoring.com/editorial/online-food-delivery-sector-eu-commission-opens-antitrust-investigation/439643
+- [x] 🔒 접근불가 해소: [Wolt] 덴마크 경쟁당국 시장지배적 지위 남용 인정 — Chrome 재시도로 본문 확보(2026-10-13), 13c8d016로 수집 완료 → https://www.twobirds.com/en/insights/2026/denmark/hattrick-of-abuse-of-dominance-wolt-faces-fine-for-one-exclusionary-and-two-exploitative-abuses-in-d
