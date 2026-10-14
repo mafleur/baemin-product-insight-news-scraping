@@ -140,3 +140,4 @@
 ## 2026-10-14
 - [x] 🔒 접근불가 해소: [INDUSTRY-GLOBAL] EU 집행위 반독점 조사 — Chrome 재시도 결과 **2024-07-24 기사**(Delivery Hero·Glovo 카르텔 건)로 확인, 수집 대상 아님 → https://ieu-monitoring.com/editorial/online-food-delivery-sector-eu-commission-opens-antitrust-investigation/439643
 - [x] 🔒 접근불가 해소: [Wolt] 덴마크 경쟁당국 시장지배적 지위 남용 인정 — Chrome 재시도로 본문 확보(2026-10-13), 13c8d016로 수집 완료 → https://www.twobirds.com/en/insights/2026/denmark/hattrick-of-abuse-of-dominance-wolt-faces-fine-for-one-exclusionary-and-two-exploitative-abuses-in-d
+- [ ] 🆕 신규 업체: Bites (Delivery Collective) — ChatGPT 내 주문·결제, 식당에 건당 $1만 과금. 베이에어리어 300~600개 매장, 10인 프리시드. 에이전트 주문 레이어 탈중개 사례라 추적 가치 있음 — 타겟 추가하려면 `ADD` 표시
