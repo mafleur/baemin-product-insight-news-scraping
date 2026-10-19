@@ -107,7 +107,6 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-09-30
-- [x] 🔒 접근불가: [iFood] iFood lança recurso para escolha de rotas → https://institucional.ifood.com.br/releases/ifood-lanca-recurso-para-escolha-de-rotas/
       (2026-09-30 해결: Akamai가 브라우저도 차단. Canaltech 대체 기사로 확인 — 발행일 2026-04-09 'Rotas Disponíveis', 컷오프 밖이라 수집 불가)
 
 ## 2026-10-06
