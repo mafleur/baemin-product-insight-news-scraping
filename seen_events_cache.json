@@ -1,30 +1,6 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "skip_urls": {
-    "https://zdnet.co.kr/view/?no=20260716152156": {
-      "reason": "dup of EXCLUDED (Uber-DH 148억달러 인수 발표 — 사용자 제외 사건 재보도)",
-      "added": "2026-07-21"
-    },
-    "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx": {
-      "reason": "dup of EXCLUDED (Uber-DH 인수 제안 공식 발표 — 사용자 제외 사건 재보도)",
-      "added": "2026-07-21"
-    },
-    "https://news.livedoor.com/topics/detail/31853853/": {
-      "reason": "dup of 577e0e1d (데마에칸 26.8월기 최종적자 78억엔 확대 재보도)",
-      "added": "2026-07-21"
-    },
-    "https://www.bloomberg.com/news/articles/2026-07-16/uber-agrees-to-buy-delivery-hero-as-food-sector-consolidates": {
-      "reason": "rule-excluded (Bloomberg 페이월 우회 — 동일 사건 Uber IR 보도자료 존재)",
-      "added": "2026-07-21"
-    },
-    "https://www.nikkei.com/nkd/disclosure/tdnr/20260617572660/": {
-      "reason": "rule-excluded (페이월 PDF 適時開示 — 동일 사건 577e0e1d로 기수집)",
-      "added": "2026-07-21"
-    },
-    "https://thefederal.com/category/business/swiggy-iocc-249336": {
-      "reason": "rule-excluded (early-dup of 23772b3a — Swiggy 외국인 지분 50% 미만)",
-      "added": "2026-07-21"
-    },
     "https://www.sahi.com/news/swiggy-partners-hpcl-to-launch-india-s-first-on-demand-5-kg-and-10-kg-lpg-cylinder-delivery-856517-PE1_C": {
       "reason": "dup of 342f1265 (Swiggy-HPCL LPG 실린더 배달 개시 동일 발표 재보도)",
       "added": "2026-07-22"
@@ -1728,6 +1704,34 @@
     "https://news.mtn.co.kr/news-detail/2026100916342654986": {
       "reason": "rule-excluded (서비스 장애 기사는 배달의민족 건만 수집)",
       "added": "2026-10-19"
+    },
+    "https://www.thinkfood.co.kr/news/articleView.html?idxno=201386": {
+      "reason": "dup of 1ce47725 (국감 수수료 상한 논의 재보도)",
+      "added": "2026-10-20"
+    },
+    "https://www.imaeil.com/page/view/2026101107185820675": {
+      "reason": "dup of 1ce47725 (동일 사건 타 매체 보도)",
+      "added": "2026-10-20"
+    },
+    "https://m.inews24.com/v/2013829": {
+      "reason": "dup of d8768637 (2026-10-12 공정위 국감 동일 사건)",
+      "added": "2026-10-20"
+    },
+    "https://m.inews24.com/v/2014118": {
+      "reason": "dup of d8768637 (동일 국감 수수료 상한 질의)",
+      "added": "2026-10-20"
+    },
+    "https://www.dailian.co.kr/news/view/1700548/2026-%EA%B5%AD%EA%B0%90-%EA%B9%80%EC%9E%AC%EC%84%AD-%EB%B0%B0%EB%8B%AC-%EC%88%98%EC%88%98%EB%A3%8C-%EC%83%81-2026": {
+      "reason": "dup of d8768637 (김재섭 의원 동일 발언 타 매체 보도)",
+      "added": "2026-10-20"
+    },
+    "https://www.etoday.co.kr/news/view/2637026": {
+      "reason": "dup of 1985a312 (배민×투게더스 협약 동일 발표)",
+      "added": "2026-10-20"
+    },
+    "https://www.fnnews.com/news/202610181817175742": {
+      "reason": "dup of 1985a312 (배민×투게더스 협약 동일 발표)",
+      "added": "2026-10-20"
     }
   },
   "stale_events": [
