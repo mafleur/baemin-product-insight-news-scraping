@@ -110,7 +110,6 @@
       (2026-09-30 해결: Akamai가 브라우저도 차단. Canaltech 대체 기사로 확인 — 발행일 2026-04-09 'Rotas Disponíveis', 컷오프 밖이라 수집 불가)
 
 ## 2026-10-06
-- [ ] 🔒 접근불가: [iFood] Envios iFood terá novas modalidades logísticas, diz CEO → https://www.mobiletime.com.br/noticias/30/09/2026/envios-ifood-tera-logist/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Flytrex (옥상 드론 도크·예측 AI로 배달비 60% 절감) — 타겟 추가하려면 `ADD` 표시
 
@@ -138,3 +137,13 @@
 - [x] 🔒 접근불가 해소: [INDUSTRY-GLOBAL] EU 집행위 반독점 조사 — Chrome 재시도 결과 **2024-07-24 기사**(Delivery Hero·Glovo 카르텔 건)로 확인, 수집 대상 아님 → https://ieu-monitoring.com/editorial/online-food-delivery-sector-eu-commission-opens-antitrust-investigation/439643
 - [x] 🔒 접근불가 해소: [Wolt] 덴마크 경쟁당국 시장지배적 지위 남용 인정 — Chrome 재시도로 본문 확보(2026-10-13), 13c8d016로 수집 완료 → https://www.twobirds.com/en/insights/2026/denmark/hattrick-of-abuse-of-dominance-wolt-faces-fine-for-one-exclusionary-and-two-exploitative-abuses-in-d
 - [ ] 🆕 신규 업체: Bites (Delivery Collective) — ChatGPT 내 주문·결제, 식당에 건당 $1만 과금. 베이에어리어 300~600개 매장, 10인 프리시드. 에이전트 주문 레이어 탈중개 사례라 추적 가치 있음 — 타겟 추가하려면 `ADD` 표시
+
+## 2026-10-21
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] DoorDash·우버이츠에 도전장 낸 무마크업 가격 신규 배달앱 → https://www.digitaltrends.com/phones/doordash-and-uber-eats-have-a-new-rival-and-it-wants-you-to-stop-paying-extra-for-food
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Careem] Careem Quik, 알아인 퀵커머스 신규 진출(15분 배송) → https://menastartupdigest.com/?p=21414
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [Swiggy] 스위기 인스타마트 'Switch' 전용상품·PB 전략 개편 → https://www.storyboard18.com/brand-marketing/swiggy-revamps-instamart-strategy-with-switch-exclusive-brand-partnerships-and-private-labels-ws-l-106833.htm
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 미국 배달 플랫폼 규제 단속 본격화 보도 → https://www.restaurantbusinessonline.com/workforce/big-food-delivery-regulation-crackdown-finally-coming
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

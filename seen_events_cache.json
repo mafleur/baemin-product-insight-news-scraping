@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "skip_urls": {
     "https://www.sahi.com/news/swiggy-partners-hpcl-to-launch-india-s-first-on-demand-5-kg-and-10-kg-lpg-cylinder-delivery-856517-PE1_C": {
       "reason": "dup of 342f1265 (Swiggy-HPCL LPG 실린더 배달 개시 동일 발표 재보도)",
@@ -1732,6 +1732,22 @@
     "https://www.fnnews.com/news/202610181817175742": {
       "reason": "dup of 1985a312 (배민×투게더스 협약 동일 발표)",
       "added": "2026-10-20"
+    },
+    "https://www.esmmagazine.com/technology/just-eat-and-morrisons-expand-robot-grocery-delivery-324124": {
+      "reason": "rule-excluded (자율주행 로봇·드론 메이저 건만 수집 — 시범 지역·매장 확대 보도)",
+      "added": "2026-10-21"
+    },
+    "https://www.franchiseindia.com/insights/en/news/zepto-expands-to-100-cities-with-launch-in-ayodhya.59986": {
+      "reason": "rule-excluded (수치 집계성 마일스톤(도시 수 확대))",
+      "added": "2026-10-21"
+    },
+    "https://www.cnn.com/2026/10/14/tech/grab-openai-thailand-intl-hnk": {
+      "reason": "rule-excluded (동남아 권역 로컬 + 긱워커·머천트 교육 프로그램)",
+      "added": "2026-10-21"
+    },
+    "https://openai.com/index/grab-openai-ai-skills-southeast-asia/": {
+      "reason": "rule-excluded (동남아 권역 로컬 + 긱워커·머천트 교육 프로그램)",
+      "added": "2026-10-21"
     }
   },
   "stale_events": [
