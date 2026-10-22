@@ -1692,6 +1692,22 @@
     "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india": {
       "reason": "dup of EXCLUDED (사용자 제외한 플립카트 음식배달 진출 재보도)",
       "added": "2026-10-22"
+    },
+    "https://www.reuters.com/world/asia-pacific/taiwan-regulator-blocks-grabs-purchase-foodpanda-delivery-business-taiwan-2026-10-21/": {
+      "reason": "dup of 8dc1b1e5 (대만 공정위 Grab-foodpanda 인수 불허 동일 사건)",
+      "added": "2026-10-22"
+    },
+    "https://www.bloomberg.com/news/articles/2026-10-21/taiwan-rejects-grab-s-600-million-takeover-of-foodpanda-unit": {
+      "reason": "dup of 8dc1b1e5 (대만 공정위 Grab-foodpanda 인수 불허 동일 사건)",
+      "added": "2026-10-22"
+    },
+    "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866403": {
+      "reason": "dup of 8dc1b1e5 (대만 공정위 Grab-foodpanda 인수 불허 동일 사건)",
+      "added": "2026-10-22"
+    },
+    "https://udn.com/news/story/7241/9828897": {
+      "reason": "dup of 8dc1b1e5 (대만 공정위 Grab-foodpanda 인수 불허 동일 사건)",
+      "added": "2026-10-22"
     }
   },
   "stale_events": [
