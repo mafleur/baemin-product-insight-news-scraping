@@ -1,74 +1,6 @@
 {
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-22",
   "skip_urls": {
-    "https://www.sahi.com/news/swiggy-partners-hpcl-to-launch-india-s-first-on-demand-5-kg-and-10-kg-lpg-cylinder-delivery-856517-PE1_C": {
-      "reason": "dup of 342f1265 (Swiggy-HPCL LPG 실린더 배달 개시 동일 발표 재보도)",
-      "added": "2026-07-22"
-    },
-    "https://trak.in/stories/zomato-working-on-ai-powered-food-ordering-process/": {
-      "reason": "dup of 9cb392fa (Zomato AI 음성봇 주문 시범 동일 사건 재보도)",
-      "added": "2026-07-22"
-    },
-    "https://www.eqs-news.com/news/ad-hoc/delivery-hero-enters-into-a-business-combination-agreement-with-uber-technologies-and-into-a-sale-and-purchase-agreement-with-ssw-partners-regarding-certain-businesses/e10e6ede-29dd-47da-aff4-c18b9161a425_en": {
-      "reason": "dup of EXCLUDED (7/16 Uber-DH 기업결합 계약 발표 — 사용자 제외 사건 재보도)",
-      "added": "2026-07-22"
-    },
-    "https://lasvegassun.com/news/2026/jul/16/uber-announces-acquisition-offer-for-delivery-hero/": {
-      "reason": "dup of EXCLUDED (7/16 Uber-DH 기업결합 계약 발표 — 사용자 제외 사건 재보도)",
-      "added": "2026-07-22"
-    },
-    "https://newsroom.justeattakeaway.com/en-WW/268092-europe-has-the-opportunity-to-make-platform-work-work-for-everyone/": {
-      "reason": "rule-excluded (선언적 플랫폼노동 정책 옹호 기고 — 노동이슈/선언적 기사 제외 규칙)",
-      "added": "2026-07-22"
-    },
-    "https://www.bloomberg.com/news/articles/2026-07-11/india-regulator-probes-swiggy-instamart-on-food-safety-concerns": {
-      "reason": "rule-excluded (동일 사건 Bloomberg 페이월 — Medianama 소스 채택)",
-      "added": "2026-07-22"
-    },
-    "https://www.tescoplc.com/tesco-expands-rapid-delivery-reach-through-new-uber-eats-and-deliveroo-partnerships/": {
-      "reason": "rule-excluded (동일 사건 — Grocery Gazette 소스로 수집, 공식 페이지 접근 차단)",
-      "added": "2026-07-22"
-    },
-    "https://kr.investing.com/news/stock-market-news/article-2020339": {
-      "reason": "dup of 405de195 (우버 DH 공개매수·배민 편입)",
-      "added": "2026-07-23"
-    },
-    "https://www.digitalcommerce360.com/2026/07/21/instacart-acquisition-arpalus-grocery-tech/": {
-      "reason": "dup of 76c73f8c (instacart arpalus)",
-      "added": "2026-07-23"
-    },
-    "https://www.businesstoday.in/technology/news/story/zepto-to-take-on-blinkit-gourmet-firstclub-with-new-premium-grocery-service-select-542865-2026-07-14": {
-      "reason": "dup of 3d23cd2e (zepto select)",
-      "added": "2026-07-23"
-    },
-    "https://focustaiwan.tw/business/202607220014": {
-      "reason": "dup of 505310b4 (grab-foodpanda taiwan review)",
-      "added": "2026-07-23"
-    },
-    "https://prtimes.jp/main/html/rd/p/000000533.000029254.html": {
-      "reason": "dup of 9edd7235 (demae-can meiten filter)",
-      "added": "2026-07-23"
-    },
-    "https://www.globalbankingandfinance.com/uks-tesco-boosts-rapid-delivery-uber-eats-deliveroo-deals/": {
-      "reason": "dup of 249c14ba (tesco uber/deliveroo)",
-      "added": "2026-07-23"
-    },
-    "https://investors.instacart.com/news-releases/news-release-details/instacart-acquires-arpalus-advance-real-time-shelf-intelligence": {
-      "reason": "rule-excluded (covered by 76c73f8c (arpalus))",
-      "added": "2026-07-23"
-    },
-    "https://www.deccanherald.com/business/companies/zomatos-parent-eternal-reports-q1-2026-net-profit-of-rs-92-crore-revenue-jumps-182-yoy-to-rs-20211-crore-4083413": {
-      "reason": "rule-excluded (dup of eternal Q1 event (freepressjournal collected))",
-      "added": "2026-07-23"
-    },
-    "https://theprint.in/feature/swiggy-instamart-hpcl-start-lpg-cylinder-delivery-service/2987489/": {
-      "reason": "rule-excluded (dup of existing swiggy-hpcl LPG event)",
-      "added": "2026-07-23"
-    },
-    "https://english.cw.com.tw/article/article.action?id=4900": {
-      "reason": "rule-excluded (related to 505310b4 grab-foodpanda taiwan; blocked 403)",
-      "added": "2026-07-23"
-    },
     "https://www.ddaily.co.kr/page/view/2026072709072051745": {
       "reason": "dup of etnews 20260727000195 (쿠팡이츠 옆동네 인기 맛집 동일 사건)",
       "added": "2026-07-27"
@@ -1748,6 +1680,18 @@
     "https://openai.com/index/grab-openai-ai-skills-southeast-asia/": {
       "reason": "rule-excluded (동남아 권역 로컬 + 긱워커·머천트 교육 프로그램)",
       "added": "2026-10-21"
+    },
+    "https://www.bloter.net/news/articleView.html?idxno=675760": {
+      "reason": "dup of 868d4a38 (배민 비식품/뷰티 퀵커머스 확대 동일 스토리라인)",
+      "added": "2026-10-22"
+    },
+    "https://www.ajunews.com/view/20261018142827804": {
+      "reason": "dup of 1985a312 (배민-투게더스 POS 연동 재보도)",
+      "added": "2026-10-22"
+    },
+    "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india": {
+      "reason": "dup of EXCLUDED (사용자 제외한 플립카트 음식배달 진출 재보도)",
+      "added": "2026-10-22"
     }
   },
   "stale_events": [

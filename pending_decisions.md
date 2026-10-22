@@ -106,16 +106,9 @@
 
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
-## 2026-09-30
-      (2026-09-30 해결: Akamai가 브라우저도 차단. Canaltech 대체 기사로 확인 — 발행일 2026-04-09 'Rotas Disponíveis', 컷오프 밖이라 수집 불가)
-
 ## 2026-10-06
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Flytrex (옥상 드론 도크·예측 AI로 배달비 60% 절감) — 타겟 추가하려면 `ADD` 표시
-
-## 2026-10-07
-- [ ] 🔒 접근불가: [Careem] Careem enhances grocery shopping with AI-based list-to-cart tool → https://gulfbusiness.com/?p=313978
-      (ID-only URL이 홈으로 리졸브돼 본문 미확보. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-10-08
 - [ ] 🔒 접근불가: [컬리] 컬리, 네이버 협업 바탕 HMR 확대…K푸드로 해외사업 본격화 → https://www.asiatime.co.kr/article/20261007500286
