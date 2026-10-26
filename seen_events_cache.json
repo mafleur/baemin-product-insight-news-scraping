@@ -1620,6 +1620,10 @@
     "https://www.mlex.com/mlex/dealrisk/articles/2541054": {
       "reason": "rule-excluded (페이월 + 동일 사건 기수집(8dc1b1e5 Focus Taiwan))",
       "added": "2026-10-26"
+    },
+    "https://livefromalounge.com/sbi-card-and-eternal-launch-co-branded-eternal-sbi-card-with-discounts-on-zomato-blinkit-bistro-and-district/": {
+      "reason": "rule-excluded (제휴·코브랜드 신용카드 — 전면 제외)",
+      "added": "2026-10-26"
     }
   },
   "stale_events": [
