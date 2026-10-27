@@ -104,21 +104,16 @@
 ## 2026-09-14
 - [ ] 🆕 신규 업체: Shipt (Shipt becomes the latest delivery app with an AI shopping assistant) — 타겟 추가하려면 `ADD` 표시
 
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-10-06
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Flytrex (옥상 드론 도크·예측 AI로 배달비 60% 절감) — 타겟 추가하려면 `ADD` 표시
 
 ## 2026-10-08
-      (robots.txt 차단. 재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-10-12
 - [ ] 🆕 입점 화이트리스트 후보: Wakefern Food Corp (미 북동부 최대 식료품 협동조합 — Uber Eats 그로서리 확대 제휴) — 추가하려면 `ADD` 표시
 
 ## 2026-10-13
-- [ ] 🔒 접근불가: [쿠팡이츠] 공정위, 쿠팡이츠 늑장 심의…1년 가까이 불공정약관 방치 → https://www.etnews.com/20261001000448
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🆕 신규 업체: Swish (Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato) — 타겟 추가하려면 `ADD` 표시
 
 ## 2026-10-14
