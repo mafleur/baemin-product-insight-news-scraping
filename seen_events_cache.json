@@ -1580,6 +1580,10 @@
     "https://www.mlex.com/mlex/dealrisk/articles/2540549": {
       "reason": "dup of 3fbbafce (same MLex article ID 2540549, different path)",
       "added": "2026-10-27"
+    },
+    "https://nsearchives.nseindia.com/corporate/SWIGGY_22102026155420_Covering_Letter_Press_Release_Signed.pdf": {
+      "reason": "rule-excluded (해외 단순 손익 보고: Swiggy FY27 Q2 실적, 확정 전략 변화 없음)",
+      "added": "2026-10-27"
     }
   },
   "stale_events": [
