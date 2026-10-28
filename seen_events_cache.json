@@ -1,22 +1,6 @@
 {
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "skip_urls": {
-    "https://www.klnews.co.kr/news/articleView.html?idxno=322006": {
-      "reason": "dup of ae5b3b6b (컬리 강남 첫 상설 오프라인 매장 추진 건과 동일 사건)",
-      "added": "2026-07-30"
-    },
-    "https://www.grocerydive.com/news/hy-vee-rapid-delivery-pickup-30-minutes-ecommerce/826005/": {
-      "reason": "dup of beac2364 (하이비 30분 퀵배송 도입 건은 기존 퀵커머스 기사에 이미 기록)",
-      "added": "2026-07-30"
-    },
-    "https://www.koreajoongangdaily.com/business/uber-acquires-baemins-parent-opening-doors-for-new-integrated-services/12777967": {
-      "reason": "rule-excluded (Uber-DH 파생 해설·전망 (결정적 진전 아님))",
-      "added": "2026-07-30"
-    },
-    "https://www.cnbc.com/2026/07/29/doordash-launches-drone-delivery-faa-certification.html": {
-      "reason": "rule-excluded (source-priority: 동일 드론 사업 출범 건, TechCrunch 기사로 수집)",
-      "added": "2026-07-30"
-    },
     "https://www.etnews.com/20260803000052": {
       "reason": "dup of df7128f3 (배민 딜리 X3-R B마트 투입 기존 기록의 후속 재보도)",
       "added": "2026-08-03"
@@ -1506,8 +1490,8 @@
       "added": "2026-10-22"
     },
     "https://telanganatoday.com/swiggy-launches-multi-restaurant-ordering-for-up-to-five-eateries": {
-      "reason": "dup of b2f37668 (스위기 5개 식당 묶음주문 출시 동일 사건 재보도)",
-      "added": "2026-10-26"
+      "reason": "dup of b2f37668 (스위기 최대 5개 식당 묶음 주문 출시와 같은 사건 재보도)",
+      "added": "2026-10-29"
     },
     "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber": {
       "reason": "rule-excluded (M&A 미확정 루머 (매각 논의 단계))",
@@ -1544,6 +1528,10 @@
     "https://docs.instacart.com/storefront/releases/2026/R10/2026_10_0_release_notes#in-store-shopping-list-improvements": {
       "reason": "rule-excluded (daily-cap: 파트너 공지)",
       "added": "2026-10-28"
+    },
+    "https://newshub.medianet.com.au/2026/10/serve-robotics-and-doordash-launch-australias-first-footpath-delivery-robots-on-the-gold-coast/179064": {
+      "reason": "rule-excluded (자율주행 로봇 — 기존 Serve-DoorDash 제휴의 지역 확대(호주))",
+      "added": "2026-10-29"
     }
   },
   "stale_events": [
