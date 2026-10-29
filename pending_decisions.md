@@ -128,3 +128,6 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 미국 배달 플랫폼 규제 단속 본격화 보도 → https://www.restaurantbusinessonline.com/workforce/big-food-delivery-regulation-crackdown-finally-coming
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-10-29
+- [ ] 🆕 신규 업체: Olo ("매장 가격 그대로"…美서 이중가격 없앤 배달앱 등장) — 타겟 추가하려면 `ADD` 표시

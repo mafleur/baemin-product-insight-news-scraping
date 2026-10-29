@@ -564,7 +564,6 @@ m.catch.co.kr  # 2026-10-15
 rememberapp.co.kr  # 2026-10-15
 hrmos.co  # 2026-10-15
 happycampus.com  # 2026-10-15
-v.daum.net  # 2026-10-15
 autobound.ai  # 2026-10-15
 quantisnow.com  # 2026-10-15
 qnow.quantisnow.com  # 2026-10-15

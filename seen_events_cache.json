@@ -1532,6 +1532,18 @@
     "https://newshub.medianet.com.au/2026/10/serve-robotics-and-doordash-launch-australias-first-footpath-delivery-robots-on-the-gold-coast/179064": {
       "reason": "rule-excluded (자율주행 로봇 — 기존 Serve-DoorDash 제휴의 지역 확대(호주))",
       "added": "2026-10-29"
+    },
+    "https://www.ddaily.co.kr/page/view/2026102710255078107": {
+      "reason": "dup of 1ce47725 (국감 결산 형식 수수료 상한제 논쟁 재보도)",
+      "added": "2026-10-29"
+    },
+    "https://www.ddaily.co.kr/page/view/2026102608252282078": {
+      "reason": "dup of e74aa696 (요기패스·포인트 수치 인터뷰 재보도)",
+      "added": "2026-10-29"
+    },
+    "https://www.news1.kr/local/daegu-gyeongbuk/6335331": {
+      "reason": "dup of 23d15742 (땡겨요 지자체 협약 권역 확대)",
+      "added": "2026-10-29"
     }
   },
   "stale_events": [
