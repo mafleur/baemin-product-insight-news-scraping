@@ -1544,6 +1544,70 @@
     "https://www.news1.kr/local/daegu-gyeongbuk/6335331": {
       "reason": "dup of 23d15742 (땡겨요 지자체 협약 권역 확대)",
       "added": "2026-10-29"
+    },
+    "https://zdnet.co.kr/view/?no=20261028110907": {
+      "reason": "dup of 1c7fc8af (우아콘 2026 키노트 같은 사건)",
+      "added": "2026-10-29"
+    },
+    "https://www.techm.kr/news/articleView.html?idxno=156617": {
+      "reason": "dup of 1c7fc8af (우아콘 2026 키노트 같은 사건)",
+      "added": "2026-10-29"
+    },
+    "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/merchant-financing-solutions/pipe/": {
+      "reason": "rule-excluded (cutoff 밖 (2026-10-01))",
+      "added": "2026-10-29"
+    },
+    "https://www.medianama.com/2026/10/223-swiggy-loss-revenue-yoy/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익(Q2 FY27))",
+      "added": "2026-10-29"
+    },
+    "https://www.businesstoday.in/latest/corporate/story/swiggys-discount-dilemma-is-back-focus-on-growth-or-profitability-563694-2026-10-26": {
+      "reason": "rule-excluded (실적 해설·분석)",
+      "added": "2026-10-29"
+    },
+    "https://www.medianama.com/2026/10/223-eternal-q2-fy27-results-ai-strategy/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익(Q2 FY27 콜 요약))",
+      "added": "2026-10-29"
+    },
+    "https://www.medianama.com/2026/10/223-eternal-125-crore-profit-q2fy27/": {
+      "reason": "rule-excluded (GLOBAL 단순 손익)",
+      "added": "2026-10-29"
+    },
+    "https://www.businesstoday.in/personal-finance/news/story/sbi-card-launches-eternal-credit-card-with-zomato-gold-membership-cashback-benefits-561841-2026-10-16": {
+      "reason": "rule-excluded (제휴 신용카드 전면 제외)",
+      "added": "2026-10-29"
+    },
+    "https://www.marketscreener.com/news/delivery-hero-raises-full-year-outlook-ce785cd2d88fff21": {
+      "reason": "rule-excluded (GLOBAL 단순 손익(가이던스 상향))",
+      "added": "2026-10-29"
+    },
+    "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html": {
+      "reason": "rule-excluded (DoorDash-Instacart 막바지 협상 후속 보도(기존 pymnts 건))",
+      "added": "2026-10-29"
+    },
+    "https://www.nrn.com/restaurant-technology/doordash-is-nearing-a-deal-to-buy-instacart-report-says": {
+      "reason": "rule-excluded (DoorDash-Instacart 막바지 협상 후속 보도(기존 pymnts 건))",
+      "added": "2026-10-29"
+    },
+    "https://finance.yahoo.com/small-business/articles/doordash-uber-eats-rival-offering-030700969.html": {
+      "reason": "rule-excluded (Olo 앱 출시 — 기존 867f5ffd와 같은 사건)",
+      "added": "2026-10-29"
+    },
+    "https://finance.yahoo.com/small-business/articles/olo-launches-restaurant-ordering-app-145833933.html": {
+      "reason": "rule-excluded (Olo 앱 출시 — 기존 867f5ffd와 같은 사건)",
+      "added": "2026-10-29"
+    },
+    "https://technode.global/2026/10/21/taiwan-blocks-delivery-heros-600m-foodpanda-food-courier-sale-to-grab/": {
+      "reason": "rule-excluded (대만 Grab-foodpanda 불허 기존 수집 사건)",
+      "added": "2026-10-29"
+    },
+    "https://www.elcolombiano.com/negocios/sic-multa-rappi-fallas-servicio-publicidad-enganosa-GF35308781": {
+      "reason": "rule-excluded (cutoff 밖 (2026-04-08))",
+      "added": "2026-10-29"
+    },
+    "https://www.restaurantdive.com/news/uber-eats-increases-marketplace-fees/814294/": {
+      "reason": "rule-excluded (cutoff 밖 (2026-03-10))",
+      "added": "2026-10-29"
     }
   },
   "stale_events": [

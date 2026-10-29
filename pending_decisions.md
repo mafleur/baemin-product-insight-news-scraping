@@ -131,3 +131,4 @@
 
 ## 2026-10-29
 - [ ] 🆕 신규 업체: Olo ("매장 가격 그대로"…美서 이중가격 없앤 배달앱 등장) — 타겟 추가하려면 `ADD` 표시
+- [ ] 🆕 신규 업체: Walmart (A food delivery giant could be hiding in plain sight — 레스토랑 배달 제휴 확대) — 타겟 추가하려면 `ADD` 표시
