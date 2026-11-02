@@ -1,26 +1,6 @@
 {
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-03",
   "skip_urls": {
-    "https://economist.co.kr/article/view/ecn202607290060": {
-      "reason": "dup of 67ec881a (땡겨요 성장세 동일 사건 재보도)",
-      "added": "2026-08-04"
-    },
-    "https://www.grab.com/sg/press/others/grab-reports-record-second-quarter-2026-results-raises-full-year-guidance-and-announces-750-million-share-repurchase-program/": {
-      "reason": "rule-excluded (해외 단순 손익 보고(Q2 실적·가이던스·자사주 매입 중심))",
-      "added": "2026-08-04"
-    },
-    "https://news.nate.com/view/20260803n06783?mid=n1101": {
-      "reason": "rule-excluded (dup of df7128f3 배민 딜리 X3-R 투입 동일 사건, source-priority 전자신문 우선)",
-      "added": "2026-08-04"
-    },
-    "https://www.insurancejournal.com/news/national/2026/07/29/879557.htm": {
-      "reason": "rule-excluded (dup of 0927100d DoorDash 자체 드론사업 출범 동일 사건, source-priority)",
-      "added": "2026-08-04"
-    },
-    "https://www.theweek.in/news/biz-tech/2026/08/03/swiggy-zomato-boycott-did-flipkart-luck-out-in-its-food-delivery-launch-timing.html": {
-      "reason": "user-excluded (관심도 낮음, 2026-08-04 요청)",
-      "added": "2026-08-04"
-    },
     "https://www.newspim.com/news/view/20260804001026": {
       "reason": "dup of 706d8cc8 (이마트 쿠팡이츠 퀵커머스 파일럿, 동일 사건)",
       "added": "2026-08-05"
@@ -1572,6 +1552,18 @@
     "https://finance.yahoo.com/markets/stocks/articles/delivery-hero-raises-2026-outlook-090321004.html": {
       "reason": "rule-excluded (GLOBAL 단순 손익·가이던스)",
       "added": "2026-11-02"
+    },
+    "https://finance.yahoo.com/small-business/articles/doordash-instacart-tie-means-grocery-164800248.html": {
+      "reason": "dup of 0a2cc26f (DD-Instacart 인수 분석 재보도)",
+      "added": "2026-11-03"
+    },
+    "https://finance.yahoo.com/small-business/articles/introducing-olo-app-smarter-way-123000169.html": {
+      "reason": "dup of 867f5ffd (Olo 소비자앱 출시 동일 사건)",
+      "added": "2026-11-03"
+    },
+    "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/": {
+      "reason": "rule-excluded (Meituan 순수 AI 모델, 배달 무관)",
+      "added": "2026-11-03"
     }
   },
   "stale_events": [
