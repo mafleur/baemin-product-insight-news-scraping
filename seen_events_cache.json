@@ -1,74 +1,6 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-02",
   "skip_urls": {
-    "https://www.etnews.com/20260803000052": {
-      "reason": "dup of df7128f3 (배민 딜리 X3-R B마트 투입 기존 기록의 후속 재보도)",
-      "added": "2026-08-03"
-    },
-    "https://m.ceoscoredaily.com/page/view/2026073016461789948": {
-      "reason": "dup of 783ec4ea (배민 라이더 위치연동·쿠팡이츠 장거리배달 기존 기록 묶음 재보도)",
-      "added": "2026-08-03"
-    },
-    "https://www.hankyung.com/article/202607281151g": {
-      "reason": "dup of 7dabddf0 (컬리 패션 큐레이션 강화 기존 기록의 인터뷰형 재보도)",
-      "added": "2026-08-03"
-    },
-    "https://www.ezyeconomy.com/news/articleView.html?idxno=238210": {
-      "reason": "dup of 53b5025b (우버-DH 공정위 기업결합 심사 쟁점 기존 기록과 동일)",
-      "added": "2026-08-03"
-    },
-    "https://gendai.media/articles/-/169732": {
-      "reason": "dup of 577e0e1d (데마에칸 26년8월기 최종적자 78억엔 기존 기록과 동일)",
-      "added": "2026-08-03"
-    },
-    "https://www.businesstoday.in/technology/startups/story/what-kind-of-retailer-is-swiggy-becoming-546498-2026-07-31": {
-      "reason": "dup of (후보간) Inc42 인스타마트 손익분기 (동일 인스타마트 1분기 손익분기 건 해설 기사)",
-      "added": "2026-08-03"
-    },
-    "https://chaindrugreview.com/quick-commerce-gains-ground-in-healthcare/": {
-      "reason": "dup of (후보간) Kearney 퀵커머스 보고서 (동일 커니 보고서의 헬스케어 부문 발췌 보도)",
-      "added": "2026-08-03"
-    },
-    "https://www.hankyung.com/article/202608030839g": {
-      "reason": "rule-excluded (same-event lower-priority source (배민 딜리 로봇 → etnews 채택))",
-      "added": "2026-08-03"
-    },
-    "https://techcabal.com/2026/07/30/glovo-pioneers-ai-quick-commerce/": {
-      "reason": "rule-excluded (same-event lower-priority source (Glovo AI → dev.ua 채택))",
-      "added": "2026-08-03"
-    },
-    "https://techpoint.africa/news/glovo-launches-ai-chat-feature/": {
-      "reason": "rule-excluded (same-event lower-priority source (Glovo AI → dev.ua 채택))",
-      "added": "2026-08-03"
-    },
-    "https://logweb.com.br/logistica-delivery-ifood-bag-especializada-transporte-pizzas/": {
-      "reason": "rule-excluded (same-event lower-priority source (iFood 백 → Exame 채택))",
-      "added": "2026-08-03"
-    },
-    "https://www.business-standard.com/markets/news/zepto-ipo-zepto-puts-ipo-plan-on-hold-what-if-it-had-listed-126073000878_1.html": {
-      "reason": "rule-excluded (speculative what-if + same event as Zepto IPO 연기 확정 기사)",
-      "added": "2026-08-03"
-    },
-    "https://about.doordash.com/en-us/news/doordash-air": {
-      "reason": "rule-excluded (same event as already-collected DoorDash drone articles (TechCrunch/CNBC 2026-07-29); 403 on fetch)",
-      "added": "2026-08-03"
-    },
-    "https://www.asiatoday.co.kr/kn/view.php?key=20260731010011802": {
-      "reason": "user-excluded (ESG·브랜드 활동 종합 홍보성 기사 (신규 제외규칙: ESG/사회공헌 홍보))",
-      "added": "2026-08-03"
-    },
-    "https://inc42.com/buzz/swiggys-instamart-hits-contribution-margin-breakeven-in-q1-fy27/": {
-      "reason": "user-excluded (해외 단순 손익(기여이익 손익분기) 보고 기사 (신규 제외규칙))",
-      "added": "2026-08-03"
-    },
-    "https://shopappy.com/news/policy-regulation/china-ecommerce-law-overhaul": {
-      "reason": "user-excluded (해외 전자상거래법 개정 추진 단계 기사 (신규 제외규칙: 해외 입법 논의))",
-      "added": "2026-08-03"
-    },
-    "https://dev.ua/en/news/glovo-launches-ai-assistant-for-orders-now-you-can-search-for-food-directly-in-chatgpt-and-claude": {
-      "reason": "user-excluded (사용자 판단 제외 (유사 AI 어시스턴트 기사 다수, 2026-08-03))",
-      "added": "2026-08-03"
-    },
     "https://economist.co.kr/article/view/ecn202607290060": {
       "reason": "dup of 67ec881a (땡겨요 성장세 동일 사건 재보도)",
       "added": "2026-08-04"
@@ -1608,6 +1540,38 @@
     "https://www.restaurantdive.com/news/uber-eats-increases-marketplace-fees/814294/": {
       "reason": "rule-excluded (cutoff 밖 (2026-03-10))",
       "added": "2026-10-29"
+    },
+    "https://zdnet.co.kr/view/?no=20261029100431": {
+      "reason": "dup of 8106084c (배민 주문접수PC 개편 공지 재보도)",
+      "added": "2026-11-02"
+    },
+    "https://www.supermarketnews.com/grocery-technology/instacart-s-caper-carts-to-be-phased-out": {
+      "reason": "dup of 12592e87 (케이퍼 카트 종료 동일 사건)",
+      "added": "2026-11-02"
+    },
+    "https://insideretail.asia/2026/10/22/grabs-foodpanda-deal-hits-regulatory-roadblock-in-taiwan/": {
+      "reason": "dup of 8dc1b1e5 (대만 공정위 그랩-푸드판다 불허 동일 사건)",
+      "added": "2026-11-02"
+    },
+    "https://www.etoday.co.kr/news/view/2641430": {
+      "reason": "dup of 23d15742 (땡겨요 지자체 협약 권역 확대 — news1 경산시 건과 동일 판정 유지)",
+      "added": "2026-11-02"
+    },
+    "https://finance.yahoo.com/markets/stocks/article/doordash-stock-pops-instacart-falls-after-companies-announce-17-billion-acquisition-deal-160310014.html": {
+      "reason": "rule-excluded (same event, TechCrunch 채택)",
+      "added": "2026-11-02"
+    },
+    "https://www.businesstoday.in/india/story/10-minute-delivery-goes-wrong-telangana-consumer-commission-orders-zepto-to-pay-rs57000-564313-2026-10-28": {
+      "reason": "rule-excluded (GLOBAL 개별 민원 처리 결과)",
+      "added": "2026-11-02"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/instacart-announces-third-quarter-2026-113000955.html": {
+      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
+      "added": "2026-11-02"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/delivery-hero-raises-2026-outlook-090321004.html": {
+      "reason": "rule-excluded (GLOBAL 단순 손익·가이던스)",
+      "added": "2026-11-02"
     }
   },
   "stale_events": [
