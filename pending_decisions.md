@@ -118,16 +118,13 @@
 ## 2026-10-14
 - [ ] 🆕 신규 업체: Bites (Delivery Collective) — ChatGPT 내 주문·결제, 식당에 건당 $1만 과금. 베이에어리어 300~600개 매장, 10인 프리시드. 에이전트 주문 레이어 탈중개 사례라 추적 가치 있음 — 타겟 추가하려면 `ADD` 표시
 
-## 2026-10-21
-- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] DoorDash·우버이츠에 도전장 낸 무마크업 가격 신규 배달앱 → https://www.digitaltrends.com/phones/doordash-and-uber-eats-have-a-new-rival-and-it-wants-you-to-stop-paying-extra-for-food
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [Careem] Careem Quik, 알아인 퀵커머스 신규 진출(15분 배송) → https://menastartupdigest.com/?p=21414
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [Swiggy] 스위기 인스타마트 'Switch' 전용상품·PB 전략 개편 → https://www.storyboard18.com/brand-marketing/swiggy-revamps-instamart-strategy-with-switch-exclusive-brand-partnerships-and-private-labels-ws-l-106833.htm
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 미국 배달 플랫폼 규제 단속 본격화 보도 → https://www.restaurantbusinessonline.com/workforce/big-food-delivery-regulation-crackdown-finally-coming
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-10-29
 - [ ] 🆕 신규 업체: Olo ("매장 가격 그대로"…美서 이중가격 없앤 배달앱 등장) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🆕 신규 업체: Walmart (A food delivery giant could be hiding in plain sight — 레스토랑 배달 제휴 확대) — 타겟 추가하려면 `ADD` 표시
+
+## 2026-11-05
+- [ ] 🔒 접근불가: [DoorDash] FTC, 도어대시·우버·토스트 기만적 가격 관행 단속 보도 → https://www.restaurantbusinessonline.com/operations/ftc-cracking-down-deceptive-pricing-practices-toast-doordash-uber-are-being
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 닛케이비즈니스 「フードデリバリー新3強時代」 연재(데마에칸·로켓나우·우버) → https://business.nikkei.com/atcl/gen/19/00952/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
