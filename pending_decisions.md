@@ -128,3 +128,6 @@
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 - [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 닛케이비즈니스 「フードデリバリー新3強時代」 연재(데마에칸·로켓나우·우버) → https://business.nikkei.com/atcl/gen/19/00952/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-11-10
+- [ ] 🏷️ 입점·연동 화이트리스트 후보: McDonald's (McDonald's×Uber 14개 시장 로열티·앱 내 배달 우선 파트너 확대, NRN 2026-11-09) — 추가하려면 `ADD` 표시

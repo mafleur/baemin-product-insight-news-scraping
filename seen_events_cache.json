@@ -1,61 +1,9 @@
 {
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-10",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://www.fnnews.com/news/202608061350302816": {
-      "reason": "dup of 68268c1b (배민 신형 딜리 르포성 재보도)",
-      "added": "2026-08-11"
-    },
-    "https://www.fnnews.com/news/202608070901064601": {
-      "reason": "dup of e4b7c4c0 (세븐일레븐-쿠팡이츠 동일 발표)",
-      "added": "2026-08-11"
-    },
-    "https://retailtechinnovationhub.com/home/2026/7/29/uber-eats-adds-new-regional-grocery-partners-across-the-us-including-hays-and-piggly-wiggly": {
-      "reason": "dup of 6d2caaaf (우버이츠 미국 지역마트 입점 동일 발표)",
-      "added": "2026-08-11"
-    },
-    "https://press.wolt.com/en-RO/269046-wolt-launches-split-payments-for-group-orders-in-romania/": {
-      "reason": "dup of 5a92795b (볼트 분할결제 루마니아 순차 적용)",
-      "added": "2026-08-11"
-    },
-    "https://grandesnomesdapropaganda.com.br/anunciantes/ifood-lanca-bag-com-tecnologia-inedita/": {
-      "reason": "dup of 87f2e173 (아이푸드 백 프로 동일 사건)",
-      "added": "2026-08-11"
-    },
-    "https://qz.com/doordash-q2-2026-earnings-revenue-outlook-080626": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
-      "added": "2026-08-11"
-    },
-    "https://www.bloomberg.com/news/articles/2026-08-03/grab-boosts-earnings-forecast-on-robust-ride-delivery-demand": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고 + Bloomberg 페이월)",
-      "added": "2026-08-11"
-    },
-    "https://www.sec.gov/Archives/edgar/data/0001855612/000185561226000123/a2026q2-earningspressrelea.htm": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
-      "added": "2026-08-11"
-    },
-    "https://tbreak.com/careem-first-public-financials-h1-2026/": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
-      "added": "2026-08-11"
-    },
-    "https://www.agbi.com/tech/2026/08/careem-super-app-revenue-rises-but-losses-deepen/": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고)",
-      "added": "2026-08-11"
-    },
-    "https://news.livedoor.com/topics/detail/31967789/": {
-      "reason": "rule-excluded (GLOBAL 단순 손익 보고 (데마에칸 최종적자))",
-      "added": "2026-08-11"
-    },
-    "https://www.sentv.co.kr/article/view/sentv202608070016": {
-      "reason": "rule-excluded (same-event source priority (세븐일레븐x쿠팡이츠))",
-      "added": "2026-08-11"
-    },
-    "https://www.e-science.co.kr/news/articleView.html?idxno=133136": {
-      "reason": "rule-excluded (same-event source priority (세븐일레븐x쿠팡이츠))",
-      "added": "2026-08-11"
     },
     "https://www.fntimes.com/html/view.php?ud=202608030848332127b5b890e35c_18": {
       "reason": "dup of 68268c1b (배민 신형 배달로봇 딜리 X3-R 실전 투입과 동일 사건)",
@@ -1408,6 +1356,50 @@
     "https://www.businesstoday.in/india/story/rs2500-for-non-emergency-rides-free-for-emergencies-why-blinkit-ambulance-is-changing-its-pricing-565901-2026-11-05": {
       "reason": "rule-excluded (Blinkit 앰뷸런스 — 비식품·비배달)",
       "added": "2026-11-09"
+    },
+    "https://www.etnews.com/20261109000293": {
+      "reason": "rule-excluded (공정위 과징금 후속: 행정소송 예고(미제기))",
+      "added": "2026-11-10"
+    },
+    "https://www.etnews.com/20261109000197": {
+      "reason": "rule-excluded (공정위 과징금 동일사건 타매체)",
+      "added": "2026-11-10"
+    },
+    "https://www.ddaily.co.kr/page/view/2026110916095088207": {
+      "reason": "rule-excluded (공정위 과징금 종합·반박)",
+      "added": "2026-11-10"
+    },
+    "https://zdnet.co.kr/view/?no=20261109152735": {
+      "reason": "rule-excluded (공정위 과징금 해설)",
+      "added": "2026-11-10"
+    },
+    "https://www.ddaily.co.kr/page/view/2026110913541688209": {
+      "reason": "rule-excluded (공정위 과징금 업계 반응)",
+      "added": "2026-11-10"
+    },
+    "https://www.techm.kr/news/articleView.html?idxno=157100": {
+      "reason": "rule-excluded (공정위 과징금 동일사건 타매체)",
+      "added": "2026-11-10"
+    },
+    "https://www.ddaily.co.kr/page/view/2026110916133642293": {
+      "reason": "rule-excluded (공정위 과징금 시민단체 반응)",
+      "added": "2026-11-10"
+    },
+    "https://www.ddaily.co.kr/page/view/2026110612071606544": {
+      "reason": "rule-excluded (국회 수수료 토론회 동일행사 타매체)",
+      "added": "2026-11-10"
+    },
+    "https://www.ajunews.com/view/20261109145242727": {
+      "reason": "rule-excluded (공정위 과징금 해설(점유율 구도))",
+      "added": "2026-11-10"
+    },
+    "https://www.nrn.com/quick-service/mcdonald-s-is-integrating-delivery-into-its-mobile-app": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점·연동(McDonald's 화이트리스트 밖))",
+      "added": "2026-11-10"
+    },
+    "https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점·연동(McDonald's 화이트리스트 밖))",
+      "added": "2026-11-10"
     }
   },
   "stale_events": [
