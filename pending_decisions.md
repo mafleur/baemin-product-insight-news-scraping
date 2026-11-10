@@ -131,3 +131,7 @@
 
 ## 2026-11-10
 - [ ] 🏷️ 입점·연동 화이트리스트 후보: McDonald's (McDonald's×Uber 14개 시장 로열티·앱 내 배달 우선 파트너 확대, NRN 2026-11-09) — 추가하려면 `ADD` 표시
+
+## 2026-11-11
+- [ ] 🔒 접근불가: [Foodpanda] 푸드판다 대만, 주문당 서비스료 NT$2~6 인상 (Focus Taiwan) → https://focustaiwan.tw/business/202611100017
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)

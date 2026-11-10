@@ -1,41 +1,9 @@
 {
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://www.fntimes.com/html/view.php?ud=202608030848332127b5b890e35c_18": {
-      "reason": "dup of 68268c1b (배민 신형 배달로봇 딜리 X3-R 실전 투입과 동일 사건)",
-      "added": "2026-08-12"
-    },
-    "https://v.daum.net/v/yX2X1inQYl": {
-      "reason": "dup of c380dd19 (카카오 AI 에이전트 첫 파트너 쿠팡이츠 연동과 동일 발표)",
-      "added": "2026-08-12"
-    },
-    "https://www.ebn.co.kr/news/articleView.html?idxno=1719629": {
-      "reason": "dup of e4b7c4c0 (세븐일레븐 1500여 점포 쿠팡이츠 배달 개시와 동일 사건)",
-      "added": "2026-08-12"
-    },
-    "https://www.insightkorea.co.kr/news/articleView.html?idxno=252165": {
-      "reason": "dup of EXCLUDED (편의점-쿠팡이츠 24시간 배송 경쟁 기사와 동일 사안(수동 제외 건))",
-      "added": "2026-08-12"
-    },
-    "https://www.sisajournal.com/news/articleView.html?idxno=382670": {
-      "reason": "dup of 41da0303 (배달앱 성장 둔화·퀵커머스 등 사업 다각화 진단과 동일 내용)",
-      "added": "2026-08-12"
-    },
-    "https://www.stocktitan.net/news/IDT/nrs-connects-retailers-to-uber-vfjponkvo5e9.html": {
-      "reason": "rule-excluded (low-profile-vendor-onboarding)",
-      "added": "2026-08-12"
-    },
-    "https://investors.instacart.com/news-releases/news-release-details/instacart-and-academy-sports-outdoors-team-same-day-delivery": {
-      "reason": "rule-excluded (low-profile-vendor-onboarding)",
-      "added": "2026-08-12"
-    },
-    "https://developer.ifood.com.br/pt-BR/docs/changelog.md#2026-08-07": {
-      "reason": "rule-excluded (too-granular-api-change)",
-      "added": "2026-08-12"
     },
     "https://newsway.co.kr/news/view?ud=2026080710344961638": {
       "reason": "dup of e4b7c4c0 (세븐일레븐·CU·GS25 쿠팡이츠 편의점 퀵커머스 확대 동일 사안)",
@@ -1350,8 +1318,8 @@
       "added": "2026-11-09"
     },
     "https://www.pymnts.com/earnings/2026/doordash-sees-more-in-instacart-than-a-second-grocery-cart/": {
-      "reason": "rule-excluded (M&A 후속 해설·해외 실적 — 결정적 진전 아님)",
-      "added": "2026-11-09"
+      "reason": "dup of 0a2cc26f (도어대시 인스타카트 인수·3분기 실적 재보도)",
+      "added": "2026-11-11"
     },
     "https://www.businesstoday.in/india/story/rs2500-for-non-emergency-rides-free-for-emergencies-why-blinkit-ambulance-is-changing-its-pricing-565901-2026-11-05": {
       "reason": "rule-excluded (Blinkit 앰뷸런스 — 비식품·비배달)",
@@ -1400,6 +1368,22 @@
     "https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/": {
       "reason": "rule-excluded (daily-check: 개별 업체 입점·연동(McDonald's 화이트리스트 밖))",
       "added": "2026-11-10"
+    },
+    "https://finance.yahoo.com/technology/article/amazon-partners-with-uber-eats-to-bring-restaurant-delivery-to-prime-members-110100295.html": {
+      "reason": "dup of 11c4cff4 (아마존 프라임×우버이츠 동일 사건)",
+      "added": "2026-11-11"
+    },
+    "https://www.ddaily.co.kr/page/view/2026110509243320771": {
+      "reason": "dup of e1ae7f21 (요기패스 200만 돌파 동일 사건)",
+      "added": "2026-11-11"
+    },
+    "https://politica.expansion.mx/cdmx/2026/11/10/repartidores-rappi-uber-y-didi-ganan-batalla-cdmx-reglas": {
+      "reason": "rule-excluded (해외 정부·규제 절차/라이더 규제 시범 보류)",
+      "added": "2026-11-11"
+    },
+    "https://business.nikkei.com/atcl/gen/19/00952/110500001/": {
+      "reason": "rule-excluded (robots 차단·저신호 기획연재(시리즈 pending 기존))",
+      "added": "2026-11-11"
     }
   },
   "stale_events": [
