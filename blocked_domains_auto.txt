@@ -682,3 +682,6 @@ mycpd2.moh.gov.my  # 2026-11-04
 2026niag.ncu.edu.tw  # 2026-11-04
 ccbjodhpur.bank.in  # 2026-11-04
 cccba.ac.in  # 2026-11-04
+groundnews.lakegeneva.lib.wi.us  # 2026-11-12
+reddit.sentinel-team.org  # 2026-11-12
+pulse.bot  # 2026-11-12
