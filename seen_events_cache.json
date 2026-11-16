@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-16",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
@@ -1340,6 +1340,30 @@
     "https://finance.yahoo.com/small-business/articles/mcdonald-uber-expand-delivery-rewards-144917772.html": {
       "reason": "rule-excluded (개별 체인 입점·연동 단발(화이트리스트 외)/단계적 확대)",
       "added": "2026-11-12"
+    },
+    "https://ceoscoredaily.com/page/view/2026110516030527079": {
+      "reason": "dup of e1ae7f21 (요기패스 200만 동일 사건 재보도)",
+      "added": "2026-11-16"
+    },
+    "https://zdnet.co.kr/view/?no=20261113165818": {
+      "reason": "dup of f784e0a9 (배민 할인액 수수료 개편 후속 분석)",
+      "added": "2026-11-16"
+    },
+    "https://www.fnnews.com/news/202611160925046526": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점·연동 (탐나는전×먹깨비))",
+      "added": "2026-11-16"
+    },
+    "https://www.grocerydive.com/news/instacart-provi-restaurants-bar-delivery/874540/": {
+      "reason": "rule-excluded (daily-check: 개별 업체 입점·연동 (Instacart×Provi))",
+      "added": "2026-11-16"
+    },
+    "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/meaningful-insights/": {
+      "reason": "rule-excluded (cutoff 밖 (partner row published 2026-11-01 < 2026-11-02))",
+      "added": "2026-11-16"
+    },
+    "https://www.fnnews.com/news/202611121809394742": {
+      "reason": "rule-excluded (same event as f784e0a9 (배민 할인액 수수료 개편, 후보 간 병합))",
+      "added": "2026-11-16"
     }
   },
   "stale_events": [

@@ -685,3 +685,9 @@ cccba.ac.in  # 2026-11-04
 groundnews.lakegeneva.lib.wi.us  # 2026-11-12
 reddit.sentinel-team.org  # 2026-11-12
 pulse.bot  # 2026-11-12
+sphericalinsights.com  # 2026-11-16
+hirebase.org  # 2026-11-16
+jobs.weekday.works  # 2026-11-16
+jobs.spacecapital.com  # 2026-11-16
+newswav.com  # 2026-11-16
+onpagenews.elisa.supporthost.eu  # 2026-11-16
