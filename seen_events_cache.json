@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
@@ -1364,6 +1364,26 @@
     "https://www.fnnews.com/news/202611121809394742": {
       "reason": "rule-excluded (same event as f784e0a9 (배민 할인액 수수료 개편, 후보 간 병합))",
       "added": "2026-11-16"
+    },
+    "https://www.etnews.com/20261106000197": {
+      "reason": "dup of a2ecdb14 (11/6 국회 수수료 상한 규제 토론회 동일 사건)",
+      "added": "2026-11-17"
+    },
+    "https://www.digitaltoday.co.kr/en/view/123018/korea-ftc-fines-baemin-coupang-6319-billion-won-over-forcing-terms-on-merchants": {
+      "reason": "dup of 3a88978d (공정위 6319억 과징금 영문 재보도)",
+      "added": "2026-11-17"
+    },
+    "https://www.techm.kr/news/articleView.html?idxno=157107": {
+      "reason": "rule-excluded (공정위 과징금 시민단체 반응 — 11-10 ddaily 판정과 일관)",
+      "added": "2026-11-17"
+    },
+    "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html": {
+      "reason": "rule-excluded (해외 단순 실적)",
+      "added": "2026-11-17"
+    },
+    "https://inc42.com/buzz/eternal-rethinks-2030-deadline-for-fully-electric-delivery-fleet/": {
+      "reason": "rule-excluded (ESG 목표 재검토, 확정 변화 없음)",
+      "added": "2026-11-17"
     }
   },
   "stale_events": [

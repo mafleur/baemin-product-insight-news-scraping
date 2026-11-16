@@ -691,3 +691,6 @@ jobs.weekday.works  # 2026-11-16
 jobs.spacecapital.com  # 2026-11-16
 newswav.com  # 2026-11-16
 onpagenews.elisa.supporthost.eu  # 2026-11-16
+rallies.ai  # 2026-11-17
+newsquantified.com  # 2026-11-17
+panabee.com  # 2026-11-17
