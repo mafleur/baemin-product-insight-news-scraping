@@ -135,3 +135,8 @@
 ## 2026-11-11
 - [x] 🔒 접근불가: [Foodpanda] 푸드판다 대만, 주문당 서비스료 NT$2~6 인상 (Focus Taiwan) → https://focustaiwan.tw/business/202611100017  ✅ 2026-11-12 접근 성공·수집됨
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+
+## 2026-11-18
+- [ ] 🔒 접근불가: [Zepto] Zepto, 로드쇼 중 밸류 68% 삭감 후 IPO 연기 (날짜 미확인 — 구 사건 가능성) → https://cryptobriefing.com/zepto-delays-ipo-valuation-cut/
+      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
+- [ ] 🏷️ 입점·연동 화이트리스트 후보: Airbnb (Airbnb 앱 내 Deliveroo 장보기 주문 — 런던·밀라노·두바이 등, Grocery Gazette 2026-11-17, 화이트리스트 밖이라 제외) — 추가하려면 `ADD` 표시

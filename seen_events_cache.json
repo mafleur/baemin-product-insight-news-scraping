@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
@@ -1384,6 +1384,38 @@
     "https://inc42.com/buzz/eternal-rethinks-2030-deadline-for-fully-electric-delivery-fleet/": {
       "reason": "rule-excluded (ESG 목표 재검토, 확정 변화 없음)",
       "added": "2026-11-17"
+    },
+    "https://zdnet.co.kr/view/?no=20261117091524": {
+      "reason": "dup of 9733fa8c (배민 12/1 리뷰·별점 정책 개편, 파트너 공지 우선)",
+      "added": "2026-11-18"
+    },
+    "https://www.ajunews.com/view/20261117210716559": {
+      "reason": "dup of 64de7d9e (대구 공공배달앱 땡겨요 선정 동일 사건)",
+      "added": "2026-11-18"
+    },
+    "https://www.koreajoongangdaily.com/korea/baemin-coupang-face-463-million-in-fines/12962946": {
+      "reason": "dup of 3a88978d (공정위 배민·쿠팡 과징금 영문 재보도)",
+      "added": "2026-11-18"
+    },
+    "https://docs.instacart.com/storefront/releases/2026/R11/2026_11_0_release_notes#nutrition-scores-on-the-product-details-page": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-11-18"
+    },
+    "https://docs.instacart.com/storefront/releases/2026/R11/2026_11_0_release_notes#edit-configurable-products-in-the-cart": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-11-18"
+    },
+    "https://docs.instacart.com/storefront/releases/2026/R11/2026_11_0_release_notes#receipt-forwarding-for-business-accounts": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-11-18"
+    },
+    "https://docs.instacart.com/storefront/releases/2026/R11/2026_11_0_release_notes#offer-terms-on-items": {
+      "reason": "rule-excluded (daily-cap: 파트너 공지)",
+      "added": "2026-11-18"
+    },
+    "https://www.grocerygazette.co.uk/2026/11/17/airbnb-teams-up-with-deliveroo-to-offer-grocery-delivery-to-holidaymakers/": {
+      "reason": "rule-excluded (daily-check: 개별 업체 연동 (Airbnb 화이트리스트 밖))",
+      "added": "2026-11-18"
     }
   },
   "stale_events": [
