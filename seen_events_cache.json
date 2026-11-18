@@ -1,33 +1,9 @@
 {
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://www.asiae.co.kr/article/2026081216554475487": {
-      "reason": "dup of 896a4d1f (제주 쿠팡나우 퀵커머스 시범 개시와 동일 사건)",
-      "added": "2026-08-20"
-    },
-    "https://biz.heraldcorp.com/article/10833035": {
-      "reason": "dup of 7085ce4b (7월 쿠팡·쿠팡이츠 결제추정액 역대 최대 동일 발표)",
-      "added": "2026-08-20"
-    },
-    "https://retailtechinnovationhub.com/home/2026/8/13/delivery-hero-launch-ai-assistant-for-local-shops-and-restaurants-with-roll-out-due-across-platform": {
-      "reason": "dup of 28c356d8 (동일 후보) (동일 AI 어시스턴트 출시 재보도, 공식 뉴스룸 우선)",
-      "added": "2026-08-20"
-    },
-    "https://www.whalesbook.com/corporate-news/English/sebiexchange/Swiggy-AGM-All-resolutions-passed-including-foreign-ownership-cap/6a84696b6817e697e7d126b1": {
-      "reason": "rule-excluded (daily-cap: 인도 뉴스)",
-      "added": "2026-08-20"
-    },
-    "https://www.news1.kr/industry/distribution/6258996": {
-      "reason": "user-excluded (동일 스토리라인 중복(배민 심야·24시간 단계 확대) — d425a04a·c87642f3와 같은 사안의 후속 단계)",
-      "added": "2026-08-20"
-    },
-    "https://about.doordash.com/en-us/news/gap-and-gap-factory-land-on-doordash": {
-      "reason": "user-excluded (개별 리테일러 플랫폼 입점 단발 소식 — 예외(a) 오적용, 화이트리스트 미해당)",
-      "added": "2026-08-20"
     },
     "https://www.newspim.com/news/view/20260818000855": {
       "reason": "dup of EXCLUDED (8/18 신한 땡겨요 우수가맹점 대출 출시와 동일 사건 (사용자 제외 이벤트))",
@@ -1416,6 +1392,42 @@
     "https://www.grocerygazette.co.uk/2026/11/17/airbnb-teams-up-with-deliveroo-to-offer-grocery-delivery-to-holidaymakers/": {
       "reason": "rule-excluded (daily-check: 개별 업체 연동 (Airbnb 화이트리스트 밖))",
       "added": "2026-11-18"
+    },
+    "https://www.hankyung.com/article/202611123278g": {
+      "reason": "dup of f784e0a9 (배민 할인액 수수료 제외 재보도)",
+      "added": "2026-11-19"
+    },
+    "https://zdnet.co.kr/view/?no=20261117164922": {
+      "reason": "dup of f784e0a9 (할인액 수수료 제외 소상공인 반응)",
+      "added": "2026-11-19"
+    },
+    "https://foodondemand.com/11182026/uber-eats-introduces-ai-assistant-and-website-builder-for-restaurants/": {
+      "reason": "dup of 51426501 (우버이츠 11/17 머천트 제품 행사 재보도)",
+      "added": "2026-11-19"
+    },
+    "https://www.trendingtopics.eu/uber-delivery-hero-ssw-partners/": {
+      "reason": "rule-excluded (cutoff 밖: 2026-09-17 발행)",
+      "added": "2026-11-19"
+    },
+    "https://www.retailgazette.co.uk/blog/2026/11/airbnb-teams-up-with-deliveroo-to-offer-grocery-delivery-to-holidaymakers/": {
+      "reason": "rule-excluded (daily-check: 개별 업체 연동 (Airbnb 화이트리스트 밖))",
+      "added": "2026-11-19"
+    },
+    "https://www.techm.kr/news/articleView.html?idxno=157483": {
+      "reason": "rule-excluded (main-precheck dup: 우버·Zipline 텍사스 드론 상용화(techcrunch 11-17 기수집))",
+      "added": "2026-11-19"
+    },
+    "https://www.grocerydive.com/news/amazon-same-day-prepared-meals-grocery/874981/": {
+      "reason": "rule-excluded (main-precheck dup: 아마존 당일배송 조리식품(supermarketnews 기수집))",
+      "added": "2026-11-19"
+    },
+    "https://www.pymnts.com/cpi-posts/south-korea-hits-coupang-woowa-brothers-with-464-million-in-antitrust-fines/": {
+      "reason": "rule-excluded (main-precheck dup: 공정위 배민·쿠팡 과징금 해외 재보도)",
+      "added": "2026-11-19"
+    },
+    "https://finance.yahoo.com/media-advertising/articles/amazon-prime-members-uber-eats-180700602.html": {
+      "reason": "rule-excluded (main-precheck dup: 아마존 프라임 우버이츠 전환(techcrunch 11-05 기수집))",
+      "added": "2026-11-19"
     }
   },
   "stale_events": [
