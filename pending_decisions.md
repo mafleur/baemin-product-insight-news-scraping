@@ -124,9 +124,7 @@
 - [ ] 🆕 신규 업체: Walmart (A food delivery giant could be hiding in plain sight — 레스토랑 배달 제휴 확대) — 타겟 추가하려면 `ADD` 표시
 
 ## 2026-11-05
-- [ ] 🔒 접근불가: [DoorDash] FTC, 도어대시·우버·토스트 기만적 가격 관행 단속 보도 → https://www.restaurantbusinessonline.com/operations/ftc-cracking-down-deceptive-pricing-practices-toast-doordash-uber-are-being
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-- [ ] 🔒 접근불가: [INDUSTRY-GLOBAL] 닛케이비즈니스 「フードデリバリー新3強時代」 연재(데마에칸·로켓나우·우버) → https://business.nikkei.com/atcl/gen/19/00952/
       (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
 
 ## 2026-11-10

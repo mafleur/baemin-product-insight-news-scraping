@@ -1,25 +1,9 @@
 {
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-23",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://www.newspim.com/news/view/20260818000855": {
-      "reason": "dup of EXCLUDED (8/18 신한 땡겨요 우수가맹점 대출 출시와 동일 사건 (사용자 제외 이벤트))",
-      "added": "2026-08-24"
-    },
-    "https://www.ajunews.com/view/20260821162921414": {
-      "reason": "dup of https://www.ajunews.com/view/20260819121515419 (동일 아주경제 「퀵커머스 전쟁」 연속기획의 후속편)",
-      "added": "2026-08-24"
-    },
-    "https://www.forbes.com/sites/bernardmarr/2026/08/21/how-instacart-is-using-physical-ai-to-reinvent-the-grocery-store/": {
-      "reason": "dup of 72bc5ccc (캐퍼카트 확산·아르팔루스 인수 기존 사건 재보도, 단계적 확대 추정)",
-      "added": "2026-08-24"
-    },
-    "https://www.newsis.com/view/NISX20260807_0003740394": {
-      "reason": "rule-excluded (cutoff 밖 (2026-08-07 < 2026-08-10))",
-      "added": "2026-08-24"
     },
     "https://v.daum.net/v/20260819173000087": {
       "reason": "dup of 20a19858 (쿠팡이츠 도착보장 재도입 발표와 동일 사건)",
@@ -1428,6 +1412,46 @@
     "https://finance.yahoo.com/media-advertising/articles/amazon-prime-members-uber-eats-180700602.html": {
       "reason": "rule-excluded (main-precheck dup: 아마존 프라임 우버이츠 전환(techcrunch 11-05 기수집))",
       "added": "2026-11-19"
+    },
+    "https://www.etnews.com/20261111000141": {
+      "reason": "dup of fa88d4a6 (명의도용 불법배달 차단)",
+      "added": "2026-11-23"
+    },
+    "https://retailtechinnovationhub.com/home/2026/11/13/retail-technology-innovation-of-the-week-gopuff-ramps-up-partnership-with-elon-musk-affiliated-ai-firm": {
+      "reason": "dup of 7426277d (Gopuff Grok)",
+      "added": "2026-11-23"
+    },
+    "https://www.nrn.com/restaurant-technology/doordash-pushes-back-on-ftc-pricing-inquiry-we-don-t-do-surveillance-pricing-": {
+      "reason": "dup of 893afc77 (DoorDash surveillance pricing)",
+      "added": "2026-11-23"
+    },
+    "https://www.upi.com/Top_News/World-News/2026/11/09/baedal-minjok-coupang-eats-antitrust-food-delivery/1461794270896/": {
+      "reason": "dup of 3a88978d (공정위 과징금)",
+      "added": "2026-11-23"
+    },
+    "https://www.hankyung.com/article/2026111235841": {
+      "reason": "dup of f784e0a9 (할인액 수수료 면제)",
+      "added": "2026-11-23"
+    },
+    "https://biz.heraldcorp.com/article/10931711": {
+      "reason": "dup of 3a88978d (과징금 불복 후속)",
+      "added": "2026-11-23"
+    },
+    "https://yourstory.com/2026/11/zomato-eternal-reworks-ev-delivery-target-fleet-expansion-evolving-adoption": {
+      "reason": "rule-excluded (Eternal EV 목표 재검토 — inc42 동일 사건 기처리)",
+      "added": "2026-11-23"
+    },
+    "https://www.businesstoday.in/india/story/ordered-veg-got-non-veg-burger-king-swiggy-told-to-pay-rs-72000-after-gurugram-consumer-courts-ruling-568757-2026-11-20": {
+      "reason": "rule-excluded (해외 개별 소비자분쟁 판결·저신호)",
+      "added": "2026-11-23"
+    },
+    "https://exame.com/tecnologia/eles-eram-estagiarios-e-hoje-constroem-a-central-que-controla-os-12-mil-agentes-de-ia-do-ifood/": {
+      "reason": "rule-excluded (인턴·교육 프로그램 모집 중심)",
+      "added": "2026-11-23"
+    },
+    "https://technode.com/2026/11/19/meituan-brings-cable-lowering-delivery-drones-to-dubai/": {
+      "reason": "rule-excluded (드론 운영 지역 확대 — 메이저 아님)",
+      "added": "2026-11-23"
     }
   },
   "stale_events": [
