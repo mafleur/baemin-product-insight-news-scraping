@@ -123,10 +123,6 @@
 - [ ] 🆕 신규 업체: Olo ("매장 가격 그대로"…美서 이중가격 없앤 배달앱 등장) — 타겟 추가하려면 `ADD` 표시
 - [ ] 🆕 신규 업체: Walmart (A food delivery giant could be hiding in plain sight — 레스토랑 배달 제휴 확대) — 타겟 추가하려면 `ADD` 표시
 
-## 2026-11-05
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-      (재시도 원하면 이 줄 끝에 `RETRY: chrome` 추가)
-
 ## 2026-11-10
 - [ ] 🏷️ 입점·연동 화이트리스트 후보: McDonald's (McDonald's×Uber 14개 시장 로열티·앱 내 배달 우선 파트너 확대, NRN 2026-11-09) — 추가하려면 `ADD` 표시
 
