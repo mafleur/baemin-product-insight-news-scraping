@@ -1,25 +1,9 @@
 {
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://v.daum.net/v/20260819173000087": {
-      "reason": "dup of 20a19858 (쿠팡이츠 도착보장 재도입 발표와 동일 사건)",
-      "added": "2026-08-25"
-    },
-    "https://www.cstoredive.com/news/gopuff-expands-private-label-debuts-first-seasonal-product-lineup/828415/": {
-      "reason": "dup of 44d9d985 (고퍼프 가을 한정 PB 확대 발표와 동일 사건)",
-      "added": "2026-08-25"
-    },
-    "https://www.pymnts.com/news/delivery/2026/uber-teams-with-zipline-to-expand-drone-delivery-service/": {
-      "reason": "dup of 45c058d6 (우버-집라인 드론 배달 제휴와 동일 사건)",
-      "added": "2026-08-25"
-    },
-    "https://www.zipline.com/newsroom/zipline-will-make-1-million-deliveries-per-day-through-new-uber-partnership": {
-      "reason": "dup of 45c058d6 (우버-집라인 드론 배달 제휴와 동일 사건)",
-      "added": "2026-08-25"
     },
     "https://www.vendingtimes.com/news/zomato-pilots-food-vending-machines-in-india-offices/": {
       "reason": "dup of 0f2ae147 (동일 Zomato Now 구르가온 음식 자판기 파일럿)",
@@ -1452,6 +1436,42 @@
     "https://technode.com/2026/11/19/meituan-brings-cable-lowering-delivery-drones-to-dubai/": {
       "reason": "rule-excluded (드론 운영 지역 확대 — 메이저 아님)",
       "added": "2026-11-23"
+    },
+    "https://ceo.baemin.com/notice/14791": {
+      "reason": "dup of f784e0a9 (같은 정책 공식 공지·약관 개정, 신규 진전 없음)",
+      "added": "2026-11-24"
+    },
+    "https://www.mlex.com/mlex/articles/2547753": {
+      "reason": "rule-excluded (pre-dedup: 공정위 과징금 재보도 ↔ 3a88978d)",
+      "added": "2026-11-24"
+    },
+    "https://view.asiae.co.kr/article/2026111117345771196": {
+      "reason": "rule-excluded (pre-dedup: 공정위 과징금 해설 ↔ 3a88978d)",
+      "added": "2026-11-24"
+    },
+    "https://zdnet.co.kr/view/?no=20261118163856": {
+      "reason": "rule-excluded (pre-dedup: 배민 수수료 완화 반응 ↔ f784e0a9)",
+      "added": "2026-11-24"
+    },
+    "https://www.ddaily.co.kr/page/view/2026111216023530866": {
+      "reason": "rule-excluded (pre-dedup: 배민 수수료 개편 반응 ↔ f784e0a9)",
+      "added": "2026-11-24"
+    },
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04096726645647032": {
+      "reason": "rule-excluded (pre-dedup: 배민 상생 해설 ↔ f784e0a9)",
+      "added": "2026-11-24"
+    },
+    "https://www.restaurantdive.com/news/doordash-rejects-surveillance-pricing-political-backlash/875057/": {
+      "reason": "rule-excluded (pre-dedup: DoorDash 감시가격 부인 ↔ 893afc77)",
+      "added": "2026-11-24"
+    },
+    "https://www.mobiletime.com.br/noticias/16/11/2026/pl-de-mercados-digitais/": {
+      "reason": "rule-excluded (해외 입법 논의 단계)",
+      "added": "2026-11-24"
+    },
+    "https://www.grocerygazette.co.uk/2026/11/19/just-eat-launches-gaming-controller-that-lets-players-order-food-at-the-touch-of-a-button/": {
+      "reason": "rule-excluded (저신호 마케팅성·본문 fetch 실패)",
+      "added": "2026-11-24"
     }
   },
   "stale_events": [
