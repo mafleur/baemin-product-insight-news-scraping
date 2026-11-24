@@ -1,25 +1,9 @@
 {
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "skip_urls": {
     "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
       "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
       "added": "2026-08-27"
-    },
-    "https://www.vendingtimes.com/news/zomato-pilots-food-vending-machines-in-india-offices/": {
-      "reason": "dup of 0f2ae147 (동일 Zomato Now 구르가온 음식 자판기 파일럿)",
-      "added": "2026-08-26"
-    },
-    "https://www.medianama.com/2026/08/223-zepto-blinkit-regulatory-food-safety-violations/": {
-      "reason": "rule-excluded (해외 GLOBAL 식품안전 위반 기사)",
-      "added": "2026-08-26"
-    },
-    "https://fortune.com/2026/08/21/amazon-uber-doordash-walmart-drone-delivery-wars/": {
-      "reason": "daily-cap: 자동화 하드웨어",
-      "added": "2026-08-26"
-    },
-    "https://www.cnbc.com/2026/08/19/amazon-plans-drone-expansion-as-top-exec-projects-1-million-deliveries.html": {
-      "reason": "daily-cap: 자동화 하드웨어 + 본문 fetch 실패",
-      "added": "2026-08-26"
     },
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#preference-picker": {
       "reason": "dup of 79375bf9 (동일 릴리스 항목 기수집)",
@@ -28,14 +12,6 @@
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#multiple-replacement-options": {
       "reason": "dup of f4e5f913 (동일 릴리스 항목 기수집)",
       "added": "2026-09-07"
-    },
-    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#restock-reminders-on-checkout-aisle-storefront-pro-5": {
-      "reason": "daily-cap: 파트너 공지",
-      "added": "2026-08-26"
-    },
-    "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#customize-l1-l2-and-l3-department-page-layouts-storefront-pro": {
-      "reason": "daily-cap: 파트너 공지",
-      "added": "2026-08-26"
     },
     "https://www.betanews.net/article/view/beta202608180021": {
       "reason": "dup of EXCLUDED (user-excluded 신한 땡겨요 대출 동일 사건)",
@@ -1472,6 +1448,18 @@
     "https://www.grocerygazette.co.uk/2026/11/19/just-eat-launches-gaming-controller-that-lets-players-order-food-at-the-touch-of-a-button/": {
       "reason": "rule-excluded (저신호 마케팅성·본문 fetch 실패)",
       "added": "2026-11-24"
+    },
+    "https://www.zawya.com/en/press-release/companies-news/careem-food-launches-meals-on-in-abu-dhabi-to-simplify-solo-food-orders-inubat4y": {
+      "reason": "rule-excluded (cutoff 밖 (2025-05 발표))",
+      "added": "2026-11-25"
+    },
+    "https://zdnet.co.kr/view/?no=20261119090744": {
+      "reason": "rule-excluded (화제성 저신호 (GTA6 배달앱 영향))",
+      "added": "2026-11-25"
+    },
+    "https://www.businesstoday.in/bt-tv/market-today/video/massive-diwali-quick-commerce-boom-zepto-blinkit-swiggy-sales-explode-566896-2026-11-12": {
+      "reason": "rule-excluded (영상·판매 집계성 (인도))",
+      "added": "2026-11-25"
     }
   },
   "stale_events": [
