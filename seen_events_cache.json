@@ -1,10 +1,6 @@
 {
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "skip_urls": {
-    "https://merchants.ubereats.com/us/en/resources/articles/product-highlights/new-courier-features/": {
-      "reason": "rule-excluded (cutoff-out: 파트너 공지 월단위 발행 2026-08-01, CUTOFF_COLLECT 2026-08-13 이전)",
-      "added": "2026-08-27"
-    },
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#preference-picker": {
       "reason": "dup of 79375bf9 (동일 릴리스 항목 기수집)",
       "added": "2026-09-07"
@@ -12,22 +8,6 @@
     "https://docs.instacart.com/storefront/releases/2026_08_0_release_notes#multiple-replacement-options": {
       "reason": "dup of f4e5f913 (동일 릴리스 항목 기수집)",
       "added": "2026-09-07"
-    },
-    "https://www.betanews.net/article/view/beta202608180021": {
-      "reason": "dup of EXCLUDED (user-excluded 신한 땡겨요 대출 동일 사건)",
-      "added": "2026-08-27"
-    },
-    "https://www.socialvalue.kr/news/view/1065577843257757": {
-      "reason": "dup of EXCLUDED (user-excluded 신한 땡겨요 대출 동일 사건)",
-      "added": "2026-08-27"
-    },
-    "https://www.spokesman.com/stories/2026/aug/17/serve-robotics-expands-doordash-deal-adds-grubhub-/": {
-      "reason": "dup of ac584cbc (서브로보틱스 그럽허브 제휴 동일 발표)",
-      "added": "2026-08-27"
-    },
-    "https://www.whalesbook.com/news/English/technology/Eternal-Limited-Pilots-Zomato-Now-Food-Vending-Machines/6a86f7b284d2dd5c12dddb8a": {
-      "reason": "dup of 0f2ae147 (조마토 나우 자판기 동일 사건)",
-      "added": "2026-08-27"
     },
     "https://www.gopuff.com/newsroom/company-news/gopuff-expands-private-label-assortment-and-introduces-first-ever-seasonal-product-lineup": {
       "reason": "dup of 44d9d985 (Gopuff 가을 PB 라인업 동일 발표)",
@@ -1460,6 +1440,22 @@
     "https://www.businesstoday.in/bt-tv/market-today/video/massive-diwali-quick-commerce-boom-zepto-blinkit-swiggy-sales-explode-566896-2026-11-12": {
       "reason": "rule-excluded (영상·판매 집계성 (인도))",
       "added": "2026-11-25"
+    },
+    "https://www.etoday.co.kr/news/view/2649549": {
+      "reason": "dup of 64de7d9e (대구시 공공배달앱 땡겨요 선정 동일 사건)",
+      "added": "2026-11-26"
+    },
+    "https://insideretail.asia/2026/11/12/how-baemin-and-coupang-eats-turned-loyalty-perks-into-a-competition-problem/": {
+      "reason": "dup of 3a88978d (공정위 배민·쿠팡 최혜대우 과징금 재보도)",
+      "added": "2026-11-26"
+    },
+    "https://www.marketscreener.com/news/prosus-says-investment-in-food-delivery-businesses-is-paying-off-ce7851d8d98dff2d": {
+      "reason": "rule-excluded (해외 단순 손익 보고)",
+      "added": "2026-11-26"
+    },
+    "https://www.retail-insight-network.com/newsletters/south-korea-fines-coupang-won300-8bn": {
+      "reason": "rule-excluded (cutoff 밖 (2026-11-09))",
+      "added": "2026-11-26"
     }
   },
   "stale_events": [
